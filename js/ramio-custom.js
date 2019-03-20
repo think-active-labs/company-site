@@ -178,7 +178,7 @@ $(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "https://wilkonas.synology.me/mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
       $('.writealine').find('.form').addClass('is-hidden');
