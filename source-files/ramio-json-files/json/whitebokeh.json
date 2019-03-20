@@ -1,0 +1,82 @@
+{
+  "particles": {
+    "number": {
+      "value": 60,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      }
+    },
+    "opacity": {
+      "value": 0.6,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 2.6,
+        "opacity_min": 0,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 20,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 120,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.2,
+      "direction": "bottom-left",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": true,
+        "rotateX": 3286.994724774322,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "bubble": {
+        "distance": 85,
+        "size": 45,
+        "duration": 1.5,
+        "opacity": 0.2,
+        "speed": 3
+      }
+    }
+  },
+  "retina_detect": true
+}
