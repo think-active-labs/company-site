@@ -136,6 +136,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     };
 
     var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+        // DISABLE PHOTOSWIPE
+        return;
+        
         var pswpElement = document.querySelectorAll('.pswp')[0],
             gallery,
             options,
