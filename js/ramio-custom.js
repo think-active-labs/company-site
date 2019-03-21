@@ -178,9 +178,9 @@ $(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "https://wilkonas.synology.me/mail.php", //Change
+			url: "https://talmailer.azurewebsites.net/mail.php", //Change
 			data: th.serialize()
-		}).done(function() {
+		}).done(function(data) {
       $('.writealine').find('.form').addClass('is-hidden');
       $('.writealine').find('.reply-group').addClass('is-visible');
 			setTimeout(function() {
