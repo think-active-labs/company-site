@@ -392,7 +392,7 @@ $(function() {
             "events": {
               "onhover": {
                 "enable": true,
-                "mode": "repulse"
+                "mode": "grab"
               },
               "onclick": {
                 "enable": false,
@@ -402,7 +402,7 @@ $(function() {
             },
             "modes": {
               "grab": {
-                "distance": 800,
+                "distance": 200,
                 "line_linked": {
                   "opacity": 1
                 }
