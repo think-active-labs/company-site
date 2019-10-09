@@ -121,7 +121,7 @@ $(function() {
   // KBW-Countdown Start
   // --------------------------------------------- //
   $(function () {
-    $('#countdown').countdown({until: $.countdown.UTCDate(0, 2019, 09, 1), format: 'D'});
+    $('#countdown').countdown({until: $.countdown.UTCDate(0, 2019, 12, 1), format: 'D'});
   });
   // --------------------------------------------- //
   // KBW-Countdown End
