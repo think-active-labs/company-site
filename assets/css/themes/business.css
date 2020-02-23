@@ -1,10 +1,9 @@
 @font-face {
-  font-family: 'Basier Square';
+  font-family: "Basier Square";
   src: url("../../fonts/basiersquare-regular-webfont.woff2") format("woff2"), url("../../fonts/basiersquare-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
-
 :root {
   --color-primary: #ffc70a;
   --color-secondary: #0e305d;
@@ -13,7 +12,7 @@
 }
 
 body {
-  font-family: 'Basier Square', sans-serif;
+  font-family: "Basier Square", sans-serif;
   font-weight: 400;
   line-height: 1.7em;
   font-size: 15px;
@@ -26,7 +25,7 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: #0e305d;
 }
@@ -68,7 +67,6 @@ body {
 .contact-form .ui-selectmenu-button {
   border-color: rgba(255, 255, 255, 0.15);
 }
-
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -81,11 +79,9 @@ body {
   color: #7e8390;
   padding-top: 55px;
 }
-
 .main-footer a:not(.btn) {
   color: #7e8390;
 }
-
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
@@ -97,10 +93,10 @@ body {
     letter-spacing: 0.025em;
     color: rgba(255, 255, 255, 0.75);
   }
-  .main-nav > li.is-active > a,
-  .main-nav > li.current-menu-item > a,
-  .main-nav > li:hover > a,
-  .main-nav > li > a:hover {
+  .main-nav > li.is-active > a, .main-nav > li.current-menu-item > a, .main-nav > li:hover > a,
+.main-nav > li > a:hover {
     color: white;
   }
 }
+
+/*# sourceMappingURL=business.css.map */

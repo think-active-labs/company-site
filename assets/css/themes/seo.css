@@ -1,11 +1,11 @@
 :root {
-  --color-primary: #fd5c4c;
-  --color-gradient-start: #fe506c;
-  --color-gradient-stop: #fc6a2a;
+  --color-primary: #333b8f;
+  --color-gradient-start: #fd625e;
+  --color-gradient-stop: #333b8f;
 }
 
 body {
-  font-family: 'europa', sans-serif;
+  font-family: "europa", sans-serif;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.7em;
@@ -18,7 +18,7 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'europa', sans-serif;
+  font-family: "europa", sans-serif;
   font-weight: 700;
   color: #000;
 }
@@ -43,7 +43,7 @@ h3 {
 
 .h4,
 h4 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 20px;
   line-height: 1.2em;
   font-weight: 400;
@@ -70,10 +70,7 @@ h6 {
   letter-spacing: 0.025em;
   color: #000;
 }
-
-.main-nav > li.is-active > a,
-.main-nav > li.current-menu-item > a,
-.main-nav > li:hover > a,
+.main-nav > li.is-active > a, .main-nav > li.current-menu-item > a, .main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: var(--color-primary);
 }
@@ -83,7 +80,6 @@ h6 {
   letter-spacing: 0.025em;
   color: #000;
 }
-
 .main-header .header-module .btn {
   font-size: 12px;
   font-weight: 700;
@@ -94,20 +90,16 @@ h6 {
   font-size: 14px;
   line-height: 2em;
 }
-
 .btn:hover svg stop {
   stop-color: var(--color-gradient-start);
 }
-
 .btn .btn-gradient-bg-hover {
-  background: -webkit-gradient(linear, left top, right top, from(var(--color-gradient-start)), to(var(--color-gradient-start)));
   background: linear-gradient(to right, var(--color-gradient-start) 0%, var(--color-gradient-start) 100%);
 }
 
 .btn-naked {
   color: #000;
 }
-
 .btn-naked:hover {
   color: var(--color-primary);
 }
@@ -121,11 +113,9 @@ h6 {
   border-top: 1px solid #e5e8ec;
   color: #808291;
 }
-
 .main-footer a:not(.btn) {
   color: #808291;
 }
-
 .main-footer a:not(.btn):hover {
   color: #000;
 }
@@ -135,3 +125,5 @@ h6 {
     font-size: 60px;
   }
 }
+
+/*# sourceMappingURL=seo.css.map */

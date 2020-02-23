@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.9em;
@@ -18,7 +18,7 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   line-height: 1.2em;
   color: #181b31;
 }
@@ -26,7 +26,7 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .h1, h1 {
@@ -58,45 +58,39 @@ body {
 }
 
 .main-nav > li > a {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #fff;
 }
-
 .main-nav > li > a .link-ext {
   background-color: var(--color-primary);
 }
-
-.main-nav > li.is-active > a,
-.main-nav > li.current-menu-item > a,
-.main-nav > li:hover > a,
+.main-nav > li.is-active > a, .main-nav > li.current-menu-item > a, .main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: var(--color-primary);
 }
 
 .btn {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 .main-footer {
   color: #a1a3ab;
 }
-
 .main-footer a:not(.btn) {
   color: #777981;
 }
-
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
-
 .main-footer .social-icon a {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.15);
 }
-
 .main-footer .social-icon a:hover {
   background-color: var(--color-primary);
 }
+
+/*# sourceMappingURL=architecture.css.map */

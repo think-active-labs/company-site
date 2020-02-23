@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.9em;
@@ -18,7 +18,7 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #000;
 }
@@ -67,10 +67,7 @@ h6 {
   letter-spacing: 0.01em;
   color: #fff;
 }
-
-.main-nav > li.is-active > a,
-.main-nav > li.current-menu-item > a,
-.main-nav > li:hover > a,
+.main-nav > li.is-active > a, .main-nav > li.current-menu-item > a, .main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: rgba(255, 255, 255, 0.85);
 }
@@ -78,23 +75,18 @@ h6 {
 .main-header .btn-naked {
   color: #fff;
 }
-
 .main-header .btn-naked:hover {
   color: #f5634b;
 }
-
 .main-header .btn-bordered {
   color: #f5634b;
 }
-
 .main-header .btn-bordered:hover {
   color: #fff;
 }
-
 .main-header.megamenu-scheme-light .btn-naked {
   color: #3d3d3d;
 }
-
 .main-header.megamenu-scheme-light .btn-bordered {
   color: #3d3d3d;
   border-color: #3d3d3d;
@@ -104,11 +96,11 @@ h6 {
   background: #181a23;
   color: #828593;
 }
-
 .main-footer a:not(.btn) {
   color: #828593;
 }
-
 .main-footer a:not(.btn):hover {
   color: #fa7c31;
 }
+
+/*# sourceMappingURL=gym.css.map */

@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Cerebri Sans';
+  font-family: "Cerebri Sans";
   src: url("../../fonts/cerebri-sans.woff2") format("woff2"), url("../../fonts/cerebri-sans.woff") format("woff");
   font-weight: 400;
   font-style: normal;
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 1.8em;
   color: #4f4f4f;
@@ -25,7 +25,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6 .h6 {
-  font-family: 'neuzeit-grotesk', 'sans-serif';
+  font-family: "neuzeit-grotesk", "sans-serif";
   font-weight: 400;
   color: #000;
 }
@@ -125,8 +125,10 @@ h6 {
   color: #000;
 }
 .main-footer .ld-sf button,
-.main-footer .ld-sf input[type="submit"],
-.main-footer .ld-sf input[type="email"] {
+.main-footer .ld-sf input[type=submit],
+.main-footer .ld-sf input[type=email] {
   color: #000;
   border-color: #000;
 }
+
+/*# sourceMappingURL=shop.css.map */

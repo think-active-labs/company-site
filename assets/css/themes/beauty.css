@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   line-height: 1.9em;
   font-weight: 400;
@@ -19,14 +19,14 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Prata', sans-serif;
+  font-family: "Prata", sans-serif;
   color: #000000;
 }
 
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .h1, h1 {
@@ -67,7 +67,6 @@ body {
 }
 
 .secondarybar-wrap:first-child {
-  background: -webkit-gradient(linear, left top, right top, from(#ecbabe), to(#8ac6d0));
   background: linear-gradient(90deg, #ecbabe 0%, #8ac6d0 100%);
 }
 
@@ -75,7 +74,6 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 .secondarybar .iconbox h3 {
   font-family: inherit;
 }
@@ -92,10 +90,7 @@ body {
   color: #727475;
   text-transform: uppercase;
 }
-
-.main-nav > li.is-active > a,
-.main-nav > li.current-menu-item > a,
-.main-nav > li:hover > a,
+.main-nav > li.is-active > a, .main-nav > li.current-menu-item > a, .main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: var(--color-primary);
 }
@@ -107,7 +102,6 @@ body {
   border-color: #f1f1f1;
   color: #fff;
 }
-
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -115,7 +109,6 @@ body {
   border-color: #fff;
   color: #fff;
 }
-
 .contact-form input[type=submit] {
   border: none;
   background: rgba(255, 255, 255, 0.9);
@@ -126,7 +119,6 @@ body {
   margin-left: -10px;
   margin-right: -10px;
 }
-
 .ld-media-row > div {
   padding-left: 10px;
   padding-right: 10px;
@@ -136,20 +128,18 @@ body {
 .main-footer {
   color: #a1a3ab;
 }
-
 .main-footer a:not(.btn) {
   color: #777981;
 }
-
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
-
 .main-footer .social-icon a {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.15);
 }
-
 .main-footer .social-icon a:hover {
   background-color: var(--color-primary);
 }
+
+/*# sourceMappingURL=beauty.css.map */

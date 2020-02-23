@@ -74,14 +74,10 @@ a:hover {
   letter-spacing: 0.05em;
   color: white;
 }
-
 .main-nav > li > a .link-ext {
   background: #ff546c;
 }
-
-.main-nav > li.is-active > a,
-.main-nav > li.current-menu-item > a,
-.main-nav > li:hover > a,
+.main-nav > li.is-active > a, .main-nav > li.current-menu-item > a, .main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: white;
 }
@@ -93,19 +89,15 @@ a:hover {
   background-position: left center;
   color: #8b8cb3;
 }
-
 .main-footer a:not(.btn) {
   color: #8b8cb3;
 }
-
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
-
 .main-footer .social-icon a {
   color: #fff;
 }
-
 .main-footer .contact-form input,
 .main-footer .contact-form select,
 .main-footer .contact-form textarea,
@@ -113,19 +105,18 @@ a:hover {
   color: white;
   border-color: rgba(255, 255, 255, 0.2);
 }
-
 .main-footer .contact-form input:focus,
 .main-footer .contact-form select:focus,
 .main-footer .contact-form textarea:focus,
 .main-footer .contact-form .ui-selectmenu-button:focus {
   border-color: #fff;
 }
-
 .main-footer .contact-form input[type=submit] {
   border-color: var(--color-primary);
   color: var(--color-primary);
 }
-
 .main-footer .contact-form input[type=submit]:hover {
   color: #000;
 }
+
+/*# sourceMappingURL=freelancer.css.map */

@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -18,7 +18,7 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #181b31;
 }
@@ -60,7 +60,7 @@ h6 {
 }
 
 .main-nav > li > a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 13px;
@@ -68,14 +68,10 @@ h6 {
   color: rgba(0, 0, 0, 0.75);
   text-transform: uppercase;
 }
-
 .main-nav > li > a .link-ext {
   background: var(--color-primary);
 }
-
-.main-nav > li.is-active > a,
-.main-nav > li.current-menu-item > a,
-.main-nav > li:hover > a,
+.main-nav > li.is-active > a, .main-nav > li.current-menu-item > a, .main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: var(--color-primary);
 }
@@ -88,7 +84,6 @@ h6 {
   font-size: 15px;
   color: #fff;
 }
-
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -101,11 +96,11 @@ h6 {
   color: #92959b;
   padding-top: 80px;
 }
-
 .main-footer a:not(.btn) {
   color: inherit;
 }
-
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
+
+/*# sourceMappingURL=virtus-4.css.map */
