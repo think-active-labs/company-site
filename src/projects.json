@@ -1,0 +1,72 @@
+[
+  {
+    "title": "OurGateshead",
+    "path": "our-gateshead",
+    "sub_title": "Discover more on your doorstep.",
+    "type": "Brand Identity",
+    "date": "July, 2019",
+    "client": "Newcastle Council Voluntery Service",
+    "hero": {
+      "image": "/assets/demo/portfolio/pf-single-1.jpg",
+      "alt_text": "OurGateshead logo page"
+    },
+    "hero2": {
+      "image": "/assets/demo/portfolio/pf-single-1.jpg",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Andy Pandy",
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "A community",
+        "subtitle": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+        "paragraphs": [
+          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+        ],
+        "images": [
+          {
+            "src": "/assets/demo/portfolio/pf-single-2.jpg",
+            "alt_text": "Our gateshead image"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "position": "left"
+          },
+          {
+            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/demo/portfolio/pf-single-3.jpg",
+            "alt_text": "Our gateshead image"
+          },
+          {
+            "src": "/assets/demo/portfolio/pf-single-4.jpg",
+            "alt_text": "Our gateshead image"
+          },
+          {
+            "src": "/assets/demo/portfolio/pf-single-5.jpg",
+            "alt_text": "Our gateshead image"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+        ],
+        "images": [
+        ]
+      }
+    ]
+  }
+]
