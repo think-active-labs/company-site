@@ -68,5 +68,75 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Media of Things",
+    "path": "media-of-things",
+    "sub_title": "Automation of productions and labelling",
+    "type": "Media, Research, Installations",
+    "date": "April, 2017",
+    "client": "BBC",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/demo/portfolio/pf-single-1.jpg",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "A community",
+        "subtitle": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+        "paragraphs": [
+          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "position": "left"
+          },
+          {
+            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/demo/portfolio/pf-single-3.jpg",
+            "alt_text": "Our gateshead image"
+          },
+          {
+            "src": "/assets/demo/portfolio/pf-single-4.jpg",
+            "alt_text": "Our gateshead image"
+          },
+          {
+            "src": "/assets/demo/portfolio/pf-single-5.jpg",
+            "alt_text": "Our gateshead image"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+        ],
+        "images": [
+        ]
+      }
+    ]
   }
 ]
