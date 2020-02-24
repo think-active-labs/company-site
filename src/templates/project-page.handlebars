@@ -1063,58 +1063,23 @@
 							<div class="col-lg-8 col-md-9">
 
 								<div class="row">
+                  {{#each other_work}}
+                
+                    <div class="col-lg-4">
 
-									<div class="col-lg-4">
-
-										<article class="pf-related pr-lg-4">
-											<header>
-												<h2 class="pf-related-title h3 mt-0 font-weight-bold">
-													<a href="#" data-split-text="true" data-split-options='{ "type": "lines" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".pf-related", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 850, "delay": 70, "startDelay": 130, "initValues": { "opacity": 1 }, "animations": { "opacity": 0 } }'>Tropical</a>
-													<a href="#" class="title-shad" data-split-text="true" data-split-options='{ "type": "lines" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".pf-related", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 650, "delay": 70, "initValues": { "width": 0 }, "animations": { "width": "100%" } }'>Tropical</a>
-												</h2>
-												<ul class="pf-related-cat text-uppercase ltr-sp-1 reset-ul comma-sep-li">
-													<li><a href="#">eCommerce</a></li>
-												</ul><!-- /.pf-related-cat -->
-											</header>
-											<a href="#" class="liquid-overlay-link"></a>
-										</article>
-
-									</div><!-- /.col-lg-4 -->
-
-									<div class="col-lg-4">
-
-										<article class="pf-related pr-lg-4">
-											<header>
-												<h2 class="pf-related-title h3 mt-0 font-weight-bold">
-													<a href="#" data-split-text="true" data-split-options='{ "type": "lines" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".pf-related", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 850, "delay": 70, "startDelay": 130, "initValues": { "opacity": 1 }, "animations": { "opacity": 0 } }'>Fields</a>
-													<a href="#" class="title-shad" data-split-text="true" data-split-options='{ "type": "lines" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".pf-related", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 650, "delay": 70, "initValues": { "width": 0 }, "animations": { "width": "100%" } }'>Fields</a>
-												</h2>
-												<ul class="pf-related-cat text-uppercase ltr-sp-1 reset-ul comma-sep-li">
-													<li><a href="#">eCommerce</a></li>
-												</ul><!-- /.pf-related-cat -->
-											</header>
-											<a href="#" class="liquid-overlay-link"></a>
-										</article>
-
-									</div><!-- /.col-lg-4 -->
-
-									<div class="col-lg-4">
-
-											<article class="pf-related pr-lg-4">
-												<header>
-													<h2 class="pf-related-title h3 mt-0 font-weight-bold">
-														<a href="#" data-split-text="true" data-split-options='{ "type": "lines" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".pf-related", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 850, "delay": 70, "startDelay": 130, "initValues": { "opacity": 1 }, "animations": { "opacity": 0 } }'>Watermelon</a>
-														<a href="#" class="title-shad" data-split-text="true" data-split-options='{ "type": "lines" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".pf-related", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 650, "delay": 70, "initValues": { "width": 0 }, "animations": { "width": "100%" } }'>Watermelon</a>
-													</h2>
-													<ul class="pf-related-cat text-uppercase ltr-sp-1 reset-ul comma-sep-li">
-														<li><a href="#">eCommerce</a></li>
-													</ul><!-- /.pf-related-cat -->
-												</header>
-												<a href="#" class="liquid-overlay-link"></a>
-											</article>
-
-									</div><!-- /.col-lg-4 -->
-
+                      <article class="pf-related pr-lg-4">
+                        <header>
+                          <h2 class="pf-related-title h3 mt-0 font-weight-bold">
+                            <a href="{{this.href}}" data-split-text="true" data-split-options='{ "type": "lines" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".pf-related", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 850, "delay": 70, "startDelay": 130, "initValues": { "opacity": 1 }, "animations": { "opacity": 0 } }'>{{this.text}}</a>
+                            <a href="{{this.href}}" class="title-shad" data-split-text="true" data-split-options='{ "type": "lines" }' data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".pf-related", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 650, "delay": 70, "initValues": { "width": 0 }, "animations": { "width": "100%" } }'>{{this.text}}</a>
+                          </h2>
+                          <ul class="pf-related-cat text-uppercase ltr-sp-1 reset-ul comma-sep-li">
+                            <li><a href="{{this.href}}">{{this.type}}</a></li>
+                          </ul><!-- /.pf-related-cat -->
+                        </header>
+                      </article>
+                    </div><!-- /.col-lg-4 -->
+                   {{/each}}
 								</div><!-- /.row -->
 
 							</div><!-- /.col-lg-8 col-md-9 -->
