@@ -1,7 +1,7 @@
 [
   {
     "title": "OurGateshead",
-    "path": "our-gateshead",
+    "path": "projects/our-gateshead",
     "sub_title": "Discover more on your doorstep.",
     "type": "Brand Identity",
     "date": "July, 2019",
@@ -88,7 +88,7 @@
   },
   {
     "title": "Media of Things",
-    "path": "media-of-things",
+    "path": "projects/media-of-things",
     "sub_title": "Automation of productions and labelling",
     "type": "Media, Research, Installations",
     "date": "April, 2017",
@@ -178,7 +178,7 @@
   },
   {
     "title": "Escape the Future",
-    "path": "escape-the-future",
+    "path": "projects/escape-the-future",
     "sub_title": "Digital Break-out Room for Expos",
     "type": "Installations, Research",
     "date": "December, 2019",
@@ -260,7 +260,7 @@
   },
   {
     "title": "Expressive Things",
-    "path": "expressive-things",
+    "path": "projects/expressive-things",
     "sub_title": "A new way to interact and control devices in the home",
     "type": "Research",
     "date": "June, 2018",
@@ -342,7 +342,7 @@
   },
   {
     "title": "Hawk-Eye EDGE-SENSE",
-    "path": "hawk-eye-edge-sense",
+    "path": "projects/hawk-eye-edge-sense",
     "sub_title": "Embedded sensing in cricket adjudication",
     "type": "Products & Services",
     "date": "March, 2016",
@@ -424,7 +424,7 @@
   },
   {
     "title": "OpenMovement AxLE",
-    "path": "openmovement-axle",
+    "path": "projects/openmovement-axle",
     "sub_title": "Open-Source activity tracking sensor",
     "type": "Products & Services, Research",
     "date": "September, 2017",
@@ -506,7 +506,7 @@
   },
   {
     "title": "Think Active",
-    "path": "think-active",
+    "path": "projects/think-active",
     "sub_title": "Activity Tracking Solution for Schools and Foundations",
     "type": "Products & Services",
     "date": "March, 2019",
@@ -588,7 +588,7 @@
   },
   {
     "title": "App Movement",
-    "path": "app-movement",
+    "path": "projects/app-movement",
     "sub_title": "Participatory Mobile App Design",
     "type": "Research",
     "date": "June, 2015",
