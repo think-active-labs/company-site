@@ -179,16 +179,16 @@
   {
     "title": "Escape the Future",
     "path": "projects/escape-the-future",
-    "sub_title": "Digital Break-out Room for Expos",
-    "type": "Installations, Research",
+    "sub_title": "A digital immersive experience",
+    "type": "Installations, Experience",
     "date": "December, 2019",
     "client": "IFRC",
     "hero": {
-      "image": "/assets/projects/media-of-things/hero.png",
+      "image": "/assets/projects/escape-the-future/hero.jpg",
       "alt_text": "Media of Things Kitchen Island"
     },
     "hero2": {
-      "image": "/assets/projects/media-of-things/image-2.png",
+      "image": "/assets/projects/escape-the-future/hero-2.png",
       "alt_text": "OurGateshead logo page"
     },
     "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
@@ -219,7 +219,7 @@
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-1.png",
+            "src": "/assets/projects/escape-the-future/image-1.png",
             "alt_text": "Project CAKE snapper"
           }
         ]
@@ -239,19 +239,19 @@
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-2.png",
+            "src": "/assets/projects/escape-the-future/image-2.png",
             "alt_text": ""
           },
           {
-            "src": "/assets/projects/media-of-things/image-3.png",
+            "src": "/assets/projects/escape-the-future/image-3.png",
             "alt_text": ""
           },
           {
-            "src": "/assets/projects/media-of-things/image-4.png",
+            "src": "/assets/projects/escape-the-future/image-4.png",
             "alt_text": ""
           },
           {
-            "src": "/assets/projects/media-of-things/image-5.png",
+            "src": "/assets/projects/escape-the-future/image-5.png",
             "alt_text": ""
           }
         ]
