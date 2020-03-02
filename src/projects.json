@@ -191,7 +191,7 @@
       "image": "/assets/projects/escape-the-future/hero-2.png",
       "alt_text": "OurGateshead logo page"
     },
-    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "acknowledgements": "Daniel Lambton-Howard, James Hodge, Shaun Hazeldine, Aarathi Krishnan, Yann Le Floch",
     "other_work": [
       {
         "text": "OurGateshead",
@@ -199,7 +199,7 @@
         "type": "Brand Identity"
       },
       {
-        "text": "Test 1",
+        "text": "Media of Things",
         "href": "/projects/ourgateshead",
         "type": "Brand Identity"
       },
@@ -213,9 +213,9 @@
     "blocks": [
       {
         "title": "Immersive Experience",
-        "subtitle": "Constructing immersive and adaptive media experiences requires a detailed understanding of captured media assets. A production studio with hundreds of sensors and devices, tracking the chef’s every move and measuring each ingredient.",
+        "subtitle": "Typically, organisational strategy is expressed in verbose documents that are distributed physically and digitally. In 2019 the largest humanitarian organisation, the International Federation of the Red Cross approached us to explore new ways of communicating policy and strategy to its delegates.",
         "paragraphs": [
-          "This project required a scalable and highly reliable system to capture a wealth of information about a real production. In order to achieve this our team set about constructing a data capture system to store footage from the cameras and sensors in real-time. The system could analyse the data using machine learning, computer vision and AI in near real-time providing labelled output to professional editors at the BBC. We contracted the set in house making it portable and setup within 2-3 hours."
+          "We present “Escape to the Future”, a digitally immersive escape room game for humanitarian strategy. Teams were teleported into the 5 key thematic areas, to enact 7 global transformations conveying topics on health, crisis and disasters, migration and identity, values and climate change."
         ],
         "images": [
           {
@@ -229,11 +229,11 @@
         "subtitle": "",
         "paragraphs": [
           {
-            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "text": "Delegates were immersed in 360 degree projections with surround sound and given 30 minutes to complete challenges to help prevent the IFRC from falling into irrelevance.",
             "position": "left"
           },
           {
-            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "text": "Each challenge comprised of clues, puzzles and physical artefacts that needed to be solved through strong team communication. Implicit and explicit messaging allowed delegates to take control of their own destiny and make decisions that affected the future of the IFRC.  Over the course of the General Assembly 311 delegates from 67 national societies.",
             "position": "right"
           }
         ],
