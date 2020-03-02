@@ -368,10 +368,10 @@
     "template": "project-page.handlebars",
     "blocks": [
       {
-        "title": "Meaningful Control",
-        "subtitle": "This project created a novel mechanism to control devices and interact with a smart home. Using a wrist-worn sensor to track hand gestures used alongside devices like Google Homes and existing switches and remotes.",
+        "title": "Clearing up the signal",
+        "subtitle": "The Hawk-Eye EDGE-SENSE integrated an sensor embedded within cricket bats to enable professional level snick detection for umpires in the amateur game. Real-time sensor data streaming and playback for review.",
         "paragraphs": [
-          "We sought to gain greater insight into the currently passive interactions in the home. Constructing a mechanism to track smart home device events, composing them into interactions. We saw an opportunity to develop more meaningful control in the home by exploiting the most favourable aspects of each (voice, gestural and physical). For example, combining a traditional lightswitch interaction with gestural control our system allows us to control the colour or brightness of a bulb by rolling of the wrist."
+          "We embedded an OpenMovement WAX9 sensor on the back of the bat connected to an iPad positioned near the umpire. The raw signal data is streamed over Bluetooth the the iPad when required by the umpire they can review the incident in slow motion using the iPad camera along side the synchronised sensor data from the bat. This data could also be integrated into professional broadcasts as it is sent to Hawk-Eye’s Smart production system."
         ],
         "images": [
           {
