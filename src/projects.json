@@ -122,10 +122,10 @@
     "template": "project-page.handlebars",
     "blocks": [
       {
-        "title": "A community",
-        "subtitle": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+        "title": "Sensing in Productions",
+        "subtitle": "Constructing immersive and adaptive media experiences requires a detailed understanding of captured media assets. A production studio with hundreds of sensors and devices, tracking the chef’s every move and measuring each ingredient.",
         "paragraphs": [
-          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+          "This project required a scalable and highly reliable system to capture a wealth of information about a real production. In order to achieve this our team set about constructing a data capture system to store footage from the cameras and sensors in real-time. The system could analyse the data using machine learning, computer vision and AI in near real-time providing labelled output to professional editors at the BBC. We contracted the set in house making it portable and setup within 2-3 hours."
         ],
         "images": [
           {
@@ -139,30 +139,80 @@
         "subtitle": "",
         "paragraphs": [
           {
-            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
             "position": "left"
           },
           {
-            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
             "position": "right"
           }
         ],
         "images": [
           {
             "src": "/assets/projects/media-of-things/image-2.png",
-            "alt_text": "Our gateshead image"
+            "alt_text": ""
           },
           {
             "src": "/assets/projects/media-of-things/image-3.png",
-            "alt_text": "Our gateshead image"
+            "alt_text": ""
           },
           {
             "src": "/assets/projects/media-of-things/image-4.png",
-            "alt_text": "Our gateshead image"
+            "alt_text": ""
           },
           {
             "src": "/assets/projects/media-of-things/image-5.png",
-            "alt_text": "Our gateshead image"
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Escape the Future",
+    "path": "escape-the-future",
+    "sub_title": "Digital Break-out Room for Expos",
+    "type": "Installations, Research",
+    "date": "December, 2019",
+    "client": "IFRC",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Immersive Experience",
+        "subtitle": "Constructing immersive and adaptive media experiences requires a detailed understanding of captured media assets. A production studio with hundreds of sensors and devices, tracking the chef’s every move and measuring each ingredient.",
+        "paragraphs": [
+          "This project required a scalable and highly reliable system to capture a wealth of information about a real production. In order to achieve this our team set about constructing a data capture system to store footage from the cameras and sensors in real-time. The system could analyse the data using machine learning, computer vision and AI in near real-time providing labelled output to professional editors at the BBC. We contracted the set in house making it portable and setup within 2-3 hours."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
           }
         ]
       },
@@ -170,9 +220,196 @@
         "title": "",
         "subtitle": "",
         "paragraphs": [
-          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
         ],
         "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Expressive Things",
+    "path": "expressive-things",
+    "sub_title": "A new way to interact and control devices in the home",
+    "type": "Research",
+    "date": "June, 2018",
+    "client": "Newcastle University",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Meaningful Control",
+        "subtitle": "This project created a novel mechanism to control devices and interact with a smart home. Using a wrist-worn sensor to track hand gestures used alongside devices like Google Homes and existing switches and remotes.",
+        "paragraphs": [
+          "We sought to gain greater insight into the currently passive interactions in the home. Constructing a mechanism to track smart home device events, composing them into interactions. We saw an opportunity to develop more meaningful control in the home by exploiting the most favourable aspects of each (voice, gestural and physical). For example, combining a traditional lightswitch interaction with gestural control our system allows us to control the colour or brightness of a bulb by rolling of the wrist."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hawk-Eye EDGE-SENSE",
+    "path": "hawk-eye-edge-sense",
+    "sub_title": "Embedded sensing in cricket adjudication",
+    "type": "Products & Services",
+    "date": "March, 2016",
+    "client": "Hawk-Eye Innovations",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Meaningful Control",
+        "subtitle": "This project created a novel mechanism to control devices and interact with a smart home. Using a wrist-worn sensor to track hand gestures used alongside devices like Google Homes and existing switches and remotes.",
+        "paragraphs": [
+          "We sought to gain greater insight into the currently passive interactions in the home. Constructing a mechanism to track smart home device events, composing them into interactions. We saw an opportunity to develop more meaningful control in the home by exploiting the most favourable aspects of each (voice, gestural and physical). For example, combining a traditional lightswitch interaction with gestural control our system allows us to control the colour or brightness of a bulb by rolling of the wrist."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-5.png",
+            "alt_text": ""
+          }
         ]
       }
     ]
