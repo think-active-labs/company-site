@@ -584,7 +584,7 @@
     "sub_title": "Participatory Mobile App Design",
     "type": "Research",
     "date": "June, 2015",
-    "client": "Think Active Labs",
+    "client": "Newcastle University",
     "hero": {
       "image": "/assets/projects/media-of-things/hero.png",
       "alt_text": "Media of Things Kitchen Island"
@@ -614,8 +614,8 @@
     "template": "project-page.handlebars",
     "blocks": [
       {
-        "title": "Be Active. Think Active.",
-        "subtitle": "Think Active provides a fun and interactive means for children to learn more about their activity levels. We put children’s health first, improving data literacy in a safe and secure environment.",
+        "title": "Led by the Community",
+        "subtitle": "Providing a space for groups and communities to come together around a concept for an application is the foundation of App Movment. The platform provides a means to build a mobile application as a group, design it and have it generated and placed on the Apple App Store and Google Play.",
         "paragraphs": [
           "Think Active uses the latest in wireless technologies with Bluetooth Low Energy to sync data from OpenMovement AxLE activity trackers to the ActiveHub and is synced up to the Think Active servers for analysis. Teachers and Community Foundations can then monitor the effectiveness of their interventions. The Think Active Class Kit provides unparalleled insights into children’s health and wellbeing 24 hours a day, whilst providing a set of fun interactive challenges and data literacy materials for schools."
         ],
