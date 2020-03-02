@@ -1,6 +1,7 @@
 {
   "name": "company-site",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +13,6 @@
     "url": "git+https://github.com/think-active-labs/company-site.git"
   },
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/think-active-labs/company-site/issues"
   },
