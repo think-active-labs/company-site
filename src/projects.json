@@ -94,7 +94,7 @@
     "date": "April, 2017",
     "client": "BBC",
     "hero": {
-      "image": "/assets/projects/media-of-things/hero.png",
+      "image": "/assets/projects/media-of-things/image-5.png",
       "alt_text": "Media of Things Kitchen Island"
     },
     "hero2": {
@@ -149,7 +149,7 @@
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-2.png",
+            "src": "/assets/projects/media-of-things/image-4.png",
             "alt_text": ""
           },
           {
@@ -157,11 +157,7 @@
             "alt_text": ""
           },
           {
-            "src": "/assets/projects/media-of-things/image-4.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-5.png",
+            "src": "/assets/projects/media-of-things/image-6.png",
             "alt_text": ""
           }
         ]
