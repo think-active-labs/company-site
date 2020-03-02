@@ -1,0 +1,687 @@
+[
+  {
+    "title": "OurGateshead",
+    "path": "projects/our-gateshead",
+    "sub_title": "Discover more on your doorstep.",
+    "type": "Brand Identity",
+    "date": "July, 2019",
+    "client": "Newcastle Council Voluntery Service",
+    "hero": {
+      "image": "/assets/demo/portfolio/pf-single-1.jpg",
+      "alt_text": "OurGateshead logo page"
+    },
+    "hero2": {
+      "image": "/assets/demo/portfolio/pf-single-1.jpg",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Andy Pandy",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "A community",
+        "subtitle": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+        "paragraphs": [
+          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+        ],
+        "images": [
+          {
+            "src": "/assets/demo/portfolio/pf-single-2.jpg",
+            "alt_text": "Our gateshead image"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "position": "left"
+          },
+          {
+            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/demo/portfolio/pf-single-3.jpg",
+            "alt_text": "Our gateshead image"
+          },
+          {
+            "src": "/assets/demo/portfolio/pf-single-4.jpg",
+            "alt_text": "Our gateshead image"
+          },
+          {
+            "src": "/assets/demo/portfolio/pf-single-5.jpg",
+            "alt_text": "Our gateshead image"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+        ],
+        "images": [
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Media of Things",
+    "path": "projects/media-of-things",
+    "sub_title": "Automation of productions and labelling",
+    "type": "Media, Research, Installations",
+    "date": "April, 2017",
+    "client": "BBC",
+    "hero": {
+      "image": "/assets/projects/media-of-things/image-5.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Sensing in Productions",
+        "subtitle": "Constructing immersive and adaptive media experiences requires a detailed understanding of captured media assets. A production studio with hundreds of sensors and devices, tracking the chef’s every move and measuring each ingredient.",
+        "paragraphs": [
+          "This project required a scalable and highly reliable system to capture a wealth of information about a real production. In order to achieve this our team set about constructing a data capture system to store footage from the cameras and sensors in real-time. The system could analyse the data using machine learning, computer vision and AI in near real-time providing labelled output to professional editors at the BBC. We contracted the set in house making it portable and setup within 2-3 hours."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          }
+        ]
+      },
+ {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-7.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-8.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Escape the Future",
+    "path": "projects/escape-the-future",
+    "sub_title": "A digital immersive experience",
+    "type": "Installations, Research",
+    "date": "December, 2019",
+    "client": "IFRC",
+    "hero": {
+      "image": "/assets/projects/escape-the-future/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Dan Lambton-Howard, James Hodge, Shaun Hazeldine, Aarathi Krishnan, Yann Le Floch",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Immersive Experience",
+        "subtitle": "Constructing immersive and adaptive media experiences requires a detailed understanding of captured media assets. A production studio with hundreds of sensors and devices, tracking the chef’s every move and measuring each ingredient.",
+        "paragraphs": [
+          "This project required a scalable and highly reliable system to capture a wealth of information about a real production. In order to achieve this our team set about constructing a data capture system to store footage from the cameras and sensors in real-time. The system could analyse the data using machine learning, computer vision and AI in near real-time providing labelled output to professional editors at the BBC. We contracted the set in house making it portable and setup within 2-3 hours."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/escape-the-future/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/escape-the-future/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/escape-the-future/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/escape-the-future/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/escape-the-future/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "",
+    "subtitle": "",
+    "paragraphs": [
+    ],
+    "images": [
+      {
+        "src": "/assets/projects/escape-the-future/image-6.png",
+        "alt_text": ""
+      },
+      {
+        "src": "/assets/projects/escape-the-future/image-7.png",
+        "alt_text": ""
+      }
+    ]
+  },
+  {
+    "title": "Expressive Things",
+    "path": "projects/expressive-things",
+    "sub_title": "A new way to interact and control devices in the home",
+    "type": "Research",
+    "date": "June, 2018",
+    "client": "Newcastle University",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Meaningful Control",
+        "subtitle": "This project created a novel mechanism to control devices and interact with a smart home. Using a wrist-worn sensor to track hand gestures used alongside devices like Google Homes and existing switches and remotes.",
+        "paragraphs": [
+          "We sought to gain greater insight into the currently passive interactions in the home. Constructing a mechanism to track smart home device events, composing them into interactions. We saw an opportunity to develop more meaningful control in the home by exploiting the most favourable aspects of each (voice, gestural and physical). For example, combining a traditional lightswitch interaction with gestural control our system allows us to control the colour or brightness of a bulb by rolling of the wrist."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hawk-Eye EDGE-SENSE",
+    "path": "projects/hawk-eye-edge-sense",
+    "sub_title": "Embedded sensing in cricket adjudication",
+    "type": "Products & Services",
+    "date": "March, 2016",
+    "client": "Hawk-Eye Innovations",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Clearing up the signal",
+        "subtitle": "The Hawk-Eye EDGE-SENSE integrated an sensor embedded within cricket bats to enable professional level snick detection for umpires in the amateur game. Real-time sensor data streaming and playback for review.",
+        "paragraphs": [
+          "We embedded an OpenMovement WAX9 sensor on the back of the bat connected to an iPad positioned near the umpire. The raw signal data is streamed over Bluetooth the the iPad when required by the umpire they can review the incident in slow motion using the iPad camera along side the synchronised sensor data from the bat. This data could also be integrated into professional broadcasts as it is sent to Hawk-Eye’s Smart production system."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "OpenMovement AxLE",
+    "path": "projects/openmovement-axle",
+    "sub_title": "Open-Source activity tracking sensor",
+    "type": "Products & Services, Research",
+    "date": "September, 2017",
+    "client": "Newcastle University, Think Active Labs",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Open data collection",
+        "subtitle": "The OpenMovement AxLE wrist-worn activity tracker adopts a new approach to data collection. Its long lasting battery life and open data formats provide research institutions and organisations",
+        "paragraphs": [
+          "We developed a wrist-worn sensor and data collection platform using NRFUart hardware stack and Bluetooth Low Energy for wireless communication. This is an Open-Source project with the hardware designs, firmware and communication libraries all freely available and in continued development. The sensor tracks general activity data (steps, moments of inertia etc.), displays activity data to the user on the screen and provides for programatic interventions with the ability to vibrate and flash the device over bluetooth."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Think Active",
+    "path": "projects/think-active",
+    "sub_title": "Activity Tracking Solution for Schools and Foundations",
+    "type": "Products & Services",
+    "date": "March, 2019",
+    "client": "Think Active Labs",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Be Active. Think Active.",
+        "subtitle": "Think Active provides a fun and interactive means for children to learn more about their activity levels. We put children’s health first, improving data literacy in a safe and secure environment.",
+        "paragraphs": [
+          "Think Active uses the latest in wireless technologies with Bluetooth Low Energy to sync data from OpenMovement AxLE activity trackers to the ActiveHub and is synced up to the Think Active servers for analysis. Teachers and Community Foundations can then monitor the effectiveness of their interventions. The Think Active Class Kit provides unparalleled insights into children’s health and wellbeing 24 hours a day, whilst providing a set of fun interactive challenges and data literacy materials for schools."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "App Movement",
+    "path": "projects/app-movement",
+    "sub_title": "Participatory Mobile App Design",
+    "type": "Research",
+    "date": "June, 2015",
+    "client": "Newcastle University",
+    "hero": {
+      "image": "/assets/projects/media-of-things/hero.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 1",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Test 2",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Led by the Community",
+        "subtitle": "Providing a space for groups and communities to come together around a concept for an application is the foundation of App Movment. The platform provides a means to build a mobile application as a group, design it and have it generated and placed on the Apple App Store and Google Play.",
+        "paragraphs": [
+          "Think Active uses the latest in wireless technologies with Bluetooth Low Energy to sync data from OpenMovement AxLE activity trackers to the ActiveHub and is synced up to the Think Active servers for analysis. Teachers and Community Foundations can then monitor the effectiveness of their interventions. The Think Active Class Kit provides unparalleled insights into children’s health and wellbeing 24 hours a day, whilst providing a set of fun interactive challenges and data literacy materials for schools."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  }
+]
