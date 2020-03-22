@@ -7,11 +7,11 @@
     "date": "July, 2019",
     "client": "Newcastle Council Voluntery Service",
     "hero": {
-      "image": "/assets/demo/portfolio/pf-single-1.jpg",
+      "image": "/assets/projects/our-gateshead/hero-1.png",
       "alt_text": "OurGateshead logo page"
     },
     "hero2": {
-      "image": "/assets/demo/portfolio/pf-single-1.jpg",
+      "image": "/assets/projects/our-gateshead/hero-2.png",
       "alt_text": "OurGateshead logo page"
     },
     "acknowledgements": "Andy Pandy",
@@ -42,7 +42,7 @@
         ],
         "images": [
           {
-            "src": "/assets/demo/portfolio/pf-single-2.jpg",
+            "src": "/assets/projects/our-gateshead/image-1.png",
             "alt_text": "Our gateshead image"
           }
         ]
@@ -62,15 +62,11 @@
         ],
         "images": [
           {
-            "src": "/assets/demo/portfolio/pf-single-3.jpg",
+            "src": "/assets/projects/our-gateshead/image-2.png",
             "alt_text": "Our gateshead image"
           },
           {
-            "src": "/assets/demo/portfolio/pf-single-4.jpg",
-            "alt_text": "Our gateshead image"
-          },
-          {
-            "src": "/assets/demo/portfolio/pf-single-5.jpg",
+            "src": "/assets/projects/our-gateshead/image-3.png",
             "alt_text": "Our gateshead image"
           }
         ]
@@ -586,14 +582,14 @@
     "date": "June, 2015",
     "client": "Newcastle University",
     "hero": {
-      "image": "/assets/projects/media-of-things/hero.png",
-      "alt_text": "Media of Things Kitchen Island"
+      "image": "/assets/projects/app-movement/hero-1.png",
+      "alt_text": "App Movement apps developed by the community"
     },
     "hero2": {
-      "image": "/assets/projects/media-of-things/image-2.png",
+      "image": "/assets/projects/app-movement/image-2.png",
       "alt_text": "OurGateshead logo page"
     },
-    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "acknowledgements": "Edward Jenkins",
     "other_work": [
       {
         "text": "OurGateshead",
@@ -614,15 +610,16 @@
     "template": "project-page.handlebars",
     "blocks": [
       {
-        "title": "Led by the Community",
-        "subtitle": "Providing a space for groups and communities to come together around a concept for an application is the foundation of App Movment. The platform provides a means to build a mobile application as a group, design it and have it generated and placed on the Apple App Store and Google Play.",
+        "title": "Driven by the community",
+        "subtitle": "App Movement enables communities to generate their own rating and review mobile application at the press of a button.",
         "paragraphs": [
-          "Think Active uses the latest in wireless technologies with Bluetooth Low Energy to sync data from OpenMovement AxLE activity trackers to the ActiveHub and is synced up to the Think Active servers for analysis. Teachers and Community Foundations can then monitor the effectiveness of their interventions. The Think Active Class Kit provides unparalleled insights into children’s health and wellbeing 24 hours a day, whilst providing a set of fun interactive challenges and data literacy materials for schools."
+          "App Movement is an online platform that enables communities to propose and promote ideas for mobile applications in response to community needs, collaboratively design the concept through a series of customisable features, and automate the development and deployment of a customised app.",
+          "Launched in February 2015 the service now has over 150,000 users who have created over 120 app campaigns and automatically generated 24 mobile applications to support communities in finding dementia friendly places, gender neutral toilets, and drone flying locations, and many more."
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-1.png",
-            "alt_text": "Project CAKE snapper"
+            "src": "/assets/projects/app-movement/image-1.png",
+            "alt_text": "Feed Finder breastfeeding friendly places app"
           }
         ]
       },
