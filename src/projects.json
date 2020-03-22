@@ -512,14 +512,14 @@
     "date": "March, 2019",
     "client": "Think Active Labs",
     "hero": {
-      "image": "/assets/projects/media-of-things/hero.png",
-      "alt_text": "Media of Things Kitchen Island"
+      "image": "/assets/projects/think-active-kit/hero-1.png",
+      "alt_text": "Think Active activity tracker"
     },
     "hero2": {
-      "image": "/assets/projects/media-of-things/image-2.png",
-      "alt_text": "OurGateshead logo page"
+      "image": "/assets/projects/think-active-kit/hero-2.png",
+      "alt_text": "Think Active integrates into childrens activity programmes"
     },
-    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "acknowledgements": "Andy Foster, David Chatting, Rob Anderson",
     "other_work": [
       {
         "text": "OurGateshead",
@@ -547,8 +547,8 @@
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-1.png",
-            "alt_text": "Project CAKE snapper"
+            "src": "/assets/projects/think-active-kit/image-1.png",
+            "alt_text": "Think Active Class Kit"
           }
         ]
       },
@@ -556,14 +556,6 @@
         "title": "",
         "subtitle": "",
         "paragraphs": [
-          {
-            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
-            "position": "left"
-          },
-          {
-            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
-            "position": "right"
-          }
         ],
         "images": [
           {
