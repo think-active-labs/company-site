@@ -2,7 +2,7 @@
   {
     "title": "OurGateshead",
     "path": "projects/our-gateshead",
-    "sub_title": "Discover more on your doorstep.",
+    "sub_title": "Discover more activities and services on your doorstep.",
     "type": "Brand Identity",
     "date": "July, 2019",
     "client": "Newcastle Council Voluntery Service",
@@ -14,7 +14,7 @@
       "image": "/assets/projects/our-gateshead/hero-2.png",
       "alt_text": "OurGateshead logo page"
     },
-    "acknowledgements": "Andy Pandy",
+    "acknowledgements": "OurGateshead.org",
     "other_work": [
       {
         "text": "OurGateshead",
@@ -22,12 +22,12 @@
         "type": "Brand Identity"
       },
       {
-        "text": "Test 1",
+        "text": "Brand Identity",
         "href": "/projects/ourgateshead",
         "type": "Brand Identity"
       },
       {
-        "text": "Test 2",
+        "text": "Brand Identity",
         "href": "/projects/ourgateshead",
         "type": "Brand Identity"
       }
@@ -35,10 +35,10 @@
     "template": "project-page.handlebars",
     "blocks": [
       {
-        "title": "A community",
-        "subtitle": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+        "title": "Gateshead Local Community Service",
+        "subtitle": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives.",
         "paragraphs": [
-          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+          "Over the growth of this site OurGateshead identified a need to increase public awareness and identify branding opportunities for re-developing their website to improve the signposting of Gateshead residents to support, advice, services and activities."
         ],
         "images": [
           {
@@ -52,11 +52,11 @@
         "subtitle": "",
         "paragraphs": [
           {
-            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "text": "We developed a series of branding guidelines for both print and web that incorporated our newly developed logo and branding design. We also worked closely with OurGateshead to develop an iconic symbol that represents their service for social media platforms.",
             "position": "left"
           },
           {
-            "text": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities.",
+            "text": "In order to convey our designs we designed mock up promotional materials and placed them in real local metro stations and bus stops so our client could see their work in place. We also developed a series of posters for print that incorporated storytelling of local community members who have accessed the service.",
             "position": "right"
           }
         ],
@@ -75,7 +75,6 @@
         "title": "",
         "subtitle": "",
         "paragraphs": [
-          "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives. Over the growth of this site OurGateshead identified a need to increase public awareness and asked us to have identified a need to re-develop their website to improve the signposting of Gateshead residents to support, advice, services and activities."
         ],
         "images": [
         ]
@@ -85,7 +84,7 @@
   {
     "title": "Media of Things",
     "path": "projects/media-of-things",
-    "sub_title": "Automation of productions and labelling",
+    "sub_title": "Automation of productions and labelling using embedded sensor technology",
     "type": "Media, Research, Installations",
     "date": "April, 2017",
     "client": "BBC",
@@ -503,7 +502,7 @@
   {
     "title": "Think Active",
     "path": "projects/think-active",
-    "sub_title": "Activity Tracking Solution for Schools and Foundations",
+    "sub_title": "Activity Tracking Solution for Schools and Premier League Football Foundations",
     "type": "Products & Services",
     "date": "March, 2019",
     "client": "Think Active Labs",
@@ -512,8 +511,8 @@
       "alt_text": "Think Active activity tracker"
     },
     "hero2": {
-      "image": "/assets/projects/think-active-kit/hero-2.png",
-      "alt_text": "Think Active integrates into childrens activity programmes"
+      "image": "/assets/projects/think-active-kit/hero-3.png",
+      "alt_text": "Think Active integrates into children's activity programmes"
     },
     "acknowledgements": "Andy Foster, David Chatting, Rob Anderson",
     "other_work": [
@@ -536,10 +535,11 @@
     "template": "project-page.handlebars",
     "blocks": [
       {
-        "title": "Be Active. Think Active.",
+        "title": "Think Active. Be Active.",
         "subtitle": "Think Active provides a fun and interactive means for children to learn more about their activity levels. We put children’s health first, improving data literacy in a safe and secure environment.",
         "paragraphs": [
-          "Think Active uses the latest in wireless technologies with Bluetooth Low Energy to sync data from OpenMovement AxLE activity trackers to the ActiveHub and is synced up to the Think Active servers for analysis. Teachers and Community Foundations can then monitor the effectiveness of their interventions. The Think Active Class Kit provides unparalleled insights into children’s health and wellbeing 24 hours a day, whilst providing a set of fun interactive challenges and data literacy materials for schools."
+          "Think Active uses the latest in wireless technologies with Bluetooth Low Energy to sync data from OpenMovement AxLE activity trackers to the ActiveHub and is synced up to the Think Active servers for analysis. Teachers and Community Foundations can then monitor the effectiveness of their interventions. The Think Active Class Kit provides unparalleled insights into children’s health and wellbeing 24 hours a day, whilst providing a set of fun interactive challenges and data literacy materials for schools.",
+          "Find out more at https://thinkactivekit.com"
         ],
         "images": [
           {
@@ -554,22 +554,6 @@
         "paragraphs": [
         ],
         "images": [
-          {
-            "src": "/assets/projects/media-of-things/image-2.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-3.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-4.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-5.png",
-            "alt_text": ""
-          }
         ]
       }
     ]
@@ -577,7 +561,7 @@
   {
     "title": "App Movement",
     "path": "projects/app-movement",
-    "sub_title": "Participatory Mobile App Design",
+    "sub_title": "Community-driven platform to automatically generate mobile apps",
     "type": "Research",
     "date": "June, 2015",
     "client": "Newcastle University",
@@ -586,8 +570,8 @@
       "alt_text": "App Movement apps developed by the community"
     },
     "hero2": {
-      "image": "/assets/projects/app-movement/image-2.png",
-      "alt_text": "OurGateshead logo page"
+      "image": "",
+      "alt_text": ""
     },
     "acknowledgements": "Edward Jenkins",
     "other_work": [
@@ -627,32 +611,8 @@
         "title": "",
         "subtitle": "",
         "paragraphs": [
-          {
-            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
-            "position": "left"
-          },
-          {
-            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
-            "position": "right"
-          }
         ],
         "images": [
-          {
-            "src": "/assets/projects/media-of-things/image-2.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-3.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-4.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-5.png",
-            "alt_text": ""
-          }
         ]
       }
     ]
