@@ -1,0 +1,20 @@
+# Install
+Start by installing the tools you'll need
+`npm install`
+
+## Serving for local
+You'll need to serve the files using ```serve```. ```cd``` into the project direction and run ```serve```.
+
+You can now visit the site at http://localhost:5000
+
+## Editing Site Content (Templates)
+Content for the site is generated using a handlebars template for the project pages (```src/templates/project-page.handlebars```).
+
+To edit the site content edit the ```projects.json``` found under ```src/projects.json```.
+
+Once you have made your changes to ```projects.json``` you need to compile your changes (see below).
+
+## Compiling changes
+The template files (above) require compiling before they are available using ```serve```.
+
+Compile your changes using ```npm run compile``` when in the project folder.
