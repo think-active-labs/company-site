@@ -17,19 +17,19 @@
     "acknowledgements": "OurGateshead.org",
     "other_work": [
       {
-        "text": "OurGateshead",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "Escape the Future",
+        "href": "/projects/escape-the-future",
+        "type": "Branding and Design"
       },
       {
-        "text": "Brand Identity",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "Expressive Things",
+        "href": "/projects/expressive-things",
+        "type": "Research"
       },
       {
-        "text": "Brand Identity",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "Hawk-Eye EDGE-SENSE",
+        "href": "/projects/hawk-eye-edge-sense",
+        "type": "Research"
       }
     ],
     "template": "project-page.handlebars",
@@ -99,19 +99,19 @@
     "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
     "other_work": [
       {
-        "text": "OurGateshead",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "App Movement",
+        "href": "/projects/app-movement",
+        "type": "Product and Services"
       },
       {
-        "text": "Test 1",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
       },
       {
-        "text": "Test 2",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "Think Active",
+        "href": "/projects/think-active",
+        "type": "Products and Services"
       }
     ],
     "template": "project-page.handlebars",
@@ -190,18 +190,18 @@
     "other_work": [
       {
         "text": "OurGateshead",
-        "href": "/projects/ourgateshead",
+        "href": "/projects/our-gateshead",
         "type": "Brand Identity"
       },
       {
         "text": "Media of Things",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "href": "/projects/media-of-things",
+        "type": "Research"
       },
       {
-        "text": "Test 2",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "App Movement",
+        "href": "/projects/app-movement",
+        "type": "Products and Services"
       }
     ],
     "template": "project-page.handlebars",
@@ -261,28 +261,28 @@
     "date": "June, 2018",
     "client": "Newcastle University",
     "hero": {
-      "image": "/assets/projects/media-of-things/hero.png",
-      "alt_text": "Media of Things Kitchen Island"
+      "image": "/assets/projects/expressive-things/switch3.png",
+      "alt_text": "Expressive Things"
     },
     "hero2": {
-      "image": "/assets/projects/media-of-things/image-2.png",
-      "alt_text": "OurGateshead logo page"
+      "image": "/assets/projects/expressive-things/cartoons.png",
+      "alt_text": "Immediacy, Context and Control"
     },
-    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "acknowledgements": "Dan Jackson, Kyle Montague, Ahmed Kharuffa, Edward Jenkins, Andrew Dow.",
     "other_work": [
       {
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
+      },
+      {
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
+      },
+      {
         "text": "OurGateshead",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
-      },
-      {
-        "text": "Test 1",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
-      },
-      {
-        "text": "Test 2",
-        "href": "/projects/ourgateshead",
+        "href": "/projects/our-gateshead",
         "type": "Brand Identity"
       }
     ],
@@ -294,10 +294,9 @@
         "paragraphs": [
           "We sought to gain greater insight into the currently passive interactions in the home. Constructing a mechanism to track smart home device events, composing them into interactions. We saw an opportunity to develop more meaningful control in the home by exploiting the most favourable aspects of each (voice, gestural and physical). For example, combining a traditional lightswitch interaction with gestural control our system allows us to control the colour or brightness of a bulb by rolling of the wrist."
         ],
-        "images": [
+        "videos": [
           {
-            "src": "/assets/projects/media-of-things/image-1.png",
-            "alt_text": "Project CAKE snapper"
+            "src": "https://youtu.be/CmybET62XqA"
           }
         ]
       },
@@ -350,7 +349,7 @@
       "image": "/assets/projects/media-of-things/image-2.png",
       "alt_text": "OurGateshead logo page"
     },
-    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "acknowledgements": "Tim Dean, Paul Hawkins.",
     "other_work": [
       {
         "text": "OurGateshead",
