@@ -1,5 +1,8 @@
 const Handlebars = require("handlebars");
+const Filter = require("handlebars.filter");
 const fs = require('fs');
+
+Filter.registerHelper(Handlebars);
 
 let projects = JSON.parse(fs.readFileSync('src/projects.json', 'utf8'));
 

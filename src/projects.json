@@ -14,7 +14,7 @@
       "image": "/assets/projects/our-gateshead/hero-2.png",
       "alt_text": "OurGateshead logo page"
     },
-    "acknowledgements": "OurGateshead.org",
+    "acknowledgements": "Gateshead City Council",
     "other_work": [
       {
         "text": "Escape the Future",
@@ -264,10 +264,6 @@
       "image": "/assets/projects/expressive-things/switch3.png",
       "alt_text": "Expressive Things"
     },
-    "hero2": {
-      "image": "/assets/projects/expressive-things/cartoons.png",
-      "alt_text": "Immediacy, Context and Control"
-    },
     "acknowledgements": "Dan Jackson, Kyle Montague, Ahmed Kharuffa, Edward Jenkins, Andrew Dow.",
     "other_work": [
       {
@@ -298,37 +294,19 @@
           {
             "src": "https://youtu.be/CmybET62XqA"
           }
-        ]
-      },
-      {
-        "title": "",
-        "subtitle": "",
-        "paragraphs": [
-          {
-            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
-            "position": "left"
-          },
-          {
-            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
-            "position": "right"
-          }
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-2.png",
-            "alt_text": ""
-          },
+            "src": "/assets/projects/expressive-things/switch3.png",
+            "alt_text": "Immediacy, Context and Control"
+          }
+        ]
+      },
+      {
+        "images": [
           {
-            "src": "/assets/projects/media-of-things/image-3.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-4.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-5.png",
-            "alt_text": ""
+            "src": "/assets/projects/expressive-things/cartoons.png",
+            "alt_text": "Immediacy, Context and Control"
           }
         ]
       }
@@ -342,12 +320,8 @@
     "date": "March, 2016",
     "client": "Hawk-Eye Innovations",
     "hero": {
-      "image": "/assets/projects/media-of-things/hero.png",
-      "alt_text": "Media of Things Kitchen Island"
-    },
-    "hero2": {
-      "image": "/assets/projects/media-of-things/image-2.png",
-      "alt_text": "OurGateshead logo page"
+      "image": "/assets/projects/hawk-eye-edge-sense/hero-1.png",
+      "alt_text": "Hawk-Eye EDGE-SENSE"
     },
     "acknowledgements": "Tim Dean, Paul Hawkins.",
     "other_work": [
@@ -357,14 +331,14 @@
         "type": "Brand Identity"
       },
       {
-        "text": "Test 1",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
       },
       {
-        "text": "Test 2",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "Think Active",
+        "href": "/projects/think-active",
+        "type": "Products and Services"
       }
     ],
     "template": "project-page.handlebars",
@@ -373,44 +347,13 @@
         "title": "Clearing up the signal",
         "subtitle": "The Hawk-Eye EDGE-SENSE integrated an sensor embedded within cricket bats to enable professional level snick detection for umpires in the amateur game. Real-time sensor data streaming and playback for review.",
         "paragraphs": [
-          "We embedded an OpenMovement WAX9 sensor on the back of the bat connected to an iPad positioned near the umpire. The raw signal data is streamed over Bluetooth the the iPad when required by the umpire they can review the incident in slow motion using the iPad camera along side the synchronised sensor data from the bat. This data could also be integrated into professional broadcasts as it is sent to Hawk-Eye’s Smart production system."
+          "We embedded an OpenMovement WAX9 sensor on the back of the bat connected to an iPad positioned near the umpire. The raw signal data is streamed over Bluetooth the the iPad when required by the umpire they can review the incident in slow motion using the iPad camera along side the synchronised sensor data from the bat. This data could also be integrated into professional broadcasts as it is sent to Hawk-Eye’s Smart production system.",
+          "This work has been showcased in articles for the [Times](http://www.thetimes.co.uk/article/simon-hughes-new-technology-could-ensure-club-batsmen-have-nowhere-to-hide-8s9l0kflh) newspaper and [Sky Sports News](http://www.skysports.com/cricket/news/12123/10260741/hawkeye-inventor-trials-new-app)."
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-1.png",
-            "alt_text": "Project CAKE snapper"
-          }
-        ]
-      },
-      {
-        "title": "",
-        "subtitle": "",
-        "paragraphs": [
-          {
-            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
-            "position": "left"
-          },
-          {
-            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
-            "position": "right"
-          }
-        ],
-        "images": [
-          {
-            "src": "/assets/projects/media-of-things/image-2.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-3.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-4.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-5.png",
-            "alt_text": ""
+            "src": "/assets/projects/hawk-eye-edge-sense/hero-1.png",
+            "alt_text": "Hawk-Eye EDGE-SENSE"
           }
         ]
       }
@@ -424,29 +367,25 @@
     "date": "September, 2017",
     "client": "Newcastle University, Think Active Labs",
     "hero": {
-      "image": "/assets/projects/media-of-things/hero.png",
-      "alt_text": "Media of Things Kitchen Island"
+      "image": "/assets/projects/think-active-kit/hero-1.png",
+      "alt_text": "OpenMovement AxLE"
     },
-    "hero2": {
-      "image": "/assets/projects/media-of-things/image-2.png",
-      "alt_text": "OurGateshead logo page"
-    },
-    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "acknowledgements": "Karim Ladha, Dan Jackson.",
     "other_work": [
       {
-        "text": "OurGateshead",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "App Movement",
+        "href": "/projects/app-movement",
+        "type": "Product and Services"
       },
       {
-        "text": "Test 1",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
       },
       {
-        "text": "Test 2",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "Think Active",
+        "href": "/projects/think-active",
+        "type": "Products and Services"
       }
     ],
     "template": "project-page.handlebars",
@@ -455,44 +394,13 @@
         "title": "Open data collection",
         "subtitle": "The OpenMovement AxLE wrist-worn activity tracker adopts a new approach to data collection. Its long lasting battery life and open data formats provide research institutions and organisations",
         "paragraphs": [
-          "We developed a wrist-worn sensor and data collection platform using NRFUart hardware stack and Bluetooth Low Energy for wireless communication. This is an Open-Source project with the hardware designs, firmware and communication libraries all freely available and in continued development. The sensor tracks general activity data (steps, moments of inertia etc.), displays activity data to the user on the screen and provides for programatic interventions with the ability to vibrate and flash the device over bluetooth."
+          "We developed a wrist-worn sensor and data collection platform using NRFUart hardware stack and Bluetooth Low Energy for wireless communication. This is an Open-Source project with the hardware designs, firmware and communication libraries all freely available and in continued development. The sensor tracks general activity data (steps, moments of inertia etc.), displays activity data to the user on the screen and provides for programatic interventions with the ability to vibrate and flash the device over bluetooth.",
+          "Take a look at our Open-Source project on [GitHub](https://github.com/digitalinteraction/OpenMovement-AxLE-Comms)."
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-1.png",
+            "src": "/assets/projects/think-active-kit/hero-1.png",
             "alt_text": "Project CAKE snapper"
-          }
-        ]
-      },
-      {
-        "title": "",
-        "subtitle": "",
-        "paragraphs": [
-          {
-            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
-            "position": "left"
-          },
-          {
-            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
-            "position": "right"
-          }
-        ],
-        "images": [
-          {
-            "src": "/assets/projects/media-of-things/image-2.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-3.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-4.png",
-            "alt_text": ""
-          },
-          {
-            "src": "/assets/projects/media-of-things/image-5.png",
-            "alt_text": ""
           }
         ]
       }
@@ -516,19 +424,19 @@
     "acknowledgements": "Andy Foster, David Chatting, Rob Anderson",
     "other_work": [
       {
-        "text": "OurGateshead",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
       },
       {
-        "text": "Test 1",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "App Movement",
+        "href": "/projects/app-movement",
+        "type": "Product and Services"
       },
       {
-        "text": "Test 2",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
       }
     ],
     "template": "project-page.handlebars",
@@ -538,7 +446,7 @@
         "subtitle": "Think Active provides a fun and interactive means for children to learn more about their activity levels. We put children’s health first, improving data literacy in a safe and secure environment.",
         "paragraphs": [
           "Think Active uses the latest in wireless technologies with Bluetooth Low Energy to sync data from OpenMovement AxLE activity trackers to the ActiveHub and is synced up to the Think Active servers for analysis. Teachers and Community Foundations can then monitor the effectiveness of their interventions. The Think Active Class Kit provides unparalleled insights into children’s health and wellbeing 24 hours a day, whilst providing a set of fun interactive challenges and data literacy materials for schools.",
-          "Find out more at https://thinkactivekit.com"
+          "Find out more at [Think Active Class Kit's site](https://thinkactivekit.com)."
         ],
         "images": [
           {
@@ -575,18 +483,18 @@
     "acknowledgements": "Edward Jenkins",
     "other_work": [
       {
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
+      },
+      {
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
+      },
+      {
         "text": "OurGateshead",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
-      },
-      {
-        "text": "Test 1",
-        "href": "/projects/ourgateshead",
-        "type": "Brand Identity"
-      },
-      {
-        "text": "Test 2",
-        "href": "/projects/ourgateshead",
+        "href": "/projects/our-gateshead",
         "type": "Brand Identity"
       }
     ],
@@ -597,7 +505,8 @@
         "subtitle": "App Movement enables communities to generate their own rating and review mobile application at the press of a button.",
         "paragraphs": [
           "App Movement is an online platform that enables communities to propose and promote ideas for mobile applications in response to community needs, collaboratively design the concept through a series of customisable features, and automate the development and deployment of a customised app.",
-          "Launched in February 2015 the service now has over 150,000 users who have created over 120 app campaigns and automatically generated 24 mobile applications to support communities in finding dementia friendly places, gender neutral toilets, and drone flying locations, and many more."
+          "Launched in February 2015 the service now has over 150,000 users who have created over 120 app campaigns and automatically generated 24 mobile applications to support communities in finding dementia friendly places, gender neutral toilets, and drone flying locations, and many more.",
+          "Find out more at [App Movement's site](https://app-movement.com)."
         ],
         "images": [
           {

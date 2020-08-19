@@ -72,7 +72,7 @@
 											<span class="bar"></span>
 										</span>
 									</button>
-									<a class="navbar-brand" href="#">
+									<a class="navbar-brand" href="/">
 										<span class="navbar-brand-inner">
 											<img class="logo-dark" width="80" src="/assets/img/logo/ta-logo.png" alt="Think Active Labs">
 											<img class="logo-sticky" width="80" src="/assets/img/logo/ta-logo.png" alt="Think Active Labs">
@@ -211,9 +211,9 @@
 								<h2 class="font-size-30 mt-0 mb-15"><span class="font-size-2x">{{ blocks.0.title }}</span></h2>
 								<h3 class="mt-2 mb-40 font-size-30 lh-125 font-style-italic" style="font-family: Amiri, serif;">{{ blocks.0.subtitle }}</h3>
 
-                {{#each blocks.0.paragraphs}}
-								  <p>{{ this }}</p>
-                {{/each}}
+							{{#each blocks.0.paragraphs}}
+								{{{filter this "markdown"}}}
+							{{/each}}
 
 							</div><!-- /.lqd-column col-xs-12 col-md-6 -->
 
@@ -223,6 +223,14 @@
 									<div class="liquid-img-group-inner">
 										<div class="liquid-img-group-single" data-reveal="true" data-reveal-options='{"direction":"lr"}'>
 											<div class="liquid-img-group-img-container">
+												{{#if blocks.0.videos }}
+												<div class="liquid-img-group-content content-floated-mid">
+												<style>.ld_button_5f3d0e02cfff5 .btn-icon{color:#4762ff;font-size:20px;}.ld_button_5f3d0e02cfff5.btn-icon-solid .btn-icon{background:rgb(255, 255, 255);}</style><a href="{{ blocks.0.videos.0.src }}" class="btn btn-naked fresco btn-icon-block btn-icon-top btn-icon-xlg btn-icon-circle btn-icon-solid ld_button_5f3d0e02cfff5">
+												<span>
+												<span class="btn-icon"><i class="fa fa-play"></i></span> </span>
+												</a>
+												</div>
+												{{/if}}
 												<div class="liquid-img-container-inner" data-parallax="false" data-parallax-from='{"scaleX":1,"scaleY":1}' data-parallax-to='{"scaleX":1,"scaleY":1}' data-parallax-options='{"overflowHidden":true,"easing":"linear"}'>
 													<figure>
 														<img src="{{ blocks.0.images.0.src }}" alt="{{ blocks.0.images.0.alt_text }}">
@@ -239,7 +247,8 @@
 					</div><!-- /.container -->
 				</section>
 
-        <section class="vc_row mt-45">
+				{{#if hero2 }}
+        		<section class="vc_row mt-45">
 					<div>
 						<div class="row">
 
@@ -265,6 +274,7 @@
 						</div><!-- /.row -->
 					</div><!-- /.container-fluid -->
 				</section>
+				{{/if}}
 
 				<section class="vc_row">
 					<div class="container">
