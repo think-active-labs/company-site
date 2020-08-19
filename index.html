@@ -1,3475 +1,1023 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<html lang="en">
 <head>
 
-  <meta charset="utf-8">
-
-  <!-- Page Title-->
-  <title>Think Active Labs</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#3ed2a7">
 
   <!-- Meta Tags-->
-  <meta name="description" content="Think Active Labs - Sports Technology Research">
-  <meta name="keywords"
-    content="think active, sports technology research, activity tracking, school fitness programme, data literacy">
-  <meta name="author" content="Gerard Wilkinson">
+  <meta name="description" content="Think Active Labs is a design agency and software engineering studio based in the North-East.">
+  <meta name="keywords" content="think active, design agency, software development, software consultancy, north east, sports technology research, activity tracking, school fitness programme, data literacy">
+  <meta name="author" content="Andy Garbett">
 
-  <!-- Viewport Meta-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="./assets/favicon/color-3/android-chrome-192x192.png" />
 
-  <!-- Template Favicon & Icons Start -->
+	<title>Think Active Labs | Digital Design Agency</title>
+
+	<link rel="stylesheet" href="https://use.typekit.net/scc6wwx.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
+	<link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
+	<link rel="stylesheet" href="assets/css/theme.min.css" />
+  <link rel="stylesheet" href="assets/css/themes/seo.css" />
+
+  <!-- Fav icons -->
   <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64 96x96" href="img/favicon/color-3/favicon.ico"
     type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/color-3/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/color-3/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/color-3/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/color-3/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/color-3/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/color-3/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/color-3/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/color-3/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/color-3/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/color-3/android-chrome-192x192.png">
-  <meta property="og:image" content="img/favicon/color-3/og-image-250x250.jpg">
-  <!-- Template Favicon & Icons End-->
-
-  <!-- Loader Styles Start-->
-  <style>
-    .loader {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 1000;
-      background-color: #333b8f;
-      opacity: 1;
-      visibility: visible;
-      -webkit-transition: visibility .4s 0s, opacity .4s, background-color .6s ease-in-out;
-      -o-transition: visibility .4s 0s, opacity .4s, background-color .6s ease-in-out;
-      -moz-transition: visibility .4s 0s, opacity .4s, background-color .6s ease-in-out;
-      transition: visibility .4s 0s, opacity .4s, background-color .6s ease-in-out
-    }
-
-    .loader.loaded {
-      opacity: 0;
-      visibility: hidden
-    }
-
-    .loader-content {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      bottom: auto;
-      right: auto;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      -moz-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%)
-    }
-
-    .loader-logo {
-      min-width: 250px;
-      position: relative;
-      display: block;
-      margin: 0 auto 16px;
-      overflow: hidden
-    }
-
-    .loader-logo img {
-      display: block;
-      width: 100%;
-      height: auto;
-      z-index: 0
-    }
-
-    .loader-caption {
-      margin: 0 auto;
-      text-align: center
-    }
-
-    .loading-dots {
-      position: relative;
-      line-height: 1;
-      display: inline-block;
-      width: 36px;
-      height: 10px;
-      text-align: center;
-      overflow: hidden
-    }
-
-    .loading-dots::after {
-      clear: both;
-      content: "";
-      display: table
-    }
-
-    .loading-dots .dot {
-      display: block;
-      float: left;
-      width: 6px;
-      height: 6px;
-      margin: 2px 3px 0 3px;
-      background: #fd625e;
-      opacity: 0;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-      -webkit-animation: fade 1s infinite;
-      -moz-animation: fade 1s infinite;
-      animation: fade 1s infinite
-    }
-
-    .loading-dots .dot:nth-of-type(1) {
-      -webkit-animation-delay: 0s;
-      -moz-animation-delay: 0s;
-      animation-delay: 0s
-    }
-
-    .loading-dots .dot:nth-of-type(2) {
-      -webkit-animation-delay: .1s;
-      -moz-animation-delay: .1s;
-      animation-delay: .1s
-    }
-
-    .loading-dots .dot:nth-of-type(3) {
-      -webkit-animation-delay: .2s;
-      -moz-animation-delay: .2s;
-      animation-delay: .2s
-    }
-
-    @-webkit-keyframes fade {
-      0% {
-        opacity: 0
-      }
-
-      50% {
-        opacity: .8
-      }
-
-      100% {
-        opacity: 0
-      }
-    }
-
-    @-moz-keyframes fade {
-      0% {
-        opacity: 0
-      }
-
-      50% {
-        opacity: .8
-      }
-
-      100% {
-        opacity: 0
-      }
-    }
-
-    @keyframes fade {
-      0% {
-        opacity: 0
-      }
-
-      50% {
-        opacity: .8
-      }
-
-      100% {
-        opacity: 0
-      }
-    }
-
-    @-webkit-keyframes slideInDown {
-      from {
-        -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-        visibility: visible
-      }
-
-      to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-      }
-    }
-
-    @-moz-keyframes slideInDown {
-      from {
-        -moz-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-        visibility: visible
-      }
-
-      to {
-        -moz-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-      }
-    }
-
-    @keyframes slideInDown {
-      from {
-        -webkit-transform: translate3d(0, -100%, 0);
-        -moz-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-        visibility: visible
-      }
-
-      to {
-        -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-      }
-    }
-
-    .slideInDown {
-      -webkit-animation: .6s 1 both slideInDown;
-      -moz-animation: .6s 1 both slideInDown;
-      animation: .6s 1 both slideInDown
-    }
-
-    @-webkit-keyframes slideInUp {
-      from {
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-        visibility: visible
-      }
-
-      to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-      }
-    }
-
-    @-moz-keyframes slideInUp {
-      from {
-        -moz-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-        visibility: visible
-      }
-
-      to {
-        -moz-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-      }
-    }
-
-    @keyframes slideInUp {
-      from {
-        -webkit-transform: translate3d(0, 100%, 0);
-        -moz-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-        visibility: visible
-      }
-
-      to {
-        -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-      }
-    }
-
-    .slideInUp {
-      -webkit-animation: .6s 1 both slideInUp;
-      -moz-animation: .6s 1 both slideInUp;
-      animation: .6s 1 both slideInUp
-    }
-
-    @-webkit-keyframes fadeOutUp {
-      from {
-        opacity: 1
-      }
-
-      to {
-        opacity: 0;
-        -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0)
-      }
-    }
-
-    @-moz-keyframes fadeOutUp {
-      from {
-        opacity: 1
-      }
-
-      to {
-        opacity: 0;
-        -moz-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0)
-      }
-    }
-
-    @keyframes fadeOutUp {
-      from {
-        opacity: 1
-      }
-
-      to {
-        opacity: 0;
-        -webkit-transform: translate3d(0, -100%, 0);
-        -moz-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0)
-      }
-    }
-
-    .fadeOutUp {
-      -webkit-animation: .6s 1 both fadeOutUp;
-      -moz-animation: .6s 1 both fadeOutUp;
-      animation: .6s 1 both fadeOutUp
-    }
-
-    @-webkit-keyframes fadeOutDown {
-      from {
-        opacity: 1
-      }
-
-      to {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0)
-      }
-    }
-
-    @-moz-keyframes fadeOutDown {
-      from {
-        opacity: 1
-      }
-
-      to {
-        opacity: 0;
-        -moz-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0)
-      }
-    }
-
-    @keyframes fadeOutDown {
-      from {
-        opacity: 1
-      }
-
-      to {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        -moz-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0)
-      }
-    }
-
-    .fadeOutDown {
-      -webkit-animation: .6s 1 both fadeOutDown;
-      -moz-animation: .6s 1 both fadeOutDown;
-      animation: .6s 1 both fadeOutDown
-    }
-  </style>
-  <!-- Loader Styles End-->
-
-  <!-- Bootstrap Grid System Start-->
-  <style>
-    .container {
-      margin-right: auto;
-      margin-left: auto;
-      padding-left: 0;
-      padding-right: 0
-    }
-
-    @media (min-width:768px) {
-      .container {
-        width: 100%
-      }
-    }
-
-    @media (min-width:1024px) {
-      .container {
-        width: 100%
-      }
-    }
-
-    @media (min-width:1200px) {
-      .container {
-        width: 100%
-      }
-    }
-
-    .container-fluid {
-      margin-right: auto;
-      margin-left: auto;
-      padding-left: 0;
-      padding-right: 0
-    }
-
-    .row {
-      margin-left: 0;
-      margin-right: 0
-    }
-
-    .col-xs-1,
-    .col-sm-1,
-    .col-md-1,
-    .col-lg-1,
-    .col-xs-2,
-    .col-sm-2,
-    .col-md-2,
-    .col-lg-2,
-    .col-xs-3,
-    .col-sm-3,
-    .col-md-3,
-    .col-lg-3,
-    .col-xs-4,
-    .col-sm-4,
-    .col-md-4,
-    .col-lg-4,
-    .col-xs-5,
-    .col-sm-5,
-    .col-md-5,
-    .col-lg-5,
-    .col-xs-6,
-    .col-sm-6,
-    .col-md-6,
-    .col-lg-6,
-    .col-xs-7,
-    .col-sm-7,
-    .col-md-7,
-    .col-lg-7,
-    .col-xs-8,
-    .col-sm-8,
-    .col-md-8,
-    .col-lg-8,
-    .col-xs-9,
-    .col-sm-9,
-    .col-md-9,
-    .col-lg-9,
-    .col-xs-10,
-    .col-sm-10,
-    .col-md-10,
-    .col-lg-10,
-    .col-xs-11,
-    .col-sm-11,
-    .col-md-11,
-    .col-lg-11,
-    .col-xs-12,
-    .col-sm-12,
-    .col-md-12,
-    .col-lg-12 {
-      position: relative;
-      min-height: 1px;
-      padding-left: 0;
-      padding-right: 0
-    }
-
-    .col-xs-1,
-    .col-xs-2,
-    .col-xs-3,
-    .col-xs-4,
-    .col-xs-5,
-    .col-xs-6,
-    .col-xs-7,
-    .col-xs-8,
-    .col-xs-9,
-    .col-xs-10,
-    .col-xs-11,
-    .col-xs-12 {
-      float: left
-    }
-
-    .col-xs-12 {
-      width: 100%
-    }
-
-    .col-xs-11 {
-      width: 91.66666667%
-    }
-
-    .col-xs-10 {
-      width: 83.33333333%
-    }
-
-    .col-xs-9 {
-      width: 75%
-    }
-
-    .col-xs-8 {
-      width: 66.66666667%
-    }
-
-    .col-xs-7 {
-      width: 58.33333333%
-    }
-
-    .col-xs-6 {
-      width: 50%
-    }
-
-    .col-xs-5 {
-      width: 41.66666667%
-    }
-
-    .col-xs-4 {
-      width: 33.33333333%
-    }
-
-    .col-xs-3 {
-      width: 25%
-    }
-
-    .col-xs-2 {
-      width: 16.66666667%
-    }
-
-    .col-xs-1 {
-      width: 8.33333333%
-    }
-
-    .col-xs-pull-12 {
-      right: 100%
-    }
-
-    .col-xs-pull-11 {
-      right: 91.66666667%
-    }
-
-    .col-xs-pull-10 {
-      right: 83.33333333%
-    }
-
-    .col-xs-pull-9 {
-      right: 75%
-    }
-
-    .col-xs-pull-8 {
-      right: 66.66666667%
-    }
-
-    .col-xs-pull-7 {
-      right: 58.33333333%
-    }
-
-    .col-xs-pull-6 {
-      right: 50%
-    }
-
-    .col-xs-pull-5 {
-      right: 41.66666667%
-    }
-
-    .col-xs-pull-4 {
-      right: 33.33333333%
-    }
-
-    .col-xs-pull-3 {
-      right: 25%
-    }
-
-    .col-xs-pull-2 {
-      right: 16.66666667%
-    }
-
-    .col-xs-pull-1 {
-      right: 8.33333333%
-    }
-
-    .col-xs-pull-0 {
-      right: auto
-    }
-
-    .col-xs-push-12 {
-      left: 100%
-    }
-
-    .col-xs-push-11 {
-      left: 91.66666667%
-    }
-
-    .col-xs-push-10 {
-      left: 83.33333333%
-    }
-
-    .col-xs-push-9 {
-      left: 75%
-    }
-
-    .col-xs-push-8 {
-      left: 66.66666667%
-    }
-
-    .col-xs-push-7 {
-      left: 58.33333333%
-    }
-
-    .col-xs-push-6 {
-      left: 50%
-    }
-
-    .col-xs-push-5 {
-      left: 41.66666667%
-    }
-
-    .col-xs-push-4 {
-      left: 33.33333333%
-    }
-
-    .col-xs-push-3 {
-      left: 25%
-    }
-
-    .col-xs-push-2 {
-      left: 16.66666667%
-    }
-
-    .col-xs-push-1 {
-      left: 8.33333333%
-    }
-
-    .col-xs-push-0 {
-      left: auto
-    }
-
-    .col-xs-offset-12 {
-      margin-left: 100%
-    }
-
-    .col-xs-offset-11 {
-      margin-left: 91.66666667%
-    }
-
-    .col-xs-offset-10 {
-      margin-left: 83.33333333%
-    }
-
-    .col-xs-offset-9 {
-      margin-left: 75%
-    }
-
-    .col-xs-offset-8 {
-      margin-left: 66.66666667%
-    }
-
-    .col-xs-offset-7 {
-      margin-left: 58.33333333%
-    }
-
-    .col-xs-offset-6 {
-      margin-left: 50%
-    }
-
-    .col-xs-offset-5 {
-      margin-left: 41.66666667%
-    }
-
-    .col-xs-offset-4 {
-      margin-left: 33.33333333%
-    }
-
-    .col-xs-offset-3 {
-      margin-left: 25%
-    }
-
-    .col-xs-offset-2 {
-      margin-left: 16.66666667%
-    }
-
-    .col-xs-offset-1 {
-      margin-left: 8.33333333%
-    }
-
-    .col-xs-offset-0 {
-      margin-left: 0
-    }
-
-    @media (min-width:768px) {
-
-      .col-sm-1,
-      .col-sm-2,
-      .col-sm-3,
-      .col-sm-4,
-      .col-sm-5,
-      .col-sm-6,
-      .col-sm-7,
-      .col-sm-8,
-      .col-sm-9,
-      .col-sm-10,
-      .col-sm-11,
-      .col-sm-12 {
-        float: left
-      }
-
-      .col-sm-12 {
-        width: 100%
-      }
-
-      .col-sm-11 {
-        width: 91.66666667%
-      }
-
-      .col-sm-10 {
-        width: 83.33333333%
-      }
-
-      .col-sm-9 {
-        width: 75%
-      }
-
-      .col-sm-8 {
-        width: 66.66666667%
-      }
-
-      .col-sm-7 {
-        width: 58.33333333%
-      }
-
-      .col-sm-6 {
-        width: 50%
-      }
-
-      .col-sm-5 {
-        width: 41.66666667%
-      }
-
-      .col-sm-4 {
-        width: 33.33333333%
-      }
-
-      .col-sm-3 {
-        width: 25%
-      }
-
-      .col-sm-2 {
-        width: 16.66666667%
-      }
-
-      .col-sm-1 {
-        width: 8.33333333%
-      }
-
-      .col-sm-pull-12 {
-        right: 100%
-      }
-
-      .col-sm-pull-11 {
-        right: 91.66666667%
-      }
-
-      .col-sm-pull-10 {
-        right: 83.33333333%
-      }
-
-      .col-sm-pull-9 {
-        right: 75%
-      }
-
-      .col-sm-pull-8 {
-        right: 66.66666667%
-      }
-
-      .col-sm-pull-7 {
-        right: 58.33333333%
-      }
-
-      .col-sm-pull-6 {
-        right: 50%
-      }
-
-      .col-sm-pull-5 {
-        right: 41.66666667%
-      }
-
-      .col-sm-pull-4 {
-        right: 33.33333333%
-      }
-
-      .col-sm-pull-3 {
-        right: 25%
-      }
-
-      .col-sm-pull-2 {
-        right: 16.66666667%
-      }
-
-      .col-sm-pull-1 {
-        right: 8.33333333%
-      }
-
-      .col-sm-pull-0 {
-        right: auto
-      }
-
-      .col-sm-push-12 {
-        left: 100%
-      }
-
-      .col-sm-push-11 {
-        left: 91.66666667%
-      }
-
-      .col-sm-push-10 {
-        left: 83.33333333%
-      }
-
-      .col-sm-push-9 {
-        left: 75%
-      }
-
-      .col-sm-push-8 {
-        left: 66.66666667%
-      }
-
-      .col-sm-push-7 {
-        left: 58.33333333%
-      }
-
-      .col-sm-push-6 {
-        left: 50%
-      }
-
-      .col-sm-push-5 {
-        left: 41.66666667%
-      }
-
-      .col-sm-push-4 {
-        left: 33.33333333%
-      }
-
-      .col-sm-push-3 {
-        left: 25%
-      }
-
-      .col-sm-push-2 {
-        left: 16.66666667%
-      }
-
-      .col-sm-push-1 {
-        left: 8.33333333%
-      }
-
-      .col-sm-push-0 {
-        left: auto
-      }
-
-      .col-sm-offset-12 {
-        margin-left: 100%
-      }
-
-      .col-sm-offset-11 {
-        margin-left: 91.66666667%
-      }
-
-      .col-sm-offset-10 {
-        margin-left: 83.33333333%
-      }
-
-      .col-sm-offset-9 {
-        margin-left: 75%
-      }
-
-      .col-sm-offset-8 {
-        margin-left: 66.66666667%
-      }
-
-      .col-sm-offset-7 {
-        margin-left: 58.33333333%
-      }
-
-      .col-sm-offset-6 {
-        margin-left: 50%
-      }
-
-      .col-sm-offset-5 {
-        margin-left: 41.66666667%
-      }
-
-      .col-sm-offset-4 {
-        margin-left: 33.33333333%
-      }
-
-      .col-sm-offset-3 {
-        margin-left: 25%
-      }
-
-      .col-sm-offset-2 {
-        margin-left: 16.66666667%
-      }
-
-      .col-sm-offset-1 {
-        margin-left: 8.33333333%
-      }
-
-      .col-sm-offset-0 {
-        margin-left: 0
-      }
-    }
-
-    @media (min-width:1024px) {
-
-      .col-md-1,
-      .col-md-2,
-      .col-md-3,
-      .col-md-4,
-      .col-md-5,
-      .col-md-6,
-      .col-md-7,
-      .col-md-8,
-      .col-md-9,
-      .col-md-10,
-      .col-md-11,
-      .col-md-12 {
-        float: left
-      }
-
-      .col-md-12 {
-        width: 100%
-      }
-
-      .col-md-11 {
-        width: 91.66666667%
-      }
-
-      .col-md-10 {
-        width: 83.33333333%
-      }
-
-      .col-md-9 {
-        width: 75%
-      }
-
-      .col-md-8 {
-        width: 66.66666667%
-      }
-
-      .col-md-7 {
-        width: 58.33333333%
-      }
-
-      .col-md-6 {
-        width: 50%
-      }
-
-      .col-md-5 {
-        width: 41.66666667%
-      }
-
-      .col-md-4 {
-        width: 33.33333333%
-      }
-
-      .col-md-3 {
-        width: 25%
-      }
-
-      .col-md-2 {
-        width: 16.66666667%
-      }
-
-      .col-md-1 {
-        width: 8.33333333%
-      }
-
-      .col-md-pull-12 {
-        right: 100%
-      }
-
-      .col-md-pull-11 {
-        right: 91.66666667%
-      }
-
-      .col-md-pull-10 {
-        right: 83.33333333%
-      }
-
-      .col-md-pull-9 {
-        right: 75%
-      }
-
-      .col-md-pull-8 {
-        right: 66.66666667%
-      }
-
-      .col-md-pull-7 {
-        right: 58.33333333%
-      }
-
-      .col-md-pull-6 {
-        right: 50%
-      }
-
-      .col-md-pull-5 {
-        right: 41.66666667%
-      }
-
-      .col-md-pull-4 {
-        right: 33.33333333%
-      }
-
-      .col-md-pull-3 {
-        right: 25%
-      }
-
-      .col-md-pull-2 {
-        right: 16.66666667%
-      }
-
-      .col-md-pull-1 {
-        right: 8.33333333%
-      }
-
-      .col-md-pull-0 {
-        right: auto
-      }
-
-      .col-md-push-12 {
-        left: 100%
-      }
-
-      .col-md-push-11 {
-        left: 91.66666667%
-      }
-
-      .col-md-push-10 {
-        left: 83.33333333%
-      }
-
-      .col-md-push-9 {
-        left: 75%
-      }
-
-      .col-md-push-8 {
-        left: 66.66666667%
-      }
-
-      .col-md-push-7 {
-        left: 58.33333333%
-      }
-
-      .col-md-push-6 {
-        left: 50%
-      }
-
-      .col-md-push-5 {
-        left: 41.66666667%
-      }
-
-      .col-md-push-4 {
-        left: 33.33333333%
-      }
-
-      .col-md-push-3 {
-        left: 25%
-      }
-
-      .col-md-push-2 {
-        left: 16.66666667%
-      }
-
-      .col-md-push-1 {
-        left: 8.33333333%
-      }
-
-      .col-md-push-0 {
-        left: auto
-      }
-
-      .col-md-offset-12 {
-        margin-left: 100%
-      }
-
-      .col-md-offset-11 {
-        margin-left: 91.66666667%
-      }
-
-      .col-md-offset-10 {
-        margin-left: 83.33333333%
-      }
-
-      .col-md-offset-9 {
-        margin-left: 75%
-      }
-
-      .col-md-offset-8 {
-        margin-left: 66.66666667%
-      }
-
-      .col-md-offset-7 {
-        margin-left: 58.33333333%
-      }
-
-      .col-md-offset-6 {
-        margin-left: 50%
-      }
-
-      .col-md-offset-5 {
-        margin-left: 41.66666667%
-      }
-
-      .col-md-offset-4 {
-        margin-left: 33.33333333%
-      }
-
-      .col-md-offset-3 {
-        margin-left: 25%
-      }
-
-      .col-md-offset-2 {
-        margin-left: 16.66666667%
-      }
-
-      .col-md-offset-1 {
-        margin-left: 8.33333333%
-      }
-
-      .col-md-offset-0 {
-        margin-left: 0
-      }
-    }
-
-    @media (min-width:1200px) {
-
-      .col-lg-1,
-      .col-lg-2,
-      .col-lg-3,
-      .col-lg-4,
-      .col-lg-5,
-      .col-lg-6,
-      .col-lg-7,
-      .col-lg-8,
-      .col-lg-9,
-      .col-lg-10,
-      .col-lg-11,
-      .col-lg-12 {
-        float: left
-      }
-
-      .col-lg-12 {
-        width: 100%
-      }
-
-      .col-lg-11 {
-        width: 91.66666667%
-      }
-
-      .col-lg-10 {
-        width: 83.33333333%
-      }
-
-      .col-lg-9 {
-        width: 75%
-      }
-
-      .col-lg-8 {
-        width: 66.66666667%
-      }
-
-      .col-lg-7 {
-        width: 58.33333333%
-      }
-
-      .col-lg-6 {
-        width: 50%
-      }
-
-      .col-lg-5 {
-        width: 41.66666667%
-      }
-
-      .col-lg-4 {
-        width: 33.33333333%
-      }
-
-      .col-lg-3 {
-        width: 25%
-      }
-
-      .col-lg-2 {
-        width: 16.66666667%
-      }
-
-      .col-lg-1 {
-        width: 8.33333333%
-      }
-
-      .col-lg-pull-12 {
-        right: 100%
-      }
-
-      .col-lg-pull-11 {
-        right: 91.66666667%
-      }
-
-      .col-lg-pull-10 {
-        right: 83.33333333%
-      }
-
-      .col-lg-pull-9 {
-        right: 75%
-      }
-
-      .col-lg-pull-8 {
-        right: 66.66666667%
-      }
-
-      .col-lg-pull-7 {
-        right: 58.33333333%
-      }
-
-      .col-lg-pull-6 {
-        right: 50%
-      }
-
-      .col-lg-pull-5 {
-        right: 41.66666667%
-      }
-
-      .col-lg-pull-4 {
-        right: 33.33333333%
-      }
-
-      .col-lg-pull-3 {
-        right: 25%
-      }
-
-      .col-lg-pull-2 {
-        right: 16.66666667%
-      }
-
-      .col-lg-pull-1 {
-        right: 8.33333333%
-      }
-
-      .col-lg-pull-0 {
-        right: auto
-      }
-
-      .col-lg-push-12 {
-        left: 100%
-      }
-
-      .col-lg-push-11 {
-        left: 91.66666667%
-      }
-
-      .col-lg-push-10 {
-        left: 83.33333333%
-      }
-
-      .col-lg-push-9 {
-        left: 75%
-      }
-
-      .col-lg-push-8 {
-        left: 66.66666667%
-      }
-
-      .col-lg-push-7 {
-        left: 58.33333333%
-      }
-
-      .col-lg-push-6 {
-        left: 50%
-      }
-
-      .col-lg-push-5 {
-        left: 41.66666667%
-      }
-
-      .col-lg-push-4 {
-        left: 33.33333333%
-      }
-
-      .col-lg-push-3 {
-        left: 25%
-      }
-
-      .col-lg-push-2 {
-        left: 16.66666667%
-      }
-
-      .col-lg-push-1 {
-        left: 8.33333333%
-      }
-
-      .col-lg-push-0 {
-        left: auto
-      }
-
-      .col-lg-offset-12 {
-        margin-left: 100%
-      }
-
-      .col-lg-offset-11 {
-        margin-left: 91.66666667%
-      }
-
-      .col-lg-offset-10 {
-        margin-left: 83.33333333%
-      }
-
-      .col-lg-offset-9 {
-        margin-left: 75%
-      }
-
-      .col-lg-offset-8 {
-        margin-left: 66.66666667%
-      }
-
-      .col-lg-offset-7 {
-        margin-left: 58.33333333%
-      }
-
-      .col-lg-offset-6 {
-        margin-left: 50%
-      }
-
-      .col-lg-offset-5 {
-        margin-left: 41.66666667%
-      }
-
-      .col-lg-offset-4 {
-        margin-left: 33.33333333%
-      }
-
-      .col-lg-offset-3 {
-        margin-left: 25%
-      }
-
-      .col-lg-offset-2 {
-        margin-left: 16.66666667%
-      }
-
-      .col-lg-offset-1 {
-        margin-left: 8.33333333%
-      }
-
-      .col-lg-offset-0 {
-        margin-left: 0
-      }
-    }
-
-    .clearfix:before,
-    .clearfix:after,
-    .container:before,
-    .container:after,
-    .container-fluid:before,
-    .container-fluid:after,
-    .row:before,
-    .row:after {
-      content: " ";
-      display: table
-    }
-
-    .clearfix:after,
-    .container:after,
-    .container-fluid:after,
-    .row:after {
-      clear: both
-    }
-
-    .center-block {
-      display: block;
-      margin-left: auto;
-      margin-right: auto
-    }
-
-    .pull-right {
-      float: right !important
-    }
-
-    .pull-left {
-      float: left !important
-    }
-
-    .hide {
-      display: none !important
-    }
-
-    .show {
-      display: block !important
-    }
-
-    .invisible {
-      visibility: hidden
-    }
-
-    .text-hide {
-      font: 0/0 a;
-      color: transparent;
-      text-shadow: none;
-      background-color: transparent;
-      border: 0
-    }
-
-    .hidden {
-      display: none !important
-    }
-
-    .affix {
-      position: fixed
-    }
-  </style>
-  <!-- Bootstrap Grid System End-->
-
-  <!-- First Visible Screen CSS Start-->
-  <style>
-    a,
-    abbr,
-    acronym,
-    address,
-    applet,
-    article,
-    aside,
-    audio,
-    b,
-    big,
-    blockquote,
-    body,
-    canvas,
-    caption,
-    center,
-    cite,
-    code,
-    dd,
-    del,
-    details,
-    dfn,
-    div,
-    dl,
-    dt,
-    em,
-    embed,
-    fieldset,
-    figcaption,
-    figure,
-    footer,
-    form,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    header,
-    hgroup,
-    html,
-    i,
-    iframe,
-    img,
-    ins,
-    kbd,
-    label,
-    legend,
-    li,
-    mark,
-    menu,
-    nav,
-    object,
-    ol,
-    output,
-    p,
-    pre,
-    q,
-    ruby,
-    s,
-    samp,
-    section,
-    small,
-    span,
-    strike,
-    strong,
-    sub,
-    summary,
-    sup,
-    table,
-    tbody,
-    td,
-    tfoot,
-    th,
-    thead,
-    time,
-    tr,
-    tt,
-    u,
-    ul,
-    var,
-    video {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font-size: 100%;
-      font: inherit;
-      vertical-align: baseline
-    }
-
-    article,
-    aside,
-    details,
-    figcaption,
-    figure,
-    footer,
-    header,
-    hgroup,
-    menu,
-    nav,
-    section {
-      display: block
-    }
-
-    body {
-      line-height: 1
-    }
-
-    ol,
-    ul {
-      list-style: none
-    }
-
-    blockquote,
-    q {
-      quotes: none
-    }
-
-    blockquote:after,
-    blockquote:before {
-      content: '';
-      content: none
-    }
-
-    q:after,
-    q:before {
-      content: '';
-      content: none
-    }
-
-    table {
-      border-collapse: collapse;
-      border-spacing: 0
-    }
-
-    *,
-    ::after,
-    ::before {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box
-    }
-
-    button:active,
-    button:focus {
-      outline: 0 !important
-    }
-
-    button::-moz-focus-inner {
-      border: 0 !important
-    }
-
-    input::-moz-focus-inner {
-      border: 0 !important
-    }
-
-    ::-moz-selection {
-      background-color: #343434;
-      color: #b6b6b6;
-      text-shadow: none
-    }
-
-    ::selection {
-      background-color: #343434;
-      color: #b6b6b6;
-      text-shadow: none
-    }
-
-    html {
-      font-family: sans-serif;
-      font-size: 62.5%;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale
-    }
-
-    @media only screen and (min-width:1024px) {
-
-      body,
-      html {
-        width: 100%;
-        height: 100%
-      }
-    }
-
-    body {
-      min-width: 320px;
-      position: relative;
-      overflow-x: hidden;
-      font-family: Poppins, sans-serif;
-      font-weight: 400;
-      font-size: 1.6rem;
-      line-height: 1.7;
-      background-color: #1f1f1f;
-      color: #616161
-    }
-
-    @media only screen and (min-width:1200px) {
-      body {
-        overflow: hidden
-      }
-    }
-
-    a {
-      text-decoration: underline;
-      color: #303030;
-      -webkit-tap-highlight-color: transparent
-    }
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto
-    }
-
-    section {
-      position: relative
-    }
-
-    .no-padding {
-      padding: 0
-    }
-
-    .overflow-hidden {
-      overflow: hidden
-    }
-
-    .fullheight {
-      position: relative;
-      height: auto
-    }
-
-    @media only screen and (min-width:1200px) {
-      .fullheight {
-        height: 100%
-      }
-    }
-
-    .float-md-right {
-      float: left
-    }
-
-    @media only screen and (min-width:768px) {
-      .float-md-right {
-        float: right
-      }
-    }
-
-    .float-lg-right {
-      float: left
-    }
-
-    @media only screen and (min-width:1200px) {
-      .float-lg-right {
-        float: right
-      }
-    }
-
-    .float-right {
-      float: right
-    }
-
-    .layer-black {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, .4)
-    }
-
-    .btn {
-      position: relative;
-      display: inline-block;
-      border: none;
-      outline: 0;
-      padding: 0;
-      font: inherit;
-      background-color: transparent;
-      cursor: pointer;
-      text-decoration: none;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      overflow: hidden;
-      -webkit-transition: padding .5s cubic-bezier(.26, .82, .76, 1.06);
-      -o-transition: padding .5s cubic-bezier(.26, .82, .76, 1.06);
-      -moz-transition: padding .5s cubic-bezier(.26, .82, .76, 1.06);
-      transition: padding .5s cubic-bezier(.26, .82, .76, 1.06)
-    }
-
-    .btn::after,
-    .btn::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 50%
-    }
-
-    .btn::before {
-      left: -100%;
-      -webkit-transition: left .6s;
-      -o-transition: left .6s;
-      -moz-transition: left .6s;
-      transition: left .6s
-    }
-
-    .btn::after {
-      right: 0;
-      -webkit-transition: right .6s;
-      -o-transition: right .6s;
-      -moz-transition: right .6s;
-      transition: right .6s
-    }
-
-    .no-touch .btn:hover::before {
-      left: 0
-    }
-
-    .no-touch .btn:hover::after {
-      right: -100%
-    }
-
-    .btn-l {
-      height: 52px;
-      line-height: 50px;
-      padding: 0 5.6rem 0 2.4rem;
-      font-size: 1.4rem;
-      font-weight: 700
-    }
-
-    .btn-l::after,
-    .btn-l::before {
-      width: 4rem;
-      height: 2px
-    }
-
-    .no-touch .btn-l:hover {
-      padding: 1.2rem 3.2rem 1.2rem 7.8rem
-    }
-
-    @media only screen and (min-width:1200px) {
-      .btn-l {
-        font-size: 1.4rem;
-        padding: 0 6rem 0 2.4rem
-      }
-
-      .btn-l::after,
-      .btn-l::before {
-        width: 4rem
-      }
-
-      .no-touch .btn-l:hover {
-        padding: 0 2.4rem 0 6rem
-      }
-    }
-
-    .btn-s {
-      padding: .8rem 3.2rem .6rem 1.2rem;
-      font-size: 1rem;
-      line-height: 1.2;
-      letter-spacing: .24rem;
-      text-transform: uppercase
-    }
-
-    .btn-s::after,
-    .btn-s::before {
-      width: 2.4rem;
-      height: 1px
-    }
-
-    .no-touch .btn-s:hover {
-      padding: .8rem 1.2rem .6rem 3.2rem
-    }
-
-    @media only screen and (min-width:768px) {
-      .btn-s {
-        padding: 1rem 6.8rem .8rem 2.2rem;
-        font-size: 1.2rem;
-        line-height: inherit;
-        letter-spacing: .24rem;
-        text-transform: uppercase
-      }
-
-      .btn-s::after,
-      .btn-s::before {
-        width: 4.2rem;
-        height: 1px
-      }
-
-      .no-touch .btn-s:hover {
-        padding: 1rem 2.2rem .8rem 6.8rem
-      }
-    }
-
-    .btn-square {
-      display: inline-block;
-      width: 4.8rem;
-      height: 4.8rem;
-      line-height: 4.8rem;
-      text-align: center;
-      font-size: 4rem;
-      color: #fff;
-      background-color: #343434
-    }
-
-    .btn-square span {
-      line-height: 0
-    }
-
-    .btn-square span::before {
-      line-height: 0
-    }
-
-    .btn-dark {
-      border: 2px solid #303030;
-      color: #303030
-    }
-
-    .btn-dark::after,
-    .btn-dark::before {
-      background-color: #303030
-    }
-
-    .btn-light {
-      color: #303030;
-      background-color: #fff
-    }
-
-    .btn-light::after,
-    .btn-light::before {
-      background-color: #303030
-    }
-
-    .btn-light-outline {
-      background-color: transparent;
-      border: 1px solid rgba(255, 255, 255, .6);
-      color: #fff
-    }
-
-    .btn-light-outline::after,
-    .btn-light-outline::before {
-      background-color: rgba(255, 255, 255, .6)
-    }
-
-    .section-close {
-      position: relative;
-      display: inline-block;
-      width: 5rem;
-      height: 5rem;
-      line-height: 5rem;
-      font-size: 2.6rem;
-      color: #303030;
-      text-align: center;
-      border: 2px solid #303030
-    }
-
-    .section-close.light {
-      color: rgba(255, 255, 255, .6);
-      border: 2px solid rgba(255, 255, 255, .3)
-    }
-
-    .contact-data-item p {
-      color: #616161;
-      font-size: 1.4rem
-    }
-
-    .contact-data-item a {
-      display: block;
-      position: relative;
-      overflow: hidden;
-      text-decoration: none;
-      font-size: 1.4rem;
-      color: #616161;
-      padding: 0 4rem 0 0;
-      -webkit-transition: padding .5s, color .5s ease-in-out;
-      -o-transition: padding .5s, color .5s ease-in-out;
-      -moz-transition: padding .5s, color .5s ease-in-out;
-      transition: padding .5s, color .5s ease-in-out
-    }
-
-    .contact-data-item a::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 49%;
-      left: -100%;
-      width: 2.4rem;
-      height: 2px;
-      background-color: #343434;
-      -webkit-transition: left .5s ease-in-out;
-      -o-transition: left .5s ease-in-out;
-      -moz-transition: left .5s ease-in-out;
-      transition: left .5s ease-in-out
-    }
-
-    .no-touch .contact-data-item a:hover {
-      padding: 0 0 0 4rem;
-      color: #303030
-    }
-
-    .no-touch .contact-data-item a:hover::before {
-      left: 0
-    }
-
-    .main {
-      position: relative;
-      background-color: #1f1f1f;
-      opacity: 1;
-      -webkit-transform: translateZ(0);
-      -moz-transform: translateZ(0);
-      transform: translateZ(0);
-      -webkit-transform: scale(1);
-      -moz-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-      -webkit-transition: opacity .4s;
-      -o-transition: opacity .4s;
-      -moz-transition: opacity .4s;
-      transition: opacity .4s
-    }
-
-    .main.is-hidden .main-intro {
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0)
-    }
-
-    .main.is-hidden .main-media {
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0)
-    }
-
-    .main.notify-is-visible .main-intro {
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0)
-    }
-
-    @media only screen and (min-width:1200px) {
-      .main {
-        height: 100%;
-        min-height: 546px;
-        overflow: hidden;
-        z-index: 8;
-        -webkit-transition: opacity .4s, -webkit-transform .4s;
-        transition: opacity .4s, -webkit-transform .4s;
-        -o-transition: transform .4s, opacity .4s;
-        -moz-transition: transform .4s, opacity .4s, -moz-transform .4s;
-        transition: transform .4s, opacity .4s;
-        transition: transform .4s, opacity .4s, -webkit-transform .4s, -moz-transform .4s
-      }
-
-      .main.is-hidden .main-intro {
-        -webkit-transform: translateY(100%);
-        -moz-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-        transform: translateY(100%)
-      }
-
-      .main.is-hidden .main-media {
-        -webkit-transform: translateY(-100%);
-        -moz-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-        transform: translateY(-100%)
-      }
-
-      .main.notify-is-visible .main-intro {
-        -webkit-transform: translateY(-100%);
-        -moz-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-        transform: translateY(-100%)
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .main {
-        min-height: 654px
-      }
-    }
-
-    .main-intro {
-      position: relative;
-      height: auto;
-      min-height: 480px;
-      padding: 0;
-      background-color: #1f1f1f;
-      overflow: hidden;
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0);
-      -webkit-transition: -webkit-transform .6s ease-in-out;
-      transition: -webkit-transform .6s ease-in-out;
-      -o-transition: transform .6s ease-in-out;
-      -moz-transition: transform .6s ease-in-out, -moz-transform .6s ease-in-out;
-      transition: transform .6s ease-in-out;
-      transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out, -moz-transform .6s ease-in-out
-    }
-
-    .main-intro::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #151515;
-      -webkit-transform: translateX(-102%);
-      -moz-transform: translateX(-102%);
-      -ms-transform: translateX(-102%);
-      transform: translateX(-102%);
-      -webkit-transition: -webkit-transform .3s ease-in-out;
-      transition: -webkit-transform .3s ease-in-out;
-      -o-transition: transform .3s ease-in-out;
-      -moz-transition: transform .3s ease-in-out, -moz-transform .3s ease-in-out;
-      transition: transform .3s ease-in-out;
-      transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out, -moz-transform .3s ease-in-out;
-      z-index: 1
-    }
-
-    @media only screen and (min-width:1024px) {
-      .main-intro {
-        height: 100vh;
-        padding: 0
-      }
-    }
-
-    @media only screen and (min-width:1200px) {
-      .main-intro {
-        height: 100%;
-        min-height: 546px
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .main-intro {
-        min-height: 654px
-      }
-    }
-
-    .intro-content {
-      position: relative;
-      min-height: 480px;
-      padding: 180px 0;
-      background-color: #fff;
-      opacity: 0
-    }
-
-    @media only screen and (min-width:1024px) {
-      .intro-content {
-        height: 100vh;
-        padding: 0
-      }
-    }
-
-    @media only screen and (min-width:1200px) {
-      .intro-content {
-        height: 100%;
-        min-height: 546px
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .intro-content {
-        min-height: 654px
-      }
-    }
-
-    .headline {
-      position: relative;
-      width: 100%;
-      padding: 0 10%
-    }
-
-    @media only screen and (min-width:1024px) {
-      .headline {
-        position: absolute;
-        left: 0;
-        top: 50%;
-        bottom: auto;
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%)
-      }
-    }
-
-    @media only screen and (min-width:1200px) {
-      .headline {
-        padding: 0 6.4rem
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .headline {
-        padding: 0 8rem
-      }
-    }
-
-    .main-media {
-      position: relative;
-      height: 600px;
-      overflow: hidden;
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0);
-      -webkit-transition: -webkit-transform .6s ease-in-out;
-      transition: -webkit-transform .6s ease-in-out;
-      -o-transition: transform .6s ease-in-out;
-      -moz-transition: transform .6s ease-in-out, -moz-transform .6s ease-in-out;
-      transition: transform .6s ease-in-out;
-      transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out, -moz-transform .6s ease-in-out
-    }
-
-    .main-media::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #151515;
-      -webkit-transform: translateX(-102%);
-      -moz-transform: translateX(-102%);
-      -ms-transform: translateX(-102%);
-      transform: translateX(-102%);
-      -webkit-transition: -webkit-transform .3s ease-in-out;
-      transition: -webkit-transform .3s ease-in-out;
-      -o-transition: transform .3s ease-in-out;
-      -moz-transition: transform .3s ease-in-out, -moz-transform .3s ease-in-out;
-      transition: transform .3s ease-in-out;
-      transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out, -moz-transform .3s ease-in-out;
-      z-index: 1
-    }
-
-    .main-media .image,
-    .main-media .layer-cover {
-      opacity: 0
-    }
-
-    .main-media .image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-repeat: no-repeat;
-      background-position: top center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover
-    }
-
-    @media only screen and (min-width:768px) {
-      .main-media {
-        height: 760px
-      }
-    }
-
-    @media only screen and (min-width:1200px) {
-      .main-media {
-        height: 100%;
-        min-height: 546px
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .main-media {
-        min-height: 654px
-      }
-    }
-
-    .animated-headline {
-      display: inline-block;
-      position: relative;
-      overflow: hidden
-    }
-
-    .animated-headline::before {
-      height: 100%
-    }
-
-    .animated-headline span {
-      opacity: 0
-    }
-
-    .about-trigger {
-      display: none;
-      margin-right: 0
-    }
-
-    @media only screen and (min-width:1200px) {
-      .about-trigger {
-        display: inline-block
-      }
-    }
-
-    .logo {
-      width: 154px;
-      position: absolute;
-      top: 4rem;
-      left: 10%;
-      z-index: 1
-    }
-
-    @media only screen and (min-width:1200px) {
-      .logo {
-        top: 4rem;
-        left: 6.4rem
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .logo {
-        top: 4.8rem;
-        left: 8rem
-      }
-    }
-
-    .notify-trigger {
-      position: absolute;
-      top: 3.2rem;
-      right: 3.2rem;
-      z-index: 1;
-      display: inline-block;
-      overflow: hidden
-    }
-
-    .notify-trigger::before {
-      height: 100%
-    }
-
-    .notify-trigger a {
-      display: block;
-      opacity: 0
-    }
-
-    @media only screen and (min-width:768px) {
-      .notify-trigger {
-        top: 4rem;
-        right: 4rem
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .notify-trigger {
-        top: 4.8rem;
-        right: 4.8rem
-      }
-    }
-
-    .menu {
-      display: none
-    }
-
-    @media only screen and (min-width:1200px) {
-      .menu {
-        display: block;
-        position: absolute;
-        top: 4rem;
-        right: 6.4rem
-      }
-
-      .menu ul {
-        display: block;
-        position: relative
-      }
-
-      .menu ul li {
-        display: inline-block;
-        position: relative;
-        margin-right: 32px
-      }
-
-      .menu ul li:last-of-type {
-        margin-right: 0
-      }
-
-      .menu ul li::after {
-        content: '';
-        display: block;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 2px;
-        width: 0;
-        background: #303030;
-        -webkit-transition: all .5s cubic-bezier(.26, .82, .76, 1.06);
-        -o-transition: all .5s cubic-bezier(.26, .82, .76, 1.06);
-        -moz-transition: all .5s cubic-bezier(.26, .82, .76, 1.06);
-        transition: all .5s cubic-bezier(.26, .82, .76, 1.06)
-      }
-
-      .no-touch .menu ul li:hover::after {
-        width: 64%
-      }
-
-      .no-touch .menu ul li:hover a {
-        color: #000
-      }
-
-      .menu ul li a {
-        display: block;
-        position: relative;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 1.6rem;
-        color: #303030
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .menu {
-        position: absolute;
-        top: 4.8rem;
-        right: 8rem
-      }
-    }
-
-    .countdown {
-      position: absolute;
-      bottom: 4rem;
-      right: 10%;
-      opacity: 1;
-      -webkit-transition: opacity 1s ease-in-out;
-      -o-transition: opacity 1s ease-in-out;
-      -moz-transition: opacity 1s ease-in-out;
-      transition: opacity 1s ease-in-out;
-      z-index: 1;
-      text-align: right
-    }
-
-    .countdown::after {
-      clear: both;
-      content: "";
-      display: table
-    }
-
-    .countdown #countdown {
-      position: relative;
-      font-family: Poppins, sans-serif;
-      font-size: 6rem;
-      font-weight: 700;
-      line-height: .8;
-      color: #fff
-    }
-
-    .countdown .help-text {
-      display: block;
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.2;
-      color: #fff;
-      margin-top: .8rem
-    }
-
-    .countdown .countdown-period {
-      display: none
-    }
-
-    @media only screen and (min-width:1200px) {
-      .countdown {
-        position: absolute;
-        top: auto;
-        right: 6.4rem;
-        bottom: 4rem;
-        left: auto;
-        -webkit-transform: translateX(0) translateY(0);
-        -moz-transform: translateX(0) translateY(0);
-        -ms-transform: translateX(0) translateY(0);
-        transform: translateX(0) translateY(0);
-        text-align: right
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .countdown {
-        position: absolute;
-        right: 8rem;
-        bottom: 4.8rem;
-        left: auto
-      }
-
-      .countdown #countdown {
-        font-size: 7rem
-      }
-    }
-
-    .socials {
-      position: absolute;
-      bottom: 4rem;
-      left: 10%
-    }
-
-    .socials::after {
-      clear: both;
-      content: "";
-      display: table
-    }
-
-    .socials ul {
-      display: block;
-      position: relative
-    }
-
-    .socials ul li {
-      display: inline-block;
-      margin: 0 2.4rem 0 0
-    }
-
-    .socials ul li a {
-      display: block;
-      position: relative;
-      font-size: 1.6rem;
-      color: #303030;
-      -webkit-transition: color .5s ease-in-out;
-      -o-transition: color .5s ease-in-out;
-      -moz-transition: color .5s ease-in-out;
-      transition: color .5s ease-in-out
-    }
-
-    .socials ul li a i {
-      font-size: 1.6rem;
-      -webkit-transition: all .3s;
-      -o-transition: all .3s;
-      -moz-transition: all .3s;
-      transition: all .3s
-    }
-
-    .no-touch .socials ul li:hover a {
-      color: #aaa
-    }
-
-    @media only screen and (min-width:1200px) {
-      .socials {
-        position: absolute;
-        right: auto;
-        bottom: 4rem;
-        left: 6.4rem
-      }
-
-      .socials ul {
-        display: block
-      }
-
-      .socials ul li {
-        display: inline-block;
-        margin: 0 2.4rem 0 0
-      }
-
-      .socials ul li a {
-        display: block
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      .socials {
-        position: absolute;
-        right: auto;
-        bottom: 4.8rem;
-        left: 8rem
-      }
-    }
-
-    h1 {
-      display: inline-block;
-      position: relative;
-      font-weight: 800;
-      font-size: 5rem;
-      line-height: 1;
-      color: #262626;
-      margin: 2.4rem 0
-    }
-
-    h1::before {
-      height: 100%
-    }
-
-    h1.light-text {
-      color: #fff
-    }
-
-    @media only screen and (min-width:768px) {
-      h1 {
-        font-size: 7rem
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      h1 {
-        font-size: 11rem;
-        margin-bottom: 3.2rem
-      }
-    }
-
-    p {
-      font-size: 1.5rem;
-      font-weight: 400;
-      color: #303030
-    }
-
-    p.headline-text {
-      font-size: 1.6rem;
-      margin-bottom: 3rem
-    }
-
-    @media only screen and (min-width:768px) {
-      p.headline-text {
-        font-size: 1.8rem;
-        margin-bottom: 3.2rem;
-        max-width: 480px
-      }
-    }
-
-    @media only screen and (min-width:1600px) {
-      p.headline-text {
-        margin-bottom: 4.2rem;
-        max-width: 540px;
-        font-size: 2rem
-      }
-    }
-
-    .content-section {
-      position: relative;
-      width: 100%;
-      background-color: transparent
-    }
-
-    @media only screen and (min-width:1200px) {
-      .content-section {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        z-index: 3
-      }
-    }
-
-    .about .about-info,
-    .about .about-photo {
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0)
-    }
-
-    @media only screen and (min-width:1200px) {
-      .about .about-info {
-        -webkit-transform: translateY(100%);
-        -moz-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-        transform: translateY(100%)
-      }
-
-      .about .about-photo {
-        -webkit-transform: translateY(-100%);
-        -moz-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-        transform: translateY(-100%)
-      }
-    }
-
-    .works .works-gallery,
-    .works .works-info {
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0)
-    }
-
-    @media only screen and (min-width:1200px) {
-      .works .works-gallery {
-        -webkit-transform: translateY(-100%);
-        -moz-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-        transform: translateY(-100%)
-      }
-
-      .works .works-info {
-        -webkit-transform: translateY(100%);
-        -moz-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-        transform: translateY(100%)
-      }
-    }
-
-    .contact .contact-info,
-    .contact .contact-map {
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0)
-    }
-
-    @media only screen and (min-width:1200px) {
-      .contact .contact-info {
-        z-index: 2;
-        -webkit-transform: translateY(100%);
-        -moz-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-        transform: translateY(100%)
-      }
-
-      .contact .contact-map {
-        z-index: 1;
-        -webkit-transform: translateY(-100%);
-        -moz-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-        transform: translateY(-100%)
-      }
-    }
-
-    .notify,
-    .writealine {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      overflow-y: auto;
-      z-index: 10;
-      opacity: 1;
-      -webkit-transform: translateZ(0);
-      -moz-transform: translateZ(0);
-      transform: translateZ(0);
-      -webkit-transform: translateX(100%) translateY(0);
-      -moz-transform: translateX(100%) translateY(0);
-      -ms-transform: translateX(100%) translateY(0);
-      transform: translateX(100%) translateY(0)
-    }
-  </style>
-  <!-- First Visible Screen CSS End-->
-
-  <!-- Load CSS, CSS Localstorage & WebFonts Main Function Start-->
-  <script>
-    !function (e) { "use strict"; function t(e, t, n) { e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent && e.attachEvent("on" + t, n) }; function n(t, n) { return e.localStorage && localStorage[t + "_content"] && localStorage[t + "_file"] === n }; function a(t, a) { if (e.localStorage && e.XMLHttpRequest) n(t, a) ? o(localStorage[t + "_content"]) : l(t, a); else { var s = r.createElement("link"); s.href = a, s.id = t, s.rel = "stylesheet", s.type = "text/css", r.getElementsByTagName("head")[0].appendChild(s), r.cookie = t } } function l(e, t) { var n = new XMLHttpRequest; n.open("GET", t, !0), n.onreadystatechange = function () { 4 === n.readyState && 200 === n.status && (o(n.responseText), localStorage[e + "_content"] = n.responseText, localStorage[e + "_file"] = t) }, n.send() } function o(e) { var t = r.createElement("style"); t.setAttribute("type", "text/css"), r.getElementsByTagName("head")[0].appendChild(t), t.styleSheet ? t.styleSheet.cssText = e : t.innerHTML = e } var r = e.document; e.loadCSS = function (e, t, n) { var a, l = r.createElement("link"); if (t) a = t; else { var o; o = r.querySelectorAll ? r.querySelectorAll("style,link[rel=stylesheet],script") : (r.body || r.getElementsByTagName("head")[0]).childNodes, a = o[o.length - 1] } var s = r.styleSheets; l.rel = "stylesheet", l.href = e, l.media = "only x", a.parentNode.insertBefore(l, t ? a : a.nextSibling); var c = function (e) { for (var t = l.href, n = s.length; n--;)if (s[n].href === t) return e(); setTimeout(function () { c(e) }) }; return l.onloadcssdefined = c, c(function () { l.media = n || "all" }), l }, e.loadLocalStorageCSS = function (l, o) { n(l, o) || r.cookie.indexOf(l) > -1 ? a(l, o) : t(e, "load", function () { a(l, o) }) } }(this);
-  </script>
-  <!-- Load CSS, CSS Localstorage & WebFonts Main Function End-->
-
-  <!-- Load Fonts CSS Start-->
-  <script>
-    loadCSS("css/fonts.min.css?ver=1.0.0", false, "all"); // Loading fonts, if the site is located in a subfolder
-  </script>
-  <!-- Load Fonts CSS End-->
-
-  <!-- Load Custom CSS Start-->
-  <script>
-    loadCSS("css/main.min.css?ver=1.0.0", false, "all");
-    loadCSS("css/colors/color-3.min.css?ver=1.0.0", false, "all");
-  </script>
-  <!-- Load Custom CSS End-->
-
-  <!-- Load Custom CSS Compiled without JS Start-->
-  <noscript>
-    <link rel="stylesheet" href="css/fonts.min.css">
-    <link rel="stylesheet" href="css/main.min.css">
-    <link rel="stylesheet" href="css/colors/color-3.min.css">
-  </noscript>
-  <!-- Load Custom CSS Compiled without JS End-->
-
-  <!-- Custom Browser Color Start-->
-  <meta name="theme-color" content="#333b8f">
-  <meta name="msapplication-navbutton-color" content="#333b8f">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#333b8f">
-  <!-- Custom Browser Color End-->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/color-3/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/color-3/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/color-3/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/color-3/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/color-3/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/color-3/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/color-3/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/color-3/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/color-3/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/color-3/android-chrome-192x192.png">
+  <meta property="og:image" content="assets/favicon/color-3/og-image-250x250.jpg">
+
+	<!-- Head Libs -->
+	<script async src="assets/vendors/modernizr.min.js"></script>
 
 </head>
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
 
-<body>
+	<div id="wrap">
 
-  <!-- Old Browsers Support Start-->
-  <!--[if lt IE 9]>
-      <script src="js/libs/es5-shim.min.js"></script>
-      <script src="js/libs/html5shiv.min.js"></script>
-      <script src="js/libs/html5shiv-printshiv.min.js"></script>
-      <script src="js/libs/respond.min.js"></script>
-    <![endif]-->
-  <!-- Old Browsers Support End-->
+		<header class="main-header main-header-overlay">
 
-  <!-- Loader Start-->
-  <div class="loader">
-    <div class="loader-content">
-      <div class="loader-logo slideInDown">
-        <!-- Your Logo Here -->
-        <img src="img/tal-small-white.svg" alt="Think Active Labs">
-      </div>
-      <div class="loader-caption slideInUp">
-        <span class="loading-dots">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </span>
-      </div>
-    </div>
-  </div>
-  <!-- Loader End-->
+			<div class="mainbar-wrap">
+				<div class="megamenu-hover-bg"></div><!-- /.megamenu-hover-bg -->
+				<div class="container-fluid mainbar-container">
+					<div class="mainbar">
+						<div class="row mainbar-row align-items-lg-stretch px-4">
 
-  <!-- Custom HTML Start-->
+							<div class="col-auto">
+								<div class="navbar-header">
+									<a class="navbar-brand" href="/" rel="home">
+										<span class="navbar-brand-inner">
+											<img class="logo-dark" width="80" src="./assets/img/logo/ta-logo.png" alt="Think Active Labs">
+											<img class="logo-sticky" width="80" src="./assets/img/logo/ta-logo.png" alt="Think Active Labs">
+											<img class="mobile-logo-default" width="80" src="./assets/img/logo/ta-logo.png" alt="Think Active Labs">
+											<img class="logo-default" width="80" src="./assets/img/logo/ta-logo.png" alt="Think Active Labs">
+										</span>
+									</a>
+									<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
+										<span class="sr-only">Toggle navigation</span>
+										<span class="bars">
+											<span class="bar"></span>
+											<span class="bar"></span>
+											<span class="bar"></span>
+										</span>
+									</button>
+								</div><!-- /.navbar-header -->
+							</div><!-- /.col -->
 
-  <!-- Main Screen Section Start-->
-  <section id="main" class="main">
+							<div class="col">
 
-    <div class="container-fluid fullheight">
+								<div class="collapse navbar-collapse" id="main-header-collapse">
 
-      <!-- Main Section Intro Start -->
-      <div class="main-intro col-xs-12 col-lg-6">
+									<ul id="primary-nav" class="main-nav nav align-items-lg-stretch justify-content-lg-start" data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' data-localscroll="true">
 
-        <div class="intro-content">
+										<li>
+											<a href="#wrap">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">
+														Home
+														<span class="submenu-expander">
+															<i class="fa fa-angle-down"></i>
+														</span>
+													</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#about">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">
+														About
+														<span class="submenu-expander">
+															<i class="fa fa-angle-down"></i>
+														</span>
+													</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#services">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">
+														Services
+														<span class="submenu-expander">
+															<i class="fa fa-angle-down"></i>
+														</span>
+													</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#works">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">
+														Work
+														<span class="submenu-expander">
+															<i class="fa fa-angle-down"></i>
+														</span>
+													</span>
+												</span>
+											</a>
+                    </li>
+                    <li>
+											<a href="#team">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">
+														Team
+														<span class="submenu-expander">
+															<i class="fa fa-angle-down"></i>
+														</span>
+													</span>
+												</span>
+											</a>
+                    </li>
 
-          <!-- Logo Start-->
-          <div class="logo">
-            <img src="img/tal-small-white.svg" alt="Think Active Labs - Sports Technology Research">
-          </div>
-          <!-- Logo End-->
+									</ul><!-- /#primary-nav  -->
 
-          <!-- Main Menu Start -->
-          <div class="menu">
-            <nav>
-              <ul>
-                <li><a href="#" id="about-trigger">About us</a></li>
-                <li><a href="#" id="works-trigger">Our team</a></li>
-                <li><a href="#" id="contact-trigger">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          <!-- Main Menu End -->
+								</div><!-- /#main-header-collapse -->
 
-          <!-- Socials Start -->
-          <div class="socials">
-            <ul>
-              <li>
-                <a href="https://twitter.com/thinkactivelabs" target="_blank">
-                  <i class="icon ion-social-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/company/think-active-labs" target="_blank">
-                  <i class="icon ion-social-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!-- Socials End -->
+							</div><!-- /.col -->
 
-          <!-- Main Headline Start -->
-          <div class="headline">
+							<div class="col text-right">
 
-            <!-- Headline Content Start -->
-            <h1 class="txt-light">
-              We are
-              <br>
-              <span>Think Active Labs</span>
-            </h1>
-            <p class="headline-text txt-light">
-              A Sports Technology Research Group based in Newcastle upon Tyne.
-              <br><br>
-              We are proud to introduce our first product,<br>Think Active &mdash; Classroom Activity Tracking solution.
-            </p>
+								<div class="header-module">
+								</div><!-- /.header-module -->
 
-            <a href="https://thinkactivekit.com" class="btn btn-l btn-light-outline">
-              <span class="btn-caption">Go to Think Active</span>
-            </a>
-            <!-- Headline Content End -->
+								<div class="header-module">
+									<a href="mailto:contact@thinkactivelabs.co.uk" class="btn btn-default text-uppercase btn-sm circle btn-bordered border-thin px-2">
+										<span>
+											<span class="btn-txt">Contact Us</span>
+										</span>
+									</a>
+								</div><!-- /.header-module -->
 
-          </div>
-          <!-- Main Headline End -->
+							</div><!-- /.col -->
 
+						</div><!-- /.mainbar-row -->
+					</div><!-- /.mainbar -->
+				</div><!-- /.mainbar-container -->
+			</div><!-- /.mainbar-wrap -->
+
+		</header><!-- /.main-header -->
+
+		<main id="content" class="content">
+
+			<section class="vc_row bg-no-repeat fullheight d-flex align-items-center py-5" style="background-image: url(./assets/demo/bg/bg-75.svg); background-position: 170% 110%;">
+
+				<div class="lqd-particles-bg-wrap">
+					<div class="ld-particles-container">
+						<div
+						class="ld-particles-inner"
+						id="particles-1559739661542-e9d04c39-a9eb"
+						data-particles="true"
+						data-particles-options='{"particles":{"number":{"value":4}, "color":{"value":["#fdc14c", "#fd5c4c", "#48bb0f"]}, "shape":{"type":["circle"]}, "opacity":{"random":true, "anim":{"enable":true, "opacity_min":0.80000000000000004, "speed":1, "sync":true}}, "size":{"value":5, "random":true, "anim":{"enable":true, "size_min":52}}, "move":{"enable":true, "direction":"none", "speed":1, "random":true, "out_mode":"out"}}, "interactivity":[]}'>
+						</div><!-- /.ld-particles-inner -->
+					</div><!-- /.ld-particles-container -->
+				</div><!-- /.lqd-particles-bg-wrap -->
+
+				<div class="container">
+					<div class="row d-flex flex-wrap align-items-center">
+
+						<div class="lqd-column col-lg-5 col-md-6">
+
+							<div class="ld-fancy-heading mask-text text-uppercase">
+								<h6
+								class=" font-size-20 ltr-sp-01"
+								data-split-text="true"
+								data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview", "animationTarget":".split-inner", "duration":"1600", "delay":100, "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":60}, "animations":{"translateY":0}}'
+								data-split-options='{"type":"lines"}'>
+									<span class="ld-fh-txt">Think Active Labs</span>
+								</h6>
+							</div><!-- /.ld-fancy-heading -->
+
+							<div class="ld-fancy-heading mask-text">
+								<h2
+								data-fittext="true"
+								data-fittext-options='{"compressor":0.55,"maxFontSize":"60", "minFontSize":"48"}'
+								data-split-text="true" data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview", "animationTarget":".split-inner", "duration":"1600", "startDelay":"200", "delay":"160", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":150}, "animations":{"translateY":0}}'
+								data-split-options='{"type":"lines"}'>
+									<span class="ld-fh-txt">Digital Design Agency</span>
+								</h2>
+							</div><!-- /.ld-fancy-heading -->
+
+							<div class="ld-fancy-heading mask-text mb-4">
+								<p
+								class="font-size-18 lh-165"
+								data-split-text="true"
+								data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":"1600","startDelay":"650","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":60},"animations":{"translateY":0}}'
+								data-split-options='{"type":"lines"}'>
+                  <span class="ld-fh-txt">We specialise in bespoke software development, digital and print brand identities, interactive exhibition spaces, and innovative sensor devices.</span>
+								</p>
+							</div><!-- /.ld-fancy-heading -->
+
+							<div class="row">
+								<div
+								class="lqd-column col-md-12"
+								data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1600", "startDelay":"1300", "delay":"160", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":40, "opacity":0}, "animations":{"translateY":0, "opacity":1}}'>
+
+									<a
+									href="#"
+									class="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin btn-gradient px-2"
+									data-localscroll="true"
+									data-localscroll-options='{"scrollBelowSection":true}'>
+										<span>
+											<span class="btn-gradient-bg"></span>
+											<span class="btn-txt">Let's Go</span>
+											<span class="btn-gradient-bg btn-gradient-bg-hover"></span>
+											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="btn-gradient-border" width="100%" height="100%">
+												<defs>
+													<linearGradient id="svg-border-1" x1="0%" y1="0%" x2="100%" y2="0%">
+														<stop offset="0%"></stop>
+														<stop offset="100%"></stop>
+													</linearGradient>
+												</defs>
+												<rect x="0.5" y="0.5" rx="29.5" ry="29.5" width="100%" height="100%" stroke="url(#svg-border-1)"></rect>
+											</svg>
+										</span>
+									</a>
+
+								</div><!-- /.lqd-column col-md-12 -->
+							</div><!-- /.row -->
+
+						</div><!-- /.lqd-column col-lg-5 col-md-6 -->
+
+						<div class="lqd-column col-lg-7 col-md-6 visible-md visible-lg">
+
+							<div
+								class="liquid-img-group-container lqd-parallax-images-7"
+								data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview", "animationTarget":".liquid-img-group-single", "duration":"1600", "startDelay":"1150", "delay":"200", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateX":40, "translateY":191, "rotateZ":7, "opacity":0}, "animations":{"translateX":0, "translateY":0, "rotateZ":0, "opacity":1}}'>
+								<div class="liquid-img-group-inner">
+
+									<div class="liquid-img-group-single">
+										<div class="liquid-img-group-img-container">
+											<div
+											class="liquid-img-container-inner"
+											data-parallax="true"
+											data-parallax-from='{"translateY":2}'
+											data-parallax-to='{"translateY":120}'
+											data-parallax-options='{"overflowHidden":false,"easing":"linear"}'>
+												<figure>
+													<img src="./assets/demo/misc/phone-1.png" alt="Mobile Phone" />
+												</figure>
+											</div><!-- /.liquid-img-container-inner -->
+										</div><!-- /.liquid-img-group-img-container -->
+									</div><!-- /.liquid-img-group-single -->
+
+									<div class="liquid-img-group-single">
+										<div class="liquid-img-group-img-container">
+											<div
+											class="liquid-img-container-inner"
+											data-parallax="true"
+											data-parallax-from='{"translateY":30}'
+											data-parallax-to='{"translateY":70}'
+											data-parallax-options='{"overflowHidden":false,"easing":"linear"}'>
+												<figure>
+													<img src="./assets/demo/misc/laptop-1.png" alt="Laptop" />
+												</figure>
+											</div><!-- /.liquid-img-container-inner -->
+										</div><!-- /.liquid-img-group-img-container -->
+									</div><!-- /.liquid-img-group-single -->
+
+								</div><!-- /.liquid-img-group-inner -->
+							</div><!-- /.liquid-img-group-container -->
+
+						</div><!-- /.lqd-column col-lg-7 col-md-6 -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+
+			</section>
+
+			<section id="about" class="vc_row bg-no-repeat pt-150 pb-150" style="background-image: url(./assets/demo/bg/bg-76.svg); background-position: -90% 80%;">
+				<div class="container">
+
+					<div class="row d-flex flex-wrap align-items-center">
+
+						<div class="lqd-column col-md-6">
+
+							<div
+							class="liquid-img-group-container lqd-parallax-images-8"
+							data-custom-animations="true"
+							data-ca-options='{"triggerHandler":"inview", "animationTarget":".liquid-img-group-single", "duration":"1600", "delay":"160", "easing":"easeOutQuint", "direction":"backward", "initValues":{"translateX":-85, "opacity":0}, "animations":{"translateX":0, "opacity":1}}'>
+								<div class="liquid-img-group-inner">
+
+									<div
+									class="liquid-img-group-single"
+									data-shadow-style="4"
+									data-roundness="8"
+									data-inview="true"
+									data-animate-shadow="true">
+										<div class="liquid-img-group-img-container">
+											<div
+											class="liquid-img-container-inner"
+											data-parallax="true"
+											data-parallax-from='{"translateY":78}'
+											data-parallax-to='{"translateY":-78}'
+											data-parallax-options='{"overflowHidden":false, "easing":"linear"}'>
+												<figure class="w-90">
+													<img src="./assets/img/misc/gold-padlock-locking-door-164425-2.jpg" alt="Working with TAL" />
+												</figure>
+											</div><!-- /.liquid-img-container-inner -->
+										</div><!-- /.liquid-img-group-img-container -->
+									</div><!-- /.liquid-img-group-single -->
+
+									<div
+										class="liquid-img-group-single"
+										data-shadow-style="4"
+										data-roundness="8" data-inview="true" data-animate-shadow="true">
+										<div class="liquid-img-group-img-container">
+											<div class="liquid-img-group-content content-floated-mid">
+											</div><!-- /.liquid-img-group-content -->
+											<div
+											class="liquid-img-container-inner"
+											data-parallax="true"
+											data-parallax-from='{"translateY":107}'
+											data-parallax-to='{"translateY":-134}'
+											data-parallax-options='{"overflowHidden":false,"easing":"linear"}'>
+												<figure>
+													<img src="./assets/img/misc/empty-bed-with-laptop-and-notebook-4050423.jpg" alt="Working with TAL" />
+												</figure>
+											</div><!-- /.liquid-img-container-inner -->
+										</div><!-- /.liquid-img-group-img-container -->
+									</div><!-- /.liquid-img-group-single -->
+
+								</div><!-- /.liquid-img-group-inner -->
+							</div><!-- /.liquid-img-group-container -->
+
+						</div><!-- /.lqd-column col-md-6 -->
+
+						<div
+						data-custom-animations="true"
+						data-ca-options='{"triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1600", "delay":"160", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":30, "opacity":0}, "animations":{"translateY":0, "opacity":1}}'
+						class="lqd-column col-md-5 col-md-offset-1">
+
+							<header class="fancy-title mb-50">
+								<h6 class="text-uppercase">About us</h6>
+                <h3 class="lh-1 mb-0" data-fittext="true" data-fittext-options='{"compressor":0.65, "maxFontSize":"72", "minFontSize":"48"}'>We design <strong>human-centered</strong> products</h3>
+							</header>
+
+							<p class="font-size-30 lh-105"><i>We help you design, build, and launch innovative digital products.</i></p>
+
+							<p class="font-size-18 lh-15 mb-55">We have worked with businesses, public sector, international charities, and academia to produce cutting edge digital products and services. Our experience of working in industry and academic R&D labs means that we bring innovative design thinking and technical capability to the experiences you want to create.</p>
+
+							<a
+							href="#"
+							class="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin btn-gradient font-weight-bold px-2"
+							data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+								<span>
+									<span class="btn-gradient-bg"></span>
+									<span class="btn-txt">Our services</span>
+									<span class="btn-gradient-bg btn-gradient-bg-hover"></span>
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="btn-gradient-border" width="100%" height="100%">
+										<defs>
+											<linearGradient id="svg-border-2" x1="0%" y1="0%" x2="100%" y2="0%">
+												<stop offset="0%"></stop>
+												<stop offset="100%"></stop>
+											</linearGradient>
+										</defs>
+										<rect x="0.5" y="0.5" rx="29.5" ry="29.5" width="100%" height="100%" stroke="url(#svg-border-2)"></rect>
+									</svg>
+								</span>
+							</a>
+
+						</div><!-- /.lqd-column col-md-5 col-md-offset-1 -->
+
+					</div><!-- /.row -->
+
+				</div><!-- /.container -->
+			</section><!-- /.vc_row -->
+
+			<section id="services" class="vc_row pt-90 pb-90 bg-no-repeat" style="background-image: url(./assets/demo/bg/bg-77.svg); background-position: 500% 0%;">
+				<div class="container">
+
+					<div class="row d-flex flex-wrap align-items-center">
+
+						<div
+						class="lqd-column col-md-5 mb-30"
+						data-custom-animations="true"
+						data-ca-options='{"triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1600", "delay":"160", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":30, "opacity":0}, "animations":{"translateY":0, "opacity":1}}'>
+
+							<header class="fancy-title pr-md-4">
+								<h6 class="text-uppercase">Services</h6>
+								<h2><strong>We develop</strong> ideas with you</h2>
+							</header>
+
+							<p class="font-size-18 lh-15 mb-55">We work closely with you to understand your needs and help you to create the products and services you need.<br /><br />We offer branding and UI/UX product design that make your idea come to life. We can rapid prototype your ideas or engineer production-ready products and services to your specification. We can also create live interactive exhibitions that will engage and inform your clients through interactive experiences.</p>
+
+							<a
+							href="#"
+							class="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin btn-gradient font-weight-bold px-2"
+							data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+								<span>
+									<span class="btn-gradient-bg"></span>
+									<span class="btn-txt">Our clients</span>
+									<span class="btn-gradient-bg btn-gradient-bg-hover"></span>
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="btn-gradient-border" width="100%" height="100%">
+										<defs>
+											<linearGradient id="svg-border-3" x1="0%" y1="0%" x2="100%" y2="0%">
+												<stop offset="0%"></stop>
+												<stop offset="100%"></stop>
+											</linearGradient>
+										</defs>
+										<rect x="0.5" y="0.5" rx="29.5" ry="29.5" width="100%" height="100%" stroke="url(#svg-border-3)"></rect>
+									</svg>
+								</span>
+							</a>
+
+						</div><!-- /.lqd-column col-md-5 -->
+
+						<div
+						class="lqd-column col-md-3 col-md-offset-1"
+						>
+
+							<div
+							class="lqd-column-inner"
+							data-parallax="true"
+							data-parallax-from='{"translateY":-30}'
+							data-parallax-to='{"translateY":120}'
+							data-parallax-options='{"duration":"2000", "easing":"linear", "reverse":true, "triggerHook":"onEnter", "overflowHidden": false}'>
+
+								<div class="iconbox text-left iconbox-round iconbox-lg iconbox-filled iconbox-filled iconbox-filled-hover iconbox-icon-image iconbox-shadow pt-50 pb-40">
+									<div class="iconbox-icon-wrap">
+										<span class="iconbox-icon-container mb-35">
+											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.375" height="45.188" viewBox="0 0 42.375 45.188">
+												<defs>
+													<filter id="filter-seo-icon-4" x="0.813" y="0" width="42.375" height="45.188" filterUnits="userSpaceOnUse">
+														<feImage preserveAspectRatio="none" x="0.8125" y="0" width="42.375" height="45.188" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDIuMzc1IiBoZWlnaHQ9IjQ1LjE4OCIgdmlld0JveD0iMCAwIDQyLjM3NSA0NS4xODgiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB5MT0iMjIuNTk0IiB4Mj0iNDIuMzc1IiB5Mj0iMjIuNTk0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZlNTA2YyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmYzZhMmEiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjQyLjM3NSIgaGVpZ2h0PSI0NS4xODgiLz4KPC9zdmc+Cg==" />
+														<feComposite result="composite" operator="in" in2="SourceGraphic" />
+														<feBlend result="blend" in2="SourceGraphic" />
+													</filter>
+												</defs>
+												<path filter="url(#filter-seo-icon-4)" d="M26.313,28.406l-8.531-5.719L9.25,28.406V0H26.313V28.406h0Zm-14.25-5.25,5.719-3.937L23.5,23.156V2.813H12.063V23.156h0ZM43.188,2.813H29.031V5.625H40.375v36.75H3.625V5.625H6.438V2.813H0.813V45.188H43.188V2.813h0Z" transform="translate(-0.813)" />
+											</svg>
+										</span>
+									</div><!-- /.iconbox-icon-wrap -->
+									<div class="contents">
+										<h3>Branding</h3>
+										<p class="font-size-16 lh-165">We can produce a new look and feel for your company or brand. We carefully analyse your brand identity and stylings and provide a tailored experience to you.</p>
+									</div><!-- /.contents -->
+								</div><!-- /.iconbox -->
+
+								<div class="iconbox text-left iconbox-round iconbox-lg iconbox-filled iconbox-filled iconbox-filled-hover iconbox-icon-image iconbox-shadow pt-50 pb-40">
+									<div class="iconbox-icon-wrap">
+										<span class="iconbox-icon-container mb-35">
+											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="42.375" viewBox="0 0 48 42.375">
+												<defs>
+													<filter id="filter-seo-icon-6" x="0" y="0.813" width="48" height="42.375" filterUnits="userSpaceOnUse">
+														<feImage preserveAspectRatio="none" x="0" y="0.8125" width="48" height="42.375" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDgiIGhlaWdodD0iNDIuMzc1IiB2aWV3Qm94PSIwIDAgNDggNDIuMzc1Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeTE9IjIxLjE4OCIgeDI9IjQ4IiB5Mj0iMjEuMTg4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZlNTA2YyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmYzZhMmEiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQyLjM3NSIvPgo8L3N2Zz4K" />
+														<feComposite result="composite" operator="in" in2="SourceGraphic" />
+														<feBlend result="blend" in2="SourceGraphic" />
+													</filter>
+												</defs>
+												<path filter="url(#filter-seo-icon-6)" d="M0,0.813H48V43.188H0V0.813H0ZM45.188,9.25V3.625H37.781L44.438,9.25h0.75ZM24.656,17.781h8.25l6.656-5.625h-8.25l-6.656,5.625h0ZM19.219,9.25h8.25L20.813,3.625h-8.25L19.219,9.25h0ZM27,12.156H18.75l-6.656,5.625h8.25L27,12.156h0ZM31.781,9.25h8.25L33.375,3.625h-8.25L31.781,9.25h0ZM2.813,3.625V9.25h12L8.156,3.625H2.813Zm0,8.531v5.625H7.688l6.656-5.625H2.813ZM45.188,40.375V20.594H2.813V40.375H45.188Zm0-22.594V12.156H43.969l-6.656,5.625h7.875Z" transform="translate(0 -0.813)" />
+											</svg>
+										</span>
+									</div><!-- /.iconbox-icon-wrap -->
+									<div class="contents">
+										<h3>Bespoke Software Development</h3>
+										<p class="font-size-16 lh-165">Our team of engineers and designers are highly experienced in producing production grade software solutions. Covering mobile and web applications as well as custom hardware.</p>
+									</div><!-- /.contents -->
+								</div><!-- /.iconbox -->
+
+							</div><!-- /.lqd-column-inner -->
+
+						</div><!-- /.lqd-column col-md-3 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div
+							class="lqd-column-inner"
+							data-parallax="true"
+							data-parallax-from='{"translateY":50}'
+							data-parallax-to='{"translateY":-130}'
+							data-parallax-options='{"duration":"2000", "easing":"linear", "reverse":true, "triggerHook":"onEnter", "overflowHidden": false}'>
+
+								<div class="iconbox text-left iconbox-round iconbox-lg iconbox-filled iconbox-filled iconbox-filled-hover iconbox-icon-image iconbox-shadow pt-50 pb-40">
+									<div class="iconbox-icon-wrap">
+										<span class="iconbox-icon-container mb-35">
+											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.219" height="48" viewBox="0 0 31.219 48">
+												<defs>
+													<filter id="filter-seo-icon-5" x="0.344" y="0" width="31.219" height="48" filterUnits="userSpaceOnUse">
+														<feImage preserveAspectRatio="none" x="0.34375" y="0" width="31.219" height="48" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzEuMjE5IiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMzEuMjE5IDQ4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeTE9IjI0IiB4Mj0iMzEuMjE5IiB5Mj0iMjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmU1MDZjIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZjNmEyYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMzEuMjE5IiBoZWlnaHQ9IjQ4Ii8+Cjwvc3ZnPgo=" />
+														<feComposite result="composite" operator="in" in2="SourceGraphic" />
+														<feBlend result="blend" in2="SourceGraphic" />
+													</filter>
+												</defs>
+												<path filter="url(#filter-seo-icon-5)" d="M27.25,0a4.281,4.281,0,0,1,1.641.328,4.134,4.134,0,0,1,1.359.891,4.8,4.8,0,0,1,.938,1.359,3.026,3.026,0,0,1,.281,1.641l0.094,39.562a7.368,7.368,0,0,1-.375,1.641,3.156,3.156,0,0,1-.937,1.359,6.025,6.025,0,0,1-1.359.891A4.1,4.1,0,0,1,27.156,48H4.75a4.1,4.1,0,0,1-1.734-.328,5.993,5.993,0,0,1-1.359-.891,3.143,3.143,0,0,1-.937-1.359,7.287,7.287,0,0,1-.375-1.641L0.438,4.219A3,3,0,0,1,.719,2.578a4.77,4.77,0,0,1,.938-1.359A4.119,4.119,0,0,1,3.016.328,4.276,4.276,0,0,1,4.656,0H27.25ZM4.656,2.813a1.8,1.8,0,0,0-.562.094,0.754,0.754,0,0,0-.422.328,4.2,4.2,0,0,1-.328.469,0.514,0.514,0,0,0-.094.516L3.156,8.438H28.75L28.656,4.219A0.521,0.521,0,0,0,28.563,3.7a4,4,0,0,1-.328-0.469,0.754,0.754,0,0,0-.422-0.328,1.8,1.8,0,0,0-.562-0.094H4.656ZM28.75,11.25H3.156L3.25,33.844H28.656L28.75,11.25h0ZM27.156,45.188a1.632,1.632,0,0,0,.656-0.094,1.744,1.744,0,0,0,.422-0.328,1.436,1.436,0,0,0,.328-0.469c0.061-.155.125-0.328,0.188-0.516L28.656,36.75H3.25L3.156,43.781c0.062,0.188.125,0.36,0.188,0.516a1.392,1.392,0,0,0,.328.469,1.688,1.688,0,0,0,.422.328,1.622,1.622,0,0,0,.656.094H27.156Zm-9.75-4.219a3.6,3.6,0,0,1-.141-0.563,0.752,0.752,0,0,0-.281-0.469,1.923,1.923,0,0,0-.469-0.281,1.691,1.691,0,0,0-.609-0.094,2.045,2.045,0,0,0-.516.094,0.86,0.86,0,0,0-.469.281,3.142,3.142,0,0,0-.281.469,0.709,0.709,0,0,0-.047.563,0.592,0.592,0,0,0,.047.516,4.792,4.792,0,0,0,.281.422,1.112,1.112,0,0,0,.469.328,1.417,1.417,0,0,0,.516.141,1.177,1.177,0,0,0,.609-0.141,4.28,4.28,0,0,0,.469-0.328,0.733,0.733,0,0,0,.281-0.422,4.218,4.218,0,0,1,.141-0.516h0Z" transform="translate(-0.344)" />
+											</svg>
+										</span>
+									</div><!-- /.iconbox-icon-wrap -->
+									<div class="contents">
+										<h3>UI/UX Design</h3>
+										<p class="font-size-16 lh-165">We apply a research led approach to UI / UX design, creating effective and compelling experiences for your users.</p>
+									</div><!-- /.contents -->
+								</div><!-- /.iconbox -->
+
+								<div class="iconbox text-left iconbox-round iconbox-lg iconbox-filled iconbox-filled iconbox-filled-hover iconbox-icon-image iconbox-shadow pt-50 pb-40">
+									<div class="iconbox-icon-wrap">
+										<span class="iconbox-icon-container mb-35">
+											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="36.75" viewBox="0 0 48 36.75">
+												<defs>
+													<filter id="filter-seo-icon-7" x="0" y="0.625" width="48" height="36.75" filterUnits="userSpaceOnUse">
+														<feImage preserveAspectRatio="none" x="0" y="0.625" width="48" height="36.75" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDgiIGhlaWdodD0iMzYuNzUiIHZpZXdCb3g9IjAgMCA0OCAzNi43NSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHkxPSIxOC4zNzUiIHgyPSI0OCIgeTI9IjE4LjM3NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZTUwNmMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmM2YTJhIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI0OCIgaGVpZ2h0PSIzNi43NSIvPgo8L3N2Zz4K" />
+														<feComposite result="composite" operator="in" in2="SourceGraphic" />
+														<feBlend result="blend" in2="SourceGraphic" />
+													</filter>
+												</defs>
+												<path filter="url(#filter-seo-icon-7)" d="M16.781,3.438H48V37.375H0V3.438H8.625V0.625h8.156V3.438h0ZM45.188,34.563V14.781H40.781a6.936,6.936,0,0,1,.656,1.266,12.542,12.542,0,0,1,.469,1.406q0.187,0.7.328,1.453a8.139,8.139,0,0,1,.141,1.5,11,11,0,0,1-.891,4.406,11.446,11.446,0,0,1-6.047,6.047,10.984,10.984,0,0,1-4.406.891,10.645,10.645,0,0,1-4.359-.891,11.635,11.635,0,0,1-3.562-2.437,11.482,11.482,0,0,1-2.437-3.609,10.972,10.972,0,0,1-.891-4.406,12,12,0,0,1,.094-1.5,10.585,10.585,0,0,1,.281-1.453,8.381,8.381,0,0,1,.516-1.406,9.473,9.473,0,0,1,.7-1.266H2.813V34.563H45.188ZM39.563,20.406a7.951,7.951,0,0,0-.7-3.328,9.009,9.009,0,0,0-1.828-2.672,8.347,8.347,0,0,0-2.672-1.781,8.454,8.454,0,0,0-3.328-.656,8.216,8.216,0,0,0-3.234.656,8.916,8.916,0,0,0-2.719,1.781,7.95,7.95,0,0,0-1.828,2.672,8.768,8.768,0,0,0,0,6.656,7.949,7.949,0,0,0,1.828,2.672A8.889,8.889,0,0,0,27.8,28.188a8.189,8.189,0,0,0,3.234.656,8.427,8.427,0,0,0,3.328-.656,8.323,8.323,0,0,0,2.672-1.781,9.009,9.009,0,0,0,1.828-2.672,7.947,7.947,0,0,0,.7-3.328h0Zm-1.125-8.437h6.75V6.25H2.813v5.719H23.625A10.4,10.4,0,0,1,25.266,10.8a15.889,15.889,0,0,1,1.781-.891,9.251,9.251,0,0,1,1.922-.562,11.54,11.54,0,0,1,2.062-.187,11.312,11.312,0,0,1,2.109.188,10.571,10.571,0,0,1,1.922.563,12.033,12.033,0,0,1,1.781.891,11.792,11.792,0,0,1,1.594,1.172h0Z" transform="translate(0 -0.625)" />
+											</svg>
+										</span>
+									</div><!-- /.iconbox-icon-wrap -->
+									<div class="contents">
+										<h3>Interactive Exhibitions</h3>
+										<p class="font-size-16 lh-165">We are specialists in designing interactive experiences, research technology deployments and expos. We can build custom installations, room-scale experiences and more.</p>
+									</div><!-- /.contents -->
+								</div><!-- /.iconbox -->
+
+							</div><!-- /.lqd-column-inner -->
+
+						</div><!-- /.lqd-column col-md-3 -->
+
+					</div><!-- /.row -->
+
+					<div class="lqd-space visible-lg visible-md- mb-200"></div>
+
+				</div><!-- /.container -->
+      </section><!-- /.vc_row pt-90 pb-90 -->
+
+
+			<section class="vc_row pt-90">
+				<div class="container">
+					<div class="row text-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1600", "delay":"160", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":30, "opacity":0}, "animations":{"translateY":0, "opacity":1}}'>
+            <header class="fancy-title mb-0">
+              <h6 class="text-uppercase">Clients</h6>
+              <p>We've designed branding, developed prototypes, created interactive exhibitions, and deployed production systems for our clients.</p>
+              <br />
+            </header>
+
+            <div  class="carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1">
+							<div class="carousel-items row" data-lqd-flickity='{"wrapAround": true, "pageDots": true}'>
+
+								<!-- <div class="lqd-column w-20 text-center px-2 carousel-item"> -->
+                <div class="carousel-item col-xs-3">
+									<figure>
+										<img src="./assets/client_logos/color/BBC.svg" alt="BBC">
+									</figure>
+                </div><!-- /.lqd-column w-20 text-center px-2 -->
+
+                <div class="carousel-item col-xs-3">
+									<figure>
+										<img src="./assets/client_logos/color/IFRC.svg" alt="International Red Cross and Red Crescent">
+									</figure>
+								</div><!-- /.lqd-column w-20 text-center px-2 -->
+
+                <div class="carousel-item col-xs-3">
+                  <figure>
+                    <img src="./assets/client_logos/color/NUF.svg" alt="Newcastle United Foundation">
+                  </figure>
+                </div><!-- /.lqd-column w-20 text-center px-2 -->
+
+                <div class="carousel-item col-xs-3">
+									<figure>
+										<img src="./assets/client_logos/color/Microsoft.svg" alt="Microsoft Research">
+									</figure>
+								</div><!-- /.lqd-column w-20 text-center px-2 -->
+
+                <div class="carousel-item col-xs-3">
+                  <figure>
+                    <img src="./assets/client_logos/color/Newcastle-council.svg" alt="Newcastle City Council">
+                  </figure>
+                </div><!-- /.lqd-column w-20 text-center px-2 -->
+
+								<div class="carousel-item col-xs-3">
+									<figure>
+										<img src="./assets/client_logos/color/Hawk-eye.svg" alt="Hawk Eye">
+									</figure>
+								</div><!-- /.lqd-column w-20 text-center px-2 -->
+
+								<div class="carousel-item col-xs-3">
+									<figure>
+										<img src="./assets/client_logos/color/Nexus.svg" alt="Nexus">
+									</figure>
+								</div><!-- /.lqd-column w-20 text-center px-2 -->
+
+							</div><!-- /.carousel-items -->
+						</div><!-- /.carousel-container -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section><!-- /.vc_row -->
+
+      <section id="works" class="vc_row bg-no-repeat">
+        <div class="container">
+          <div class="row pt-80">
+
+						<div class="lqd-column col-md-12">
+
+							<div class="liquid-portfolio-list">
+
+								<div class="row d-flex flex-wrap align-items-end mb-40">
+									<div class="col-md-4">
+										<header class="fancy-title mb-0">
+											<h6 class="text-uppercase">Projects</h6>
+											<h2><strong>Latest</strong> work</h2>
+										</header>
+									</div><!-- /.col-md-6 -->
+									<div class="col-md-8">
+										<div class="liquid-filter-items align-items-center justify-content-end mb-10">
+											<div class="liquid-filter-items-inner">
+												<ul class="filter-list filter-list-inline size-sm text-uppercase ltr-sp-1" id="seo-pf-grid">
+													<li class="active" data-filter="*"><span>All</span></li>
+													<li data-filter=".products-and-services"><span>Products and Services</span></li>
+                          <li data-filter=".research"><span>Research</span></li>
+                          <li data-filter=".branding-and-design"><span>Branding and Design</span></li>
+												</ul>
+											</div><!-- /.liquid-filter-items-inner -->
+										</div><!-- /.liquid-filter-items -->
+									</div><!-- /.col-md-6 -->
+								</div><!-- /.row -->
+
+								<div
+								class="row liquid-portfolio-list-row"
+								data-liquid-masonry="true"
+								data-masonry-options='{ "filtersID": "#seo-pf-grid" }'
+								data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview","animationTarget":".ld-pf-item","animateTargetsWhenVisible":"true","duration":"1600","delay":"160","easing":"easeOutQuint","initValues":{"translateY":65,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+
+									<div class="col-md-4 col-sm-6 col-xs-12 masonry-item products-and-services grid-hover-overlay">
+										<article class="ld-pf-item ld-pf-dark pf-bg-shadow pf-details-visible pf-details-boxed pf-details-pull-right pf-details-pull-up-half title-size-24 pf-details-h-str pf-details-v-end post-2021 liquid-portfolio type-liquid-portfolio status-publish format-gallery has-post-thumbnail hentry post_format-post-format-gallery liquid-portfolio-category-branding liquid-portfolio-category-digital-design liquid-portfolio-category-grid-hover-overlay">
+											<div class="ld-pf-inner">
+												<div class="ld-pf-image">
+													<figure data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+														<img src="/assets/projects/think-active-kit/image-1.png" alt="Oblivision" style="max-height: 150px" />
+													</figure>
+												</div><!-- /.ld-pf-image -->
+												<div class="ld-pf-details py-3">
+													<div class="ld-pf-bg" style="background-color: #fff;" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "easing": "easeInOutCirc", "duration": 850, "offDuration": 700, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+													</div>
+													<div class="ld-pf-details-inner" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "easing": "easeOutQuint", "duration": 850, "offDuration": 750, "startDelay": 280, "offDelay": 280, "delay": 60, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+														<h3 class="ld-pf-title h4" data-split-text="true" data-split-options='{ "type": "lines" }'>Think Active</h3>
+														<p data-split-text="true" data-split-options='{ "type": "lines" }'>Activity tracking solution for schools and foundations</p>
+													</div>
+												</div>
+												<a href="projects/think-active.html" class="liquid-overlay-link"></a>
+											</div><!-- /.ld-pf-inner -->
+										</article>
+									</div><!-- /.col-md-4 -->
+
+									<div class="col-md-4 col-sm-6 col-xs-12 masonry-item products-and-services grid-hover-overlay">
+										<article class="ld-pf-item ld-pf-dark pf-bg-shadow pf-details-visible pf-details-boxed pf-details-pull-right pf-details-pull-up-half title-size-24 pf-details-h-str pf-details-v-end post-2021 liquid-portfolio type-liquid-portfolio status-publish format-gallery has-post-thumbnail hentry post_format-post-format-gallery liquid-portfolio-category-branding liquid-portfolio-category-digital-design liquid-portfolio-category-grid-hover-overlay">
+											<div class="ld-pf-inner">
+												<div class="ld-pf-image">
+													<figure data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+														<img src="/assets/projects/app-movement/hero-1.png" alt="App Movement Platform" style="max-height: 150px" />
+													</figure>
+												</div><!-- /.ld-pf-image -->
+												<div class="ld-pf-details py-3">
+													<div class="ld-pf-bg" style="background-color: #fff;" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "easing": "easeInOutCirc", "duration": 850, "offDuration": 700, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+													</div>
+													<div class="ld-pf-details-inner" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "easing": "easeOutQuint", "duration": 850, "offDuration": 750, "startDelay": 280, "offDelay": 280, "delay": 60, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+														<h3 class="ld-pf-title h4" data-split-text="true" data-split-options='{ "type": "lines" }'>App Movement</h3>
+														<p data-split-text="true" data-split-options='{ "type": "lines" }'>Participatory mobile app design</p>
+													</div>
+												</div>
+												<a href="projects/app-movement.html" class="liquid-overlay-link"></a>
+											</div><!-- /.ld-pf-inner -->
+										</article>
+									</div><!-- /.col-md-4 -->
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 masonry-item branding-and-design grid-hover-overlay">
+										<article class="ld-pf-item ld-pf-dark pf-bg-shadow pf-details-visible pf-details-boxed pf-details-pull-right pf-details-pull-up-half title-size-24 pf-details-h-str pf-details-v-end post-2021 liquid-portfolio type-liquid-portfolio status-publish format-gallery has-post-thumbnail hentry post_format-post-format-gallery liquid-portfolio-category-branding liquid-portfolio-category-digital-design liquid-portfolio-category-grid-hover-overlay">
+											<div class="ld-pf-inner">
+												<div class="ld-pf-image">
+													<figure data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+														<img src="/assets/projects/our-gateshead/hero-1.png" alt="OurGateshead" style="max-height: 150px" />
+													</figure>
+												</div><!-- /.ld-pf-image -->
+												<div class="ld-pf-details py-3">
+													<div class="ld-pf-bg" style="background-color: #fff;" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "easing": "easeInOutCirc", "duration": 850, "offDuration": 700, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+													</div>
+													<div class="ld-pf-details-inner" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "easing": "easeOutQuint", "duration": 850, "offDuration": 750, "startDelay": 280, "offDelay": 280, "delay": 60, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+														<h3 class="ld-pf-title h4" data-split-text="true" data-split-options='{ "type": "lines" }'>OurGateshead</h3>
+														<p data-split-text="true" data-split-options='{ "type": "lines" }'>Discover more on your doorstep</p>
+													</div>
+												</div>
+												<a href="projects/our-gateshead.html" class="liquid-overlay-link"></a>
+											</div><!-- /.ld-pf-inner -->
+										</article>
+                  </div><!-- /.col-md-4 -->
+
+									<div class="col-md-4 col-sm-6 col-xs-12 masonry-item research grid-hover-overlay">
+										<article class="ld-pf-item ld-pf-dark pf-bg-shadow pf-details-visible pf-details-boxed pf-details-pull-right pf-details-pull-up-half title-size-24 pf-details-h-str pf-details-v-end post-2021 liquid-portfolio type-liquid-portfolio status-publish format-gallery has-post-thumbnail hentry post_format-post-format-gallery liquid-portfolio-category-branding liquid-portfolio-category-digital-design liquid-portfolio-category-grid-hover-overlay">
+											<div class="ld-pf-inner">
+												<div class="ld-pf-image">
+													<figure data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+														<img src="/assets/projects/expressive-things/switch3.png" alt="Oblivision" style="max-height: 150px" />
+													</figure>
+												</div><!-- /.ld-pf-image -->
+												<div class="ld-pf-details py-3">
+													<div class="ld-pf-bg" style="background-color: #fff;" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "easing": "easeInOutCirc", "duration": 850, "offDuration": 700, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+													</div>
+													<div class="ld-pf-details-inner" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "easing": "easeOutQuint", "duration": 850, "offDuration": 750, "startDelay": 280, "offDelay": 280, "delay": 60, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+														<h3 class="ld-pf-title h4" data-split-text="true" data-split-options='{ "type": "lines" }'>Expressive Things</h3>
+														<p data-split-text="true" data-split-options='{ "type": "lines" }'>A new way to interact and control the smart-home</p>
+													</div>
+												</div>
+												<a href="projects/expressive-things.html" class="liquid-overlay-link"></a>
+											</div><!-- /.ld-pf-inner -->
+										</article>
+									</div><!-- /.col-md-4 -->
+
+									<div class="col-md-4 col-sm-6 col-xs-12 masonry-item research grid-hover-overlay">
+										<article class="ld-pf-item ld-pf-dark pf-bg-shadow pf-details-visible pf-details-boxed pf-details-pull-right pf-details-pull-up-half title-size-24 pf-details-h-str pf-details-v-end post-2021 liquid-portfolio type-liquid-portfolio status-publish format-gallery has-post-thumbnail hentry post_format-post-format-gallery liquid-portfolio-category-branding liquid-portfolio-category-digital-design liquid-portfolio-category-grid-hover-overlay">
+											<div class="ld-pf-inner">
+												<div class="ld-pf-image">
+													<figure data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+														<img src="/assets/projects/hawk-eye-edge-sense/hero-1.png" alt="Oblivision" style="max-height: 150px" />
+													</figure>
+												</div><!-- /.ld-pf-image -->
+												<div class="ld-pf-details py-3">
+													<div class="ld-pf-bg" style="background-color: #fff;" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "easing": "easeInOutCirc", "duration": 850, "offDuration": 700, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+													</div>
+													<div class="ld-pf-details-inner" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "easing": "easeOutQuint", "duration": 850, "offDuration": 750, "startDelay": 280, "offDelay": 280, "delay": 60, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+														<h3 class="ld-pf-title h4" data-split-text="true" data-split-options='{ "type": "lines" }'>Hawk-Eye EDGE-SENSE</h3>
+														<p data-split-text="true" data-split-options='{ "type": "lines" }'>Embedded sensing in cricket adjudication</p>
+													</div>
+												</div>
+												<a href="projects/hawk-eye-edge-sense.html" class="liquid-overlay-link"></a>
+											</div><!-- /.ld-pf-inner -->
+										</article>
+									</div><!-- /.col-md-4 -->
+
+									<div class="col-md-4 col-sm-6 col-xs-12 masonry-item research grid-hover-overlay">
+										<article class="ld-pf-item ld-pf-dark pf-bg-shadow pf-details-visible pf-details-boxed pf-details-pull-right pf-details-pull-up-half title-size-24 pf-details-h-str pf-details-v-end post-2021 liquid-portfolio type-liquid-portfolio status-publish format-gallery has-post-thumbnail hentry post_format-post-format-gallery liquid-portfolio-category-branding liquid-portfolio-category-digital-design liquid-portfolio-category-grid-hover-overlay">
+											<div class="ld-pf-inner">
+												<div class="ld-pf-image">
+													<figure data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+														<img src="/assets/projects/think-active-kit/hero-1.png" alt="Oblivision" style="max-height: 150px" />
+													</figure>
+												</div><!-- /.ld-pf-image -->
+												<div class="ld-pf-details py-3">
+													<div class="ld-pf-bg" style="background-color: #fff;" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "easing": "easeInOutCirc", "duration": 850, "offDuration": 700, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+													</div>
+													<div class="ld-pf-details-inner" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "easing": "easeOutQuint", "duration": 850, "offDuration": 750, "startDelay": 280, "offDelay": 280, "delay": 60, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+														<h3 class="ld-pf-title h4" data-split-text="true" data-split-options='{ "type": "lines" }'>OpenMovement AxLE</h3>
+														<p data-split-text="true" data-split-options='{ "type": "lines" }'>Open-Source Activity Tracking Sensor</p>
+													</div>
+												</div>
+												<a href="projects/openmovement-axle.html" class="liquid-overlay-link"></a>
+											</div><!-- /.ld-pf-inner -->
+										</article>
+									</div><!-- /.col-md-4 -->
+
+									<div class="col-md-4 col-sm-6 col-xs-12 masonry-item branding-and-design grid-hover-overlay">
+										<article class="ld-pf-item ld-pf-dark pf-bg-shadow pf-details-visible pf-details-boxed pf-details-pull-right pf-details-pull-up-half title-size-24 pf-details-h-str pf-details-v-end post-2021 liquid-portfolio type-liquid-portfolio status-publish format-gallery has-post-thumbnail hentry post_format-post-format-gallery liquid-portfolio-category-branding liquid-portfolio-category-digital-design liquid-portfolio-category-grid-hover-overlay">
+											<div class="ld-pf-inner">
+												<div class="ld-pf-image">
+													<figure data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+														<img src="/assets/projects/escape-the-future/hero-2.png" alt="Escape the future interactive experience" style="max-height: 150px"/>
+													</figure>
+												</div><!-- /.ld-pf-image -->
+												<div class="ld-pf-details py-3">
+													<div class="ld-pf-bg" style="background-color: #fff;" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "easing": "easeInOutCirc", "duration": 850, "offDuration": 700, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+													</div>
+													<div class="ld-pf-details-inner" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "easing": "easeOutQuint", "duration": 850, "offDuration": 750, "startDelay": 280, "offDelay": 280, "delay": 60, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+														<h3 class="ld-pf-title h4" data-split-text="true" data-split-options='{ "type": "lines" }'>Escape the Future</h3>
+														<p data-split-text="true" data-split-options='{ "type": "lines" }'>Digital Break-out Room for Expos</p>
+													</div>
+												</div>
+												<a href="projects/escape-the-future.html" class="liquid-overlay-link"></a>
+											</div><!-- /.ld-pf-inner -->
+										</article>
+									</div><!-- /.col-md-4 -->
+
+									<div class="col-md-4 col-sm-6 col-xs-12 masonry-item research grid-hover-overlay">
+										<article class="ld-pf-item ld-pf-dark pf-bg-shadow pf-details-visible pf-details-boxed pf-details-pull-right pf-details-pull-up-half title-size-24 pf-details-h-str pf-details-v-end post-2021 liquid-portfolio type-liquid-portfolio status-publish format-gallery has-post-thumbnail hentry post_format-post-format-gallery liquid-portfolio-category-branding liquid-portfolio-category-digital-design liquid-portfolio-category-grid-hover-overlay">
+											<div class="ld-pf-inner">
+												<div class="ld-pf-image">
+													<figure data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+														<img src="/assets/projects/media-of-things/hero.png" alt="Oblivision" style="max-height: 150px" />
+													</figure>
+												</div><!-- /.ld-pf-image -->
+												<div class="ld-pf-details py-3">
+													<div class="ld-pf-bg" style="background-color: #fff;" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "easing": "easeInOutCirc", "duration": 850, "offDuration": 700, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+													</div>
+													<div class="ld-pf-details-inner" data-custom-animations="true"
+														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "easing": "easeOutQuint", "duration": 850, "offDuration": 750, "startDelay": 280, "offDelay": 280, "delay": 60, "initValues": { "translateY": 0 }, "animations": { "translateY": -70 } }'>
+														<h3 class="ld-pf-title h4" data-split-text="true" data-split-options='{ "type": "lines" }'>Media of Things</h3>
+														<p data-split-text="true" data-split-options='{ "type": "lines" }'>Automation of Productions and Labelling</p>
+													</div>
+												</div>
+												<a href="projects/media-of-things.html" class="liquid-overlay-link"></a>
+											</div><!-- /.ld-pf-inner -->
+										</article>
+									</div><!-- /.col-md-4 -->
+
+								</div><!-- /.row -->
+
+							</div><!-- /.liquid-portfolio-list -->
+
+						</div><!-- /.lqd-column col-md-12 -->
+
+					</div><!-- /.row -->
         </div>
+      </section>
 
-      </div>
-      <!-- Main Section Intro End -->
-
-      <!-- Main Section Media Start -->
-      <div class="main-media col-xs-12 col-lg-6">
-
-        <!-- Main Section Image & Background Effect Start -->
-        <div class="image" style="background-image:url(img/backgrounds/action-activity-adult.jpg);">
-
-          <!-- Color Layer Start -->
-          <div class="layer-black"></div>
-          <!-- Color Layer End -->
-
-          <!-- Background Effect Start -->
-          <div id="particles-js"></div>
-          <!-- Background Effect End -->
-
-          <!-- Countdown Start-->
-          <div class="countdown">
-            <div id="countdown"></div>
-            <span class="help-text">Days to Launch</span>
-          </div>
-          <!-- Countdown End-->
-
-        </div>
-        <!-- Main Section Image & Background Effect End -->
-
-      </div>
-      <!-- Main Section Media End -->
-
-    </div>
-
-  </section>
-  <!-- Main Screen Section End-->
-
-  <!-- About Us Section Start-->
-  <section id="about" class="content-section about">
-
-    <div class="container-fluid fullheight">
-
-      <!-- About Info Scroll Start-->
-      <div class="scroll scroll-left about-info">
-        <div class="blocks-container">
-
-          <!-- Close Button Start -->
-          <div class="section-controls">
-            <a href="#0" id="about-close" class="section-close">
-              <i class="icon ion-android-arrow-back"></i>
-            </a>
-          </div>
-          <!-- Close Button End -->
-
-          <!-- Section Title Start -->
-          <div class="content-block section-title">
-            <h2>
-              About us
-            </h2>
-            <span><em>Technology</em> and <em>Sport</em></span>
-            <p>
-              Think Active Labs is a Sports Technology Research Group based in Newcastle upon Tyne.
-              We work alongside sports teams, sports charities and broadcasters to develop smart
-              devices and software to aid professional athletes, players and school children to achieve more.
-              <br><br>
-              We believe strongly in measured excellence, through careful and considered deployment
-              of sensing and tracking we can provide timely and appropriate intervention to nurture
-              healthy lifestyles and find the break through for professional boundaries.
-            </p>
-          </div>
-          <!-- Section Title End -->
-
-          <!-- Features Start -->
-          <div class="content-block features">
-
-            <!-- Features Single Item Start -->
-            <div class="col-xs-12 feature-item feature-item-left">
-              <div class="col-xs-12 col-sm-6 feature-image"
-                style="background-image:url(img/features/healthylifestyle.jpeg);"></div>
-              <div class="col-xs-12 col-sm-6 feature-description">
-                <h3>Developing Healthy Lifestyles</h3>
-                <p class="text-s">Through creating engaging health platforms and services we encourage more healthy
-                  living.</p>
-              </div>
-            </div>
-            <!-- Features Single Item End -->
-
-            <!-- Features Single Item Start -->
-            <div class="col-xs-12 feature-item feature-item-right">
-              <div class="col-xs-12 col-sm-6 feature-image"
-                style="background-image:url(img/features/sports-technology.jpg);"></div>
-              <div class="col-xs-12 col-sm-6 feature-description">
-                <h3>Sports Technology</h3>
-                <p class="text-s">We love sports. We love technology. We do both at Think Active Labs.</p>
-              </div>
-            </div>
-            <!-- Features Single Item End -->
-
-            <!-- Features Single Item Start -->
-            <div class="col-xs-12 feature-item feature-item-left">
-              <div class="col-xs-12 col-sm-6 feature-image" style="background-image:url(img/features/privacy.jpeg);">
-              </div>
-              <div class="col-xs-12 col-sm-6 feature-description">
-                <h3>Data Privacy</h3>
-                <p class="text-s">We protect your data as if it were our own. It's as simple as that.</p>
-              </div>
-            </div>
-            <!-- Features Single Item End -->
-
-            <!-- Features Single Item Start -->
-            <div class="col-xs-12 feature-item feature-item-right">
-              <div class="col-xs-12 col-sm-6 feature-image"
-                style="background-image:url(img/features/socialresponsibility.jpeg);"></div>
-              <div class="col-xs-12 col-sm-6 feature-description">
-                <h3>Social Responsibility</h3>
-                <p class="text-s">Our employees and contractors are all as important as our customers, fair pay and
-                  policies for all.</p>
-              </div>
-            </div>
-            <!-- Features Single Item End -->
-
-          </div>
-          <!-- Features End -->
-
-        </div>
-      </div>
-      <!-- About Info Scroll End-->
-
-      <!-- About Single Photo Static Start-->
-      <div class="static about-photo fullheight" style="background-image:url(img/backgrounds/rugby.jpg);"></div>
-      <!-- About Single Photo Static End-->
-
-    </div>
-
-  </section>
-  <!-- About Us Section End-->
-
-  <!-- Our Works Section Start-->
-  <section id="works" class="content-section works">
-
-    <div class="container-fluid fullheight">
-
-      <!-- Works Info Scroll Start-->
-      <div class="scroll scroll-left works-info">
-        <div class="blocks-container">
-
-          <!-- Close Button Start -->
-          <div class="section-controls">
-            <a href="#0" id="works-close" class="section-close">
-              <i class="icon ion-android-arrow-back"></i>
-            </a>
-          </div>
-          <!-- Close Button End -->
-
-          <!-- Section Title Start -->
-          <div class="content-block section-title">
-            <h2>
-              Our team and works
-            </h2>
-            <p>
-              We have a passionate team of sports enthusiasts, developing technology to
-              provide greater insight into: the health & performance of athletes;
-              effectiveness of interventions; and compelling metrics for broadcasters.
-              Our experienced team of academics, sports scientists, software engineers,
-              hardware engineers and designers could help you uncover data insights about
-              the important work you do.
-            </p>
-
-            <p>
-              Our team have worked with a wide range of organisations and teams (BBC,
-              Microsoft, Newcastle United, Hawk-Eye Technologies, NHS), working to
-              develop sensors, hardware and software to assist in sports officiating,
-              metric tracking and to encourage healthy lifestyles.
-            </p>
-          </div>
-          <!-- Section Title End -->
-
-          <!-- Team Block Start -->
-          <div class="content-block team">
-
-            <div class="row">
-
-              <!-- Team Single Item Start -->
-              <div class="col-xs-12 col-sm-6 team-item">
-                <img src="img/team/Andy.jpeg" alt="Andy Garbett">
-                <h3>Andy Garbett
-                  <small>Co-Founder & Director</small>
-                </h3>
-                <p>Andy is an interaction designer that creates human-centered technologies in areas such as health, education, and the creative sectors and has worked with organisations such as NHS, Microsoft Research, and the BBC. He specialises in the design of mobile and web technologies.</p>
-                <ul class="team-socials">
-                  <li>
-                    <a href="https://twitter.com/garbit">
-                      <i class="icon ion-social-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/andrew-garbett-71484628/">
-                      <i class="icon ion-social-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <!-- Team Single Item End -->
-
-              <!-- Team Single Item Start -->
-              <div class="col-xs-12 col-sm-6 team-item">
-                <img src="img/team/Gerry.jpeg" alt="Gerard Wilkinson">
-                <h3>Gerard Wilkinson
-                  <small>Co-Founder & Director</small>
-                </h3>
-                <p>Gerard is a software engineer who has worked for the past 4 years with the BBC on broadcast
-                  applications of sensing. He specialises in motion sensing technolgies with IMUs, and gestural control systems.</p>
-                <ul class="team-socials">
-                  <li>
-                    <a href="https://twitter.com/gerrywilko">
-                      <i class="icon ion-social-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/gerardwilkinson">
-                      <i class="icon ion-social-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <!-- Team Single Item End -->
-
-            </div>
-
-            <div class="row">
-
-              <!-- Team Single Item Start -->
-              <div class="col-xs-12 col-sm-6 team-item">
-                <img src="img/team/Tom.jpeg" alt="Tom Nappey">
-                <h3>Tom Nappey
-                  <small>Co-Founder & Head of Design</small>
-                </h3>
-                <p>Tom is an industrial designer who has worked with companies such as Unilever, Philips, and Mars. He specialises in the design and fabrication of electronics hardware to produce industry standard mass manufacturable designs.</p>
-                <ul class="team-socials">
-                  <li>
-                    <a href="https://www.linkedin.com/in/tom-nappey-74478167/">
-                      <i class="icon ion-social-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <!-- Team Single Item End -->
-
-            </div>
-          </div>
-          <!-- Team Block End -->
-
-        </div>
-      </div>
-      <!-- Works Info Scroll End-->
-
-      <!-- Works Gallery Static Start-->
-      <div class="static works-gallery fullheight">
-
-        <!-- Works Gallery Start -->
-        <div class="gallery">
-          <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-            <!-- Works Gallery Single Item Start -->
-            <figure class="col-xs-12 col-sm-6" itemprop="associatedMedia" itemscope
-              itemtype="http://schema.org/ImageObject">
-              <a href="img/gallery/children-drawing.jpeg" data-image="img/gallery/children-drawing.jpeg"
-                class="works-link" itemprop="contentUrl" data-size="900x1200"></a>
-              <img src="img/gallery/children-drawing.jpeg" class="works-image" itemprop="thumbnail"
-                alt="children drawing" />
-              </a>
-              <figcaption class="works-description" itemprop="caption description">
-                <h4>
-                  Education Research
-                  <small>Developing novel education materials and techniques</small>
-                </h4>
-              </figcaption>
-            </figure>
-            <!-- Works Gallery Single Item End -->
-
-            <!-- Works Gallery Single Item Start -->
-            <figure class="col-xs-12 col-sm-6" itemprop="associatedMedia" itemscope
-              itemtype="http://schema.org/ImageObject">
-              <a href="img/gallery/health-technology.jpeg" class="works-link"
-                data-image="img/gallery/health-technology.jpeg" itemprop="contentUrl" data-size="900x1200">
-                <img src="img/gallery/health-technology.jpeg" class="works-image" itemprop="thumbnail"
-                  alt="sports technology circuit board" />
-              </a>
-              <figcaption class="works-description" itemprop="caption description">
-                <h4>Health Technology
-                  <small>World leading research in health technology</small>
-                </h4>
-              </figcaption>
-            </figure>
-            <!-- Works Gallery Single Item End -->
-
-            <!-- Works Gallery Single Item Start -->
-            <figure class="col-xs-12 col-sm-6" itemprop="associatedMedia" itemscope
-              itemtype="http://schema.org/ImageObject">
-              <a href="img/gallery/broadcast.jpeg" class="works-link" data-image="img/gallery/broadcast.jpeg"
-                itemprop="contentUrl" data-size="900x1200">
-                <img src="img/gallery/broadcast.jpeg" class="works-image" itemprop="thumbnail"
-                  alt="Image description" />
-                <div class="overlay"></div>
-              </a>
-              <figcaption class="works-description" itemprop="caption description">
-                <h4>Broadcast
-                  <small>Developing novel broadcasts tools and services</small>
-                </h4>
-              </figcaption>
-            </figure>
-            <!-- Works Gallery Single Item End -->
-
-            <!-- Works Gallery Single Item Start -->
-            <figure class="col-xs-12 col-sm-6" itemprop="associatedMedia" itemscope
-              itemtype="http://schema.org/ImageObject">
-              <a href="img/gallery/chart.jpeg" class="works-link" data-image="img/gallery/chart.jpeg"
-                itemprop="contentUrl" data-size="900x1200">
-                <img src="img/gallery/chart.jpeg" class="works-image" itemprop="thumbnail" alt="graph print" />
-              </a>
-              <figcaption class="works-description" itemprop="caption description">
-                <h4>Data Literacy
-                  <small>Developing an understanding of data and statistics</small>
-                </h4>
-              </figcaption>
-            </figure>
-            <!-- Works Gallery Single Item End -->
-
-          </div>
-        </div>
-        <!-- Works Gallery End -->
-
-      </div>
-      <!-- Works Gallery Static End-->
-
-    </div>
-
-  </section>
-  <!-- Our Works Section End-->
-
-  <!-- Contact Section Start-->
-  <section id="contact" class="content-section contact">
-
-    <div class="container-fluid fullheight">
-
-      <!-- Contact Info & Form Scroll Start-->
-      <div class="scroll scroll-left contact-info">
-
-        <div class="blocks-container">
-
-          <!-- Close Button Start -->
-          <div class="section-controls">
-            <a href="#0" id="contact-close" class="section-close">
-              <i class="icon ion-android-arrow-back"></i>
-            </a>
-          </div>
-          <!-- Close Button End -->
-
-          <!-- Section Title Start -->
-          <div class="content-block section-title">
-            <h2>
-              Get in touch
-            </h2>
-            <span>Welcome to our <em>new office</em></span>
-            <p class="text-m">
-              You can call us or send us an email here. We are based in the
-              exciting new <a href="https://newcastlehelix.com">Newcastle Helix</a>
-              development a perfect place for world leading research.
-            </p>
-          </div>
-          <!-- Section Title End -->
-
-          <!-- Contact Data Info Start -->
-          <div class="content-block contact-data">
-
-            <div class="row">
-
-              <!-- Contact Data Single Item Start -->
-              <div class="col-xs-12 col-sm-6 contact-data-item">
-                <i class="icon ion-ios-location"></i>
-                <p>
-                  The Core
-                  <br>Bath Lane
-                  <br>Newcastle Helix
-                  <br>Newcastle upon Tyne
-                  <br>NE4 5TF
-                </p>
-              </div>
-              <!-- Contact Data Single Item End -->
-
-              <!-- Contact Data Single Item Start -->
-              <div class="col-xs-12 col-sm-6 contact-data-item">
-                <i class="icon ion-android-share-alt"></i>
-                <ul>
-                  <li>
-                    <a href="https://twitter.com/thinkactivelabs" target="_blank">Twitter</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/think-active-labs" target="_blank">GitHub</a>
-                  </li>
-                </ul>
-              </div>
-              <!-- Contact Data Single Item End -->
-
-            </div>
-
-            <div class="row">
-
-              <!-- Contact Data Single Item Start -->
-              <!--<div class="col-xs-12 col-sm-6 contact-data-item">
-                <i class="icon ion-android-call"></i>
-                <p>
-                  <a href="tel:034500000000">0191 495 7300</a>
-                </p>
-              </div>-->
-              <!-- Contact Data Single Item End -->
-
-              <!-- Contact Data Single Item Start -->
-              <div class="col-xs-12 col-sm-6 contact-data-item">
-                <i class="icon ion-edit"></i>
-                <p>
-                  <a
-                    href="mailto:contact@thinkactivelabs.co.uk?subject=Hello">contact@thinkactivelabs.co.uk</a>
-                </p>
-              </div>
-              <!-- Contact Data Single Item End -->
-
-            </div>
-
-            <div class="row">
-
-              <div class="col-sm-12 contact-data-item">
-                <p>
-                  Registered in England No. 11877453.
-                </p>
-              </div>
-
-            </div>
-
-          </div>
-          <!-- Contact Data Info End -->
-
-          <div class="contact-buttons">
-            <a href="mailto:contact@thinkactivelabs.co.uk" class="btn btn-l btn-dark">
-              <span class="btn-caption">Contact us</span>
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-      <!-- Contact Info & Form Scroll End-->
-
-      <!-- Contact Map Static Start-->
-      <div class="static contact-map fullheight">
-
-        <!-- Google Map Start -->
-        <div class="map">
-          <div id="google-map">
-            <div id="google-container"></div>
-            <div id="zoom-in">
-              <span class="icon ion-plus"></span>
-            </div>
-            <div id="zoom-out">
-              <span class="icon ion-minus"></span>
-            </div>
-          </div>
-        </div>
-        <!-- Google Map End -->
-
-      </div>
-      <!-- Contact Map Static End-->
-
-    </div>
-
-  </section>
-  <!-- Contact Section End-->
-
-  <!-- Contact Form Section Start -->
-  <div class="writealine">
-
-    <!-- Close Button Start -->
-    <div class="popup-controls">
-      <a href="#0" id="writealine-close" class="section-close light">
-        <i class="icon ion-android-arrow-back"></i>
-      </a>
-    </div>
-    <!-- Close Button End -->
-
-    <!-- Contact Form Content Content Start-->
-    <div class="popup-content">
-
-      <!-- Notify Title Start -->
-      <div class="popup-title">
-        <h4 class="title txt-light">Send us a message</h4>
-        <p class="subtitle txt-light-transparent">Want to know more about us, tell us about your project or just to say
-          hello? Drop us a line and we will get back as soon as possible.</p>
-      </div>
-      <!-- Notify Title End -->
-
-      <!-- Contact Form Block Start -->
-      <div class="content-block contact-us">
-
-        <!-- Contact Form Content Start -->
-        <div class="col-xs-12 form-container">
-          <div class="col-sm-12 form-content">
-
-            <!-- Reply Group Start -->
-            <div class="reply-group">
-              <i class="icon ion-ios-checkmark txt-light"></i>
-              <p class="reply-group__title txt-light"><span>Done</span>!</p>
-              <span class="reply-group__text txt-light-transparent">Thanks for your message. We will get back as soon as
-                possible.</span>
-            </div>
-            <!-- Reply Group End -->
-
-            <!-- Contact Form Start -->
-            <form class="form form-light contact-form" id="contact-form">
-
-              <!-- Hidden Required Fields -->
-              <input type="hidden" name="project_name" value="Think Active Labs Website">
-              <input type="hidden" name="admin_email" value="contact@thinkactivelabs.co.uk">
-              <input type="hidden" name="form_subject" value="Contact Form Message">
-              <!-- END Hidden Required Fields-->
-
-              <input class="" type="text" name="Name" placeholder="Your Name*" required>
-              <input class="" type="text" name="Company" placeholder="Company name" required>
-              <input class="" type="email" name="E-mail" placeholder="Email Adress*">
-              <input class="" type="tel" name="Phone" placeholder="Phone Number*" required>
-              <textarea class="" name="Message" placeholder="A Few Words*" required></textarea>
-              <span class="inputs-description">*Required fields</span>
-
-              <button class="btn btn-l btn-light">
-                <span class="btn-caption">Send</span>
-              </button>
-
-            </form>
-            <!-- Contact Form End -->
-
-          </div>
-        </div>
-        <!-- Contact Form Content End -->
-
-      </div>
-      <!-- Contact Form Block End -->
-
-    </div>
-    <!-- Contact Form Content Content End-->
-
-  </div>
-  <!-- Contact Form Section End -->
-
-  <!-- Notify Section Start-->
-  <div class="notify">
-
-    <!-- Close Button Start -->
-    <div class="popup-controls">
-      <a href="#0" id="notify-close" class="section-close">
-        <i class="icon ion-android-arrow-back"></i>
-      </a>
-    </div>
-    <!-- Close Button End -->
-
-    <!-- Notify Content Start-->
-    <div class="popup-content">
-
-      <!-- Notify Title Start -->
-      <div class="popup-title">
-        <h4 class="title">Almost here!</h4>
-        <p class="subtitle">Subscribe to our newsletter and we will send you a notification about the launch of our
-          brand new site.</p>
-      </div>
-      <!-- Notify Title End -->
-
-      <!-- Notify Form Container Start -->
-      <div class="content-block">
-        <div class="form-container">
-
-          <!-- Reply Messages Start-->
-          <div class="reply-group subscription-ok">
-            <i class="icon ion-ios-checkmark txt-accent-color"></i>
-            <p class="reply-group__title">Done!</p>
-            <span class="reply-group__text">Thanks for subscribing. We will send you a notification about the launch of
-              our brand new website.</span>
-          </div>
-          <div class="reply-group subscription-error">
-            <i class="icon ion-sad txt-accent-color"></i>
-            <p class="reply-group__title">Ooops!</p>
-            <span class="reply-group__text">Something went wrong. Please try again later.</span>
-          </div>
-          <!-- Reply Messages End-->
-
-          <!-- Notify Contact Form Start-->
-          <form class="notify-form form form-dark">
-            <input class="" type="email" placeholder="Email Adress*" required>
-            <button class="btn btn-l btn-dark" type="submit">
-              <span class="btn-caption">Send</span>
-            </button>
-          </form>
-          <!-- Notify Contact Form End-->
-
-        </div>
-      </div>
-      <!-- Notify Form Container End -->
-
-    </div>
-    <!-- Notify Content End-->
-
-  </div>
-  <!-- Notify Section End-->
-
-  <!-- Custom HTML End-->
-
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe.
-      It's a separate element, as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
-
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
-
-        <div class="pswp__top-bar">
-
-          <!--  Controls are self-explanatory. Order can be changed. -->
-
-          <div class="pswp__counter"></div>
-
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-          <button class="pswp__button pswp__button--share" title="Share"></button>
-
-          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-          <div class="pswp__share-tooltip"></div>
-        </div>
-
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-        </button>
-
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-        </button>
-
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- Load Scripts Start-->
-  <script type="text/javascript" src="js/libs.min.js"></script>
-  <script type="text/javascript" src="js/gallery-init.js"></script>
-  <script type="text/javascript" src="js/ramio-custom.js"></script>
-  <script type="text/javascript" src="js/maps/map-color-3.js"></script>
-  <script type="text/javascript"
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASdb37rzS74_xXqTk-OWsQ8sJt6BJuvIc"></script>
-  <!-- Load Scripts End-->
+      <section id="team" class="vc_row pt-85 pb-80">
+				<div class="container">
+					<div class="row">
+
+						<div class="lqd-column col-md-12 text-center">
+
+							<header class="fancy-title">
+								<h6 class="font-size-14 text-uppercase ltr-sp-175 opacity-07">Meet the team</h6>
+                <h2 class="font-size-36">We are a network of designers, technologists, and researchers.</h2>
+                <p>Think Active Labs has a core team that works with an extensive network of professionals.</p>
+							</header>
+
+						</div><!-- /.col-md-12 text-center -->
+
+						<div class="lqd-column col-sm-4">
+
+							<div class="liquid-img-group-container">
+								<div class="liquid-img-group-inner">
+									<div class="liquid-img-group-single" data-reveal="true" data-reveal-options='{ "direction":"tb" }'>
+										<figure>
+											<img src="assets/tal_imgs/team/Andy.jpeg" alt="Andy Garbett" />
+										</figure>
+									</div><!-- /.liquid-img-group-single -->
+								</div><!-- /.liquid-img-group-inner -->
+							</div><!-- /.liquid-img-group-container -->
+
+							<h3 class="mt-30">Andy Garbett</h3>
+							<h6 class="mb-20 font-size-12 font-weight-semibold text-uppercase ltr-sp-1 text-primary">Interaction Designer</h6>
+
+							<p class="mb-35">Andy is an interaction designer that creates human-centered technologies in areas such as health and wellbeing, education, and the creative sectors. He has worked with organisations such as Newcastle United Foundation, BBC R&D, and Microsoft Research developing technology-led public health initiatives, large-scale social computing systems, and immersive interactive creative experiences. His work focuses on privacy centric approaches to citizen-led data collection and analysis that empowers and prepares us for our future data-driven society.</p>
+
+							<ul class="social-icon social-icon-md">
+								<li><a href="https://www.linkedin.com/in/andrew-garbett/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://twitter.com/Garbit" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-sm-4">
+
+							<div class="liquid-img-group-container">
+								<div class="liquid-img-group-inner">
+									<div class="liquid-img-group-single" data-reveal="true" data-reveal-options='{ "direction":"tb" }'>
+										<figure>
+											<img src="assets/tal_imgs/team/Gerry.jpeg" alt="Gerard Wilkinson" />
+										</figure>
+									</div><!-- /.liquid-img-group-single -->
+								</div><!-- /.liquid-img-group-inner -->
+							</div><!-- /.liquid-img-group-container -->
+
+							<h3 class="mt-30">Gerard Wilkinson</h3>
+							<h6 class="mb-20 font-size-12 font-weight-semibold text-uppercase ltr-sp-1 text-primary">Software Engineer</h6>
+
+							<p class="mb-35">Gerard is a software engineer who works with highly reliable modern web systems with thousands of users. He has also previously worked with the BBC on broadcast applications of sensing technologies. Using Artificial Intelligence and Sensor Fusion to automate parts of the production process, constructing novel consumption and interaction experiences. He has also worked Hawk-Eye Technologies on sensing for officiating, creating sensing solutions for umpires in club level cricket.</p>
+
+							<ul class="social-icon social-icon-md">
+								<li><a href="https://www.linkedin.com/in/gerardwilkinson/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://twitter.com/GerryWilko" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-sm-4">
+
+							<div class="liquid-img-group-container">
+								<div class="liquid-img-group-inner">
+									<div class="liquid-img-group-single" data-reveal="true" data-reveal-options='{ "direction":"tb" }'>
+										<figure>
+											<img src="assets/tal_imgs/team/Tom.jpeg" alt="Tom Nappey" />
+										</figure>
+									</div><!-- /.liquid-img-group-single -->
+								</div><!-- /.liquid-img-group-inner -->
+							</div><!-- /.liquid-img-group-container -->
+
+							<h3 class="mt-30">Tom Nappey</h3>
+							<h6 class="mb-20 font-size-12 font-weight-semibold text-uppercase ltr-sp-1 text-primary">UX / UI Designer</h6>
+
+							<p class="mb-35">Tom is a digital designer who has worked in the creative sector for the last 10 years. He has worked with a broad spectrum of companies across multiple sectors including Unilever, Philips, Mars as well as Local governance, charities and organisations. Most recently working with International Federation of Red Cross (IFRC) to develop a global 10 year strategy policy through user-driven workshops, exhibitions and an immersive humanitarian strategy game. His work is guided by a strong belief in design as a problem-solving tool, as a way of recognizing and forming relationships between ideas and reality, through a human-centred approach.</p>
+
+							<ul class="social-icon social-icon-md">
+								<li><a href="https://www.linkedin.com/in/tom-nappey-74478167/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+
+						</div><!-- /.col-md-4 -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+
+    </main><!-- /#content.content -->
+
+    <footer id="contact" class="main-footer bg-charade pt-70" data-sticky-footer="false">
+
+			<section>
+
+				<div class="container">
+					<div class="row">
+
+						<div class="lqd-column col-md-9 col-sm-9">
+
+							<h3 class="widget-title text-white">Get in touch</h3>
+							<p>
+                Think Active Labs Ltd.<br />
+								The Core<br />
+                Bath Lane<br />
+                Newcastle Helix<br />
+                Newcastle upon Tyne<br />
+                NE4 5TF<br />
+              </p>
+              <a class="text-white" href="mailto:contact@thinkactivelabs.co.uk">contact@thinkactivelabs.co.uk</p>
+
+						</div><!-- /.col-md-3 col-sm-6 -->
+
+						<div class="lqd-column col-md-3 col-sm-3">
+
+							<h3 class="widget-title text-white">Follow us</h3>
+							<ul class="social-icon social-icon-md">
+								<li><a href="https://twitter.com/thinkactivelabs"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/think-active-labs"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+
+						</div><!-- /.col-md-3 col-sm-6 -->
+
+          </div><!-- /.row -->
+				</div><!-- /.container -->
+
+      </section>
+
+      <section class="bt-fade-white-015 pt-35 pb-35 mt-50">
+				<div class="container">
+					<div class="row">
+
+						<div class="lqd-column col-md-6">
+              <p>Think Active Labs Ltd., Registered in England No. 11877453.</p>
+						</div><!-- /.col-md-6 -->
+
+						<div class="lqd-column col-md-6 text-md-right">
+							<p class="my-0"><span style="font-size: 15px;">© 2020 Think Active Labs Ltd.</span></p>
+						</div><!-- /.col-md-6 text-md-right -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+		</footer><!-- /.main-footer -->
+
+</div><!-- /#wrap -->
+
+<script src="./assets/vendors/jquery.min.js"></script>
+<script src="./assets/js/theme-vendors.js"></script>
+<script src="./assets/js/theme.min.js"></script>
+<script src="./assets/js/liquidAjaxMailchimp.min.js"></script>
 
 </body>
-
 </html>

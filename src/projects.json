@@ -1,0 +1,528 @@
+[
+  {
+    "title": "OurGateshead",
+    "path": "projects/our-gateshead",
+    "sub_title": "Discover more activities and services on your doorstep.",
+    "type": "Brand Identity",
+    "date": "July, 2019",
+    "client": "Newcastle Council Voluntery Service",
+    "hero": {
+      "image": "/assets/projects/our-gateshead/hero-1.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "hero2": {
+      "image": "/assets/projects/our-gateshead/hero-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Gateshead City Council",
+    "other_work": [
+      {
+        "text": "Escape the Future",
+        "href": "/projects/escape-the-future",
+        "type": "Branding and Design"
+      },
+      {
+        "text": "Expressive Things",
+        "href": "/projects/expressive-things",
+        "type": "Research"
+      },
+      {
+        "text": "Hawk-Eye EDGE-SENSE",
+        "href": "/projects/hawk-eye-edge-sense",
+        "type": "Research"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Gateshead Local Community Service",
+        "subtitle": "OurGateshead.org supports community and voluntary groups across Gateshead and the wider areas, with a remit of increasing community-led initiatives.",
+        "paragraphs": [
+          "Over the growth of this site OurGateshead identified a need to increase public awareness and identify branding opportunities for re-developing their website to improve the signposting of Gateshead residents to support, advice, services and activities."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/our-gateshead/image-1.png",
+            "alt_text": "Our gateshead image"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed a series of branding guidelines for both print and web that incorporated our newly developed logo and branding design. We also worked closely with OurGateshead to develop an iconic symbol that represents their service for social media platforms.",
+            "position": "left"
+          },
+          {
+            "text": "In order to convey our designs we designed mock up promotional materials and placed them in real local metro stations and bus stops so our client could see their work in place. We also developed a series of posters for print that incorporated storytelling of local community members who have accessed the service.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/our-gateshead/image-2.png",
+            "alt_text": "Our gateshead image"
+          },
+          {
+            "src": "/assets/projects/our-gateshead/image-3.png",
+            "alt_text": "Our gateshead image"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+        ],
+        "images": [
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Media of Things",
+    "path": "projects/media-of-things",
+    "sub_title": "Automation of productions and labelling using embedded sensor technology",
+    "type": "Media, Research, Installations",
+    "date": "April, 2017",
+    "client": "BBC",
+    "hero": {
+      "image": "/assets/projects/media-of-things/image-5.png",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/media-of-things/image-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
+    "other_work": [
+      {
+        "text": "App Movement",
+        "href": "/projects/app-movement",
+        "type": "Product and Services"
+      },
+      {
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
+      },
+      {
+        "text": "Think Active",
+        "href": "/projects/think-active",
+        "type": "Products and Services"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Sensing in Productions",
+        "subtitle": "Constructing immersive and adaptive media experiences requires a detailed understanding of captured media assets. A production studio with hundreds of sensors and devices, tracking the chef’s every move and measuring each ingredient.",
+        "paragraphs": [
+          "This project required a scalable and highly reliable system to capture a wealth of information about a real production. In order to achieve this our team set about constructing a data capture system to store footage from the cameras and sensors in real-time. The system could analyse the data using machine learning, computer vision and AI in near real-time providing labelled output to professional editors at the BBC. We contracted the set in house making it portable and setup within 2-3 hours."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We developed bespoke 3D renders of the kitchen island before construction. This allowed us to design our portable kitchen, check scale and usable workspace for the chef before being on set.",
+            "position": "left"
+          },
+          {
+            "text": "We had an incredible array of sensing technologies within the set and kitchen island. RFID identified and located objects across the workbench, utensils sensors detected what was in use and what utensils were being used for and water flow meters measured amounts dispensed from the tap.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-3.png",
+            "alt_text": ""
+          }
+        ]
+      },
+ {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/media-of-things/image-7.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/media-of-things/image-8.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Escape the Future",
+    "path": "projects/escape-the-future",
+    "sub_title": "A digital immersive experience",
+    "type": "Installations, Experience",
+    "date": "December, 2019",
+    "client": "IFRC",
+    "hero": {
+      "image": "/assets/projects/escape-the-future/hero.jpg",
+      "alt_text": "Media of Things Kitchen Island"
+    },
+    "hero2": {
+      "image": "/assets/projects/escape-the-future/hero-2.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "Daniel Lambton-Howard, James Hodge, Shaun Hazeldine, Aarathi Krishnan, Yann Le Floch",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/our-gateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
+      },
+      {
+        "text": "App Movement",
+        "href": "/projects/app-movement",
+        "type": "Products and Services"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Immersive Experience",
+        "subtitle": "Typically, organisational strategy is expressed in verbose documents that are distributed physically and digitally. In 2019 the largest humanitarian organisation, the International Federation of the Red Cross approached us to explore new ways of communicating policy and strategy to its delegates.",
+        "paragraphs": [
+          "We present “Escape to the Future”, a digitally immersive escape room game for humanitarian strategy. Teams were teleported into the 5 key thematic areas, to enact 7 global transformations conveying topics on health, crisis and disasters, migration and identity, values and climate change."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/escape-the-future/image-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "Delegates were immersed in 360 degree projections with surround sound and given 30 minutes to complete challenges to help prevent the IFRC from falling into irrelevance.",
+            "position": "left"
+          },
+          {
+            "text": "Each challenge comprised of clues, puzzles and physical artefacts that needed to be solved through strong team communication. Implicit and explicit messaging allowed delegates to take control of their own destiny and make decisions that affected the future of the IFRC.  Over the course of the General Assembly 311 delegates from 67 national societies.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/escape-the-future/image-2.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/escape-the-future/image-3.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/escape-the-future/image-4.png",
+            "alt_text": ""
+          },
+          {
+            "src": "/assets/projects/escape-the-future/image-5.png",
+            "alt_text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Expressive Things",
+    "path": "projects/expressive-things",
+    "sub_title": "A new way to interact and control devices in the home",
+    "type": "Research",
+    "date": "June, 2018",
+    "client": "Newcastle University",
+    "hero": {
+      "image": "/assets/projects/expressive-things/switch3.png",
+      "alt_text": "Expressive Things"
+    },
+    "acknowledgements": "Dan Jackson, Kyle Montague, Ahmed Kharuffa, Edward Jenkins, Andrew Dow.",
+    "other_work": [
+      {
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
+      },
+      {
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
+      },
+      {
+        "text": "OurGateshead",
+        "href": "/projects/our-gateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Meaningful Control",
+        "subtitle": "This project created a novel mechanism to control devices and interact with a smart home. Using a wrist-worn sensor to track hand gestures used alongside devices like Google Homes and existing switches and remotes.",
+        "paragraphs": [
+          "We sought to gain greater insight into the currently passive interactions in the home. Constructing a mechanism to track smart home device events, composing them into interactions. We saw an opportunity to develop more meaningful control in the home by exploiting the most favourable aspects of each (voice, gestural and physical). For example, combining a traditional lightswitch interaction with gestural control our system allows us to control the colour or brightness of a bulb by rolling of the wrist."
+        ],
+        "videos": [
+          {
+            "src": "https://youtu.be/CmybET62XqA"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/expressive-things/switch3.png",
+            "alt_text": "Immediacy, Context and Control"
+          }
+        ]
+      },
+      {
+        "images": [
+          {
+            "src": "/assets/projects/expressive-things/cartoons.png",
+            "alt_text": "Immediacy, Context and Control"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hawk-Eye EDGE-SENSE",
+    "path": "projects/hawk-eye-edge-sense",
+    "sub_title": "Embedded sensing in cricket adjudication",
+    "type": "Products & Services",
+    "date": "March, 2016",
+    "client": "Hawk-Eye Innovations",
+    "hero": {
+      "image": "/assets/projects/hawk-eye-edge-sense/hero-1.png",
+      "alt_text": "Hawk-Eye EDGE-SENSE"
+    },
+    "acknowledgements": "Tim Dean, Paul Hawkins.",
+    "other_work": [
+      {
+        "text": "OurGateshead",
+        "href": "/projects/ourgateshead",
+        "type": "Brand Identity"
+      },
+      {
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
+      },
+      {
+        "text": "Think Active",
+        "href": "/projects/think-active",
+        "type": "Products and Services"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Clearing up the signal",
+        "subtitle": "The Hawk-Eye EDGE-SENSE integrated an sensor embedded within cricket bats to enable professional level snick detection for umpires in the amateur game. Real-time sensor data streaming and playback for review.",
+        "paragraphs": [
+          "We embedded an OpenMovement WAX9 sensor on the back of the bat connected to an iPad positioned near the umpire. The raw signal data is streamed over Bluetooth the the iPad when required by the umpire they can review the incident in slow motion using the iPad camera along side the synchronised sensor data from the bat. This data could also be integrated into professional broadcasts as it is sent to Hawk-Eye’s Smart production system.",
+          "This work has been showcased in articles for the [Times](http://www.thetimes.co.uk/article/simon-hughes-new-technology-could-ensure-club-batsmen-have-nowhere-to-hide-8s9l0kflh) newspaper and [Sky Sports News](http://www.skysports.com/cricket/news/12123/10260741/hawkeye-inventor-trials-new-app)."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/hawk-eye-edge-sense/hero-1.png",
+            "alt_text": "Hawk-Eye EDGE-SENSE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "OpenMovement AxLE",
+    "path": "projects/openmovement-axle",
+    "sub_title": "Open-Source activity tracking sensor",
+    "type": "Products & Services, Research",
+    "date": "September, 2017",
+    "client": "Newcastle University, Think Active Labs",
+    "hero": {
+      "image": "/assets/projects/think-active-kit/hero-1.png",
+      "alt_text": "OpenMovement AxLE"
+    },
+    "acknowledgements": "Karim Ladha, Dan Jackson.",
+    "other_work": [
+      {
+        "text": "App Movement",
+        "href": "/projects/app-movement",
+        "type": "Product and Services"
+      },
+      {
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
+      },
+      {
+        "text": "Think Active",
+        "href": "/projects/think-active",
+        "type": "Products and Services"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Open data collection",
+        "subtitle": "The OpenMovement AxLE wrist-worn activity tracker adopts a new approach to data collection. Its long lasting battery life and open data formats provide research institutions and organisations",
+        "paragraphs": [
+          "We developed a wrist-worn sensor and data collection platform using NRFUart hardware stack and Bluetooth Low Energy for wireless communication. This is an Open-Source project with the hardware designs, firmware and communication libraries all freely available and in continued development. The sensor tracks general activity data (steps, moments of inertia etc.), displays activity data to the user on the screen and provides for programatic interventions with the ability to vibrate and flash the device over bluetooth.",
+          "Take a look at our Open-Source project on [GitHub](https://github.com/digitalinteraction/OpenMovement-AxLE-Comms)."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/think-active-kit/hero-1.png",
+            "alt_text": "Project CAKE snapper"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Think Active",
+    "path": "projects/think-active",
+    "sub_title": "Activity Tracking Solution for Schools and Premier League Football Foundations",
+    "type": "Products & Services",
+    "date": "March, 2019",
+    "client": "Think Active Labs",
+    "hero": {
+      "image": "/assets/projects/think-active-kit/hero-1.png",
+      "alt_text": "Think Active activity tracker"
+    },
+    "hero2": {
+      "image": "/assets/projects/think-active-kit/hero-3.png",
+      "alt_text": "Think Active integrates into children's activity programmes"
+    },
+    "acknowledgements": "Andy Foster, David Chatting, Rob Anderson",
+    "other_work": [
+      {
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
+      },
+      {
+        "text": "App Movement",
+        "href": "/projects/app-movement",
+        "type": "Product and Services"
+      },
+      {
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Think Active. Be Active.",
+        "subtitle": "Think Active provides a fun and interactive means for children to learn more about their activity levels. We put children’s health first, improving data literacy in a safe and secure environment.",
+        "paragraphs": [
+          "Think Active uses the latest in wireless technologies with Bluetooth Low Energy to sync data from OpenMovement AxLE activity trackers to the ActiveHub and is synced up to the Think Active servers for analysis. Teachers and Community Foundations can then monitor the effectiveness of their interventions. The Think Active Class Kit provides unparalleled insights into children’s health and wellbeing 24 hours a day, whilst providing a set of fun interactive challenges and data literacy materials for schools.",
+          "Find out more at [Think Active Class Kit's site](https://thinkactivekit.com)."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/think-active-kit/image-1.png",
+            "alt_text": "Think Active Class Kit"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+        ],
+        "images": [
+        ]
+      }
+    ]
+  },
+  {
+    "title": "App Movement",
+    "path": "projects/app-movement",
+    "sub_title": "Community-driven platform to automatically generate mobile apps",
+    "type": "Research",
+    "date": "June, 2015",
+    "client": "Newcastle University",
+    "hero": {
+      "image": "/assets/projects/app-movement/hero-1.png",
+      "alt_text": "App Movement apps developed by the community"
+    },
+    "hero2": {
+      "image": "",
+      "alt_text": ""
+    },
+    "acknowledgements": "Edward Jenkins",
+    "other_work": [
+      {
+        "text": "Media of Things",
+        "href": "/projects/media-of-things",
+        "type": "Research"
+      },
+      {
+        "text": "OpenMovement AxLE",
+        "href": "/projects/openmovement-axle",
+        "type": "Research"
+      },
+      {
+        "text": "OurGateshead",
+        "href": "/projects/our-gateshead",
+        "type": "Brand Identity"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Driven by the community",
+        "subtitle": "App Movement enables communities to generate their own rating and review mobile application at the press of a button.",
+        "paragraphs": [
+          "App Movement is an online platform that enables communities to propose and promote ideas for mobile applications in response to community needs, collaboratively design the concept through a series of customisable features, and automate the development and deployment of a customised app.",
+          "Launched in February 2015 the service now has over 150,000 users who have created over 120 app campaigns and automatically generated 24 mobile applications to support communities in finding dementia friendly places, gender neutral toilets, and drone flying locations, and many more.",
+          "Find out more at [App Movement's site](https://app-movement.com)."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/app-movement/image-1.png",
+            "alt_text": "Feed Finder breastfeeding friendly places app"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+        ],
+        "images": [
+        ]
+      }
+    ]
+  }
+]
