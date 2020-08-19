@@ -1,0 +1,24 @@
+{
+  "name": "company-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node src/compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/think-active-labs/company-site.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/think-active-labs/company-site/issues"
+  },
+  "homepage": "https://github.com/think-active-labs/company-site#readme",
+  "dependencies": {
+    "handlebars": "^4.7.3",
+    "handlebars.filter": "^1.0.1"
+  }
+}
