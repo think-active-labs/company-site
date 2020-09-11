@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://thinkactivelabs.co.uk/</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://thinkactivelabs.co.uk/projects/think-active</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thinkactivelabs.co.uk/projects/app-movement</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thinkactivelabs.co.uk/projects/our-gateshead</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thinkactivelabs.co.uk/projects/expressive-things</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thinkactivelabs.co.uk/projects/hawk-eye-edge-sense</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thinkactivelabs.co.uk/projects/openmovement-axle</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thinkactivelabs.co.uk/projects/escape-the-future</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thinkactivelabs.co.uk/projects/media-of-things</loc>
+  <lastmod>2020-09-11T18:59:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
