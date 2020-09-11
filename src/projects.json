@@ -524,5 +524,101 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Coffee Chat",
+    "path": "projects/coffee-chat",
+    "sub_title": "Video conferencing and matchmaking solution for the Red Cross Climate Change virtual summit.",
+    "type": "Products & Services",
+    "date": "Sept, 2020",
+    "client": "Newcastle University, International Red Cross Red Crescent Societies",
+    "hero": {
+      "image": "/assets/projects/coffee-chat/coffee-chat-video-conferencing-solution.png",
+      "alt_text": "Coffee Chat Video Conferencing Solution"
+    },
+    "hero2": {
+      "image": "/assets/projects/coffee-chat/coffee-chat-multi-user-video-solution.png",
+      "alt_text": "OurGateshead logo page"
+    },
+    "acknowledgements": "International Red Cross & Red Crescent Societies, Open Lab (Rob Anderson), Edward Jenkins",
+    "other_work": [
+      {
+        "text": "Escape the Future",
+        "href": "/projects/escape-the-future",
+        "type": "Branding and Design"
+      },
+      {
+        "text": "Expressive Things",
+        "href": "/projects/expressive-things",
+        "type": "Research"
+      },
+      {
+        "text": "OurGateshead",
+        "href": "/projects/our-gateshead",
+        "type": "Branding and Design"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Coffee Chat Video Conferencing Solution",
+        "subtitle": "Facilitating virtual coffee chat moments with our video conferencing solution for the Red Cross Global Climate:Red Summit.",
+        "paragraphs": [
+          "We facilitated virtual face-to-face coffee chats for the International Red Cross & Red Crescent Societies Climate:Red Virtual Climate Summit using our lobby matchmaking and video conferencing solution. Attendees were able to select their preferred language and topics of discussion and enter a lobby matchmaking service that paired attendees on themes of discussion. As the Red Cross hosted over 200 virtual sessions, attendees were able to continue their important discussions around climate change and connect with attendees around the world using the Coffee Chat video conferencing solution. The solution was supported internationalization and was translated into English, French, Spanish, and Arabic.",
+          "We integrated directly into the Climate:Red online conference system to provide a peer-to-peer WebRTC video conferencing solution to event organizers and attendees to connect globally.",
+          "Find out more at [Climate:Red](https://climate.red)."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/coffee-chat/coffee-chat.gif",
+            "alt_text": "Coffee Chat Lobby System"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+          {
+            "text": "We embedded the solution directly into the online conferencing system by working directly with the event organizers to create a frictionless experience for authorized attendees to connect around the important themes of Climate Change.",
+            "position": "left"
+          },
+          {
+            "text": "Coffee Chat uses Web Real-Time Communication (WebRTC) technology that reduces server costs for event organizers running large-scale online events due to direct peer-to-peer networking technologies.",
+            "position": "right"
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/coffee-chat/coffee-chat-lobby.png",
+            "alt_text": "Coffee Chat Lobby"
+          },
+          {
+            "src": "/assets/projects/coffee-chat/coffee-chat-languages.png",
+            "alt_text": "Coffee Chat Lobby Languages"
+          },
+          {
+            "src": "/assets/projects/coffee-chat/coffee-chat-themes.png",
+            "alt_text": "Coffee Chat Lobby Themes"
+          },
+          {
+            "src": "/assets/projects/coffee-chat/coffee-chat-video-conferencing-waiting.png",
+            "alt_text": "Coffee Chat Video Conferencing Waiting Room"
+          },
+          {
+            "src": "/assets/projects/coffee-chat/coffee-chat-video-conferencing-solution.png",
+            "alt_text": "Coffee Chat Video Conferencing Solution"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "paragraphs": [
+        ],
+        "images": [
+        ]
+      }
+    ]
   }
 ]
