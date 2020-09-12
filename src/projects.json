@@ -179,11 +179,11 @@
     "date": "December, 2019",
     "client": "IFRC",
     "hero": {
-      "image": "/assets/projects/escape-the-future/hero.jpg",
+      "image": "/assets/projects/escape-the-future/hero.jpeg",
       "alt_text": "Media of Things Kitchen Island"
     },
     "hero2": {
-      "image": "/assets/projects/escape-the-future/hero-2.png",
+      "image": "/assets/projects/escape-the-future/hero-2.jpeg",
       "alt_text": "OurGateshead logo page"
     },
     "acknowledgements": "Daniel Lambton-Howard, James Hodge, Shaun Hazeldine, Aarathi Krishnan, Yann Le Floch",
@@ -234,19 +234,19 @@
         ],
         "images": [
           {
-            "src": "/assets/projects/escape-the-future/image-2.png",
+            "src": "/assets/projects/escape-the-future/image-2.jpeg",
             "alt_text": ""
           },
           {
-            "src": "/assets/projects/escape-the-future/image-3.png",
+            "src": "/assets/projects/escape-the-future/image-3.jpeg",
             "alt_text": ""
           },
           {
-            "src": "/assets/projects/escape-the-future/image-4.png",
+            "src": "/assets/projects/escape-the-future/image-4.jpeg",
             "alt_text": ""
           },
           {
-            "src": "/assets/projects/escape-the-future/image-5.png",
+            "src": "/assets/projects/escape-the-future/image-5.jpeg",
             "alt_text": ""
           }
         ]
@@ -320,7 +320,7 @@
     "date": "March, 2016",
     "client": "Hawk-Eye Innovations",
     "hero": {
-      "image": "/assets/projects/hawk-eye-edge-sense/hero-1.png",
+      "image": "/assets/projects/hawk-eye-edge-sense/hero-1.jpeg",
       "alt_text": "Hawk-Eye EDGE-SENSE"
     },
     "acknowledgements": "Tim Dean, Paul Hawkins.",
