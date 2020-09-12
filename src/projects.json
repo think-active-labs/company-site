@@ -89,11 +89,11 @@
     "date": "April, 2017",
     "client": "BBC",
     "hero": {
-      "image": "/assets/projects/media-of-things/image-5.png",
+      "image": "/assets/projects/media-of-things/image-2.jpeg",
       "alt_text": "Media of Things Kitchen Island"
     },
     "hero2": {
-      "image": "/assets/projects/media-of-things/image-2.png",
+      "image": "/assets/projects/media-of-things/image-4.jpeg",
       "alt_text": "OurGateshead logo page"
     },
     "acknowledgements": "Tom Bartindale, Jasmine Cox, Ian Strafford, Dan Hett, Chris Northwood, Derek Brown.",
@@ -144,7 +144,7 @@
         ],
         "images": [
           {
-            "src": "/assets/projects/media-of-things/image-4.png",
+            "src": "/assets/projects/media-of-things/image-5.png",
             "alt_text": ""
           },
           {
@@ -461,6 +461,14 @@
         "paragraphs": [
         ],
         "images": [
+          {
+            "src": "/assets/projects/think-active-kit/think-active-kit-content.png",
+            "alt_text": "Think Active Class Kit content"
+          },
+          {
+            "src": "/assets/projects/think-active-kit/think-active-class-kit-summary.png",
+            "alt_text": "Think Active Class Kit benefits"
+          }
         ]
       }
     ]
