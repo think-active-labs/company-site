@@ -546,7 +546,7 @@
     },
     "hero2": {
       "image": "/assets/projects/coffee-chat/coffee-chat-multi-user-video-solution.jpeg",
-      "alt_text": "OurGateshead logo page"
+      "alt_text": "Multi-user video"
     },
     "acknowledgements": "International Red Cross & Red Crescent Societies, Open Lab, Rob Anderson, Edward Jenkins",
     "other_work": [
@@ -625,6 +625,57 @@
         "paragraphs": [
         ],
         "images": [
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Huddle",
+    "path": "projects/huddle",
+    "sub_title": "Virtual Events and Conference Platform.",
+    "type": "Products & Services",
+    "date": "July, 2021",
+    "client": "Think Active Labs",
+    "hero": {
+      "image": "/assets/projects/huddle/hero.jpeg",
+      "alt_text": ""
+    },
+    "hero2": {
+      "image": "/assets/projects/huddle/hero2.jpeg",
+      "alt_text": ""
+    },
+    "acknowledgements": "Newcastle University",
+    "other_work": [
+      {
+        "text": "Coffee Chat",
+        "href": "/projects/coffee-chat",
+        "type": "Products & Services"
+      },
+      {
+        "text": "Expressive Things",
+        "href": "/projects/expressive-things",
+        "type": "Research"
+      },
+      {
+        "text": "OurGateshead",
+        "href": "/projects/our-gateshead",
+        "type": "Branding and Design"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "Huddle Virtual Events Platform",
+        "subtitle": "Facilitating virtual events and conferences around the world.",
+        "paragraphs": [
+          "Huddle is an events platform developed in collaboration with Newcastle University. Huddle allows event organsiers to simply and effectively deliver their event/conference to an online audience. Huddle has a vast array of integrations with 3rd party products, deploy your event your way.",
+          "Unlike other conference platforms, we realise that in a post COVID world, there are a million and one online tools you can use to host conferences, webinars, workshops. These tools all have their benefits and no one platform rules them all, so why try? Huddle provides a platform to link all these tools together to provide your attendees a continuous conference experience whilst allowing you the flexibility to host your event, with the tools you’re most comfortable with. So whether that’s presenting on zoom, hosting roundtable discussions or delivering interactive workshops to a global audience, Huddle provides a quick and easy solution, tailored to you."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/huddle/vfh-huddle.png",
+            "alt_text": "Virtual Fundraising Hub Huddle"
+          }
         ]
       }
     ]
