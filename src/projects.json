@@ -679,5 +679,53 @@
         ]
       }
     ]
+  },
+  {
+    "title": "KiActiv Sync App",
+    "path": "projects/kiactiv",
+    "sub_title": "KiActiv deploying Think Active Labs' ActiveBand within the NHS.",
+    "type": "Products & Services",
+    "date": "October, 2021",
+    "client": "KiActiv & Think Active Labs",
+    "hero": {
+      "image": "/assets/projects/huddle/hero.png",
+      "alt_text": ""
+    },
+    "acknowledgements": "",
+    "other_work": [
+      {
+        "text": "Huddle",
+        "href": "/projects/huddle",
+        "type": "Products & Services"
+      },
+      {
+        "text": "Coffee Chat",
+        "href": "/projects/coffee-chat",
+        "type": "Products & Services"
+      },
+      {
+        "text": "Expressive Things",
+        "href": "/projects/expressive-things",
+        "type": "Research"
+      }
+    ],
+    "template": "project-page.handlebars",
+    "blocks": [
+      {
+        "title": "KiActiv Sync App",
+        "subtitle": "KiActiv deploying Think Active Labs' ActiveBand within the NHS.",
+        "paragraphs": [
+          "Think Active Labs has been working with KiActiv to develop their next-generation of energy expenditure tracker for their KiActiv Web Platform. KiActiv have deployed our ActiveBand activity tracker with their clients and patients utilizing our unique data collection and management infrastructure offered by the ActiveBand service.",
+          "We are excited to take our ActiveBand service forward with KiActiv. Deployment of our device into health providers like the NHS via KiActiv demonstrates the capability and possibilities for our ActiveBand platform.",
+          "Think Active Labs will soon be deploying our ActiveBand Cloud service offering in late 2021."
+        ],
+        "images": [
+          {
+            "src": "/assets/projects/activeband/appstore.png",
+            "alt_text": "KiActive Sync App store listing"
+          }
+        ]
+      }
+    ]
   }
 ]
