@@ -637,11 +637,11 @@
     "date": "July, 2021",
     "client": "Think Active Labs",
     "hero": {
-      "image": "/assets/projects/huddle/hero.png",
+      "image": "/assets/projects/huddle/hero2.png",
       "alt_text": ""
     },
     "hero2": {
-      "image": "/assets/projects/huddle/hero2.png",
+      "image": "/assets/projects/huddle/hero.png",
       "alt_text": ""
     },
     "acknowledgements": "Newcastle University",
